@@ -1,0 +1,65 @@
+** Drc report for 640A_PowerAmp.kicad_pcb **
+** Created on 2026-09-29T22:46:39 **
+** Report includes: Errors, Warnings **
+
+** Found 11 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(226.5560 mm, 57.4150 mm): Footprint TP4
+    @(210.5231 mm, 61.0680 mm): Footprint U5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(204.5539 mm, 55.7187 mm): Segment of C12 on F.Silkscreen
+    @(204.8660 mm, 55.8213 mm): Reference field of R101
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(204.8660 mm, 55.8213 mm): Reference field of R101
+    @(207.2939 mm, 55.7187 mm): Segment of C12 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(186.7067 mm, 58.8680 mm): Segment of U4 on F.Silkscreen
+    @(186.9060 mm, 53.6640 mm): Reference field of R121
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(186.7067 mm, 58.8680 mm): Segment of U4 on F.Silkscreen
+    @(186.9438 mm, 57.0865 mm): Reference field of C48
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.9600 mm, 55.6842 mm): Segment of R116 on F.Silkscreen
+    @(91.7500 mm, 53.6640 mm): Reference field of R120
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(206.7860 mm, 54.9413 mm): Rectangle of R101 on F.Silkscreen
+    @(202.3260 mm, 54.0213 mm): PTH pad 2 [LO] of R101
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(206.7860 mm, 54.9413 mm): Rectangle of R101 on F.Silkscreen
+    @(207.4060 mm, 54.0213 mm): PTH pad 1 [Net-(C12-Pad1)] of R101
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(204.8660 mm, 55.8213 mm): Reference field of R101
+    @(205.9239 mm, 56.9387 mm): PTH pad 1 [Net-(C12-Pad1)] of C12
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.8300 mm, 54.0526 mm): Rectangle of R119 on F.Silkscreen
+    @(108.4500 mm, 53.1326 mm): PTH pad 1 [Net-(C14-Pad1)] of R119
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.8300 mm, 54.0526 mm): Rectangle of R119 on F.Silkscreen
+    @(103.3700 mm, 53.1326 mm): PTH pad 2 [RO] of R119
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **

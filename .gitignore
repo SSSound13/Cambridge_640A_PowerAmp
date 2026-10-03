@@ -1,0 +1,24 @@
+# --- KiCad: локальная история, бэкапы, кэши ---
+.history/
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+~*.lck
+\#auto_saved_files#
+_autosave-*
+*.bak
+*-bak
+
+# --- Локальные архивы промежуточных версий ---
+_archive_*/
+
+# --- Сторонние документы (авторские права производителей) ---
+doc/cambridge_azur-640a_sm.pdf
+doc/MainBoard.pdf
+doc/SAP15.pdf
+
+# --- Системный мусор ---
+Thumbs.db
+desktop.ini
+.DS_Store

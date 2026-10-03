@@ -1,0 +1,4 @@
+(sym_lib_table (version 7)
+  (lib (name "640A") (type "KiCad") (uri "${KIPRJMOD}/640A.kicad_sym") (options "") (descr "Custom symbols for Cambridge Azur 640A (SAP15 modules)"))
+  (lib (name "640A_power") (type "KiCad") (uri "${KIPRJMOD}/640A_power.kicad_sym") (options "") (descr "Power/ground net symbols for Cambridge Azur 640A"))
+)

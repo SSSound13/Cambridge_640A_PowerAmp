@@ -1,0 +1,760 @@
+** Drc report for 640A_PowerAmp.kicad_pcb **
+** Created on 2026-09-28T18:30:57 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 148 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.7500 mm, 119.5500 mm): Footprint C18
+    @(96.4722 mm, 122.4398 mm): Footprint R35
+    C18/R35: WIMA MKS2 11x7,2 мм, корпус в 0,08 мм от площадки R35; пересекаются только технологические зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.7500 mm, 119.5500 mm): Footprint C18
+    @(95.5074 mm, 128.1854 mm): Footprint CN2
+    C18/CN2: корпус C18 (WIMA 11x7,2) в 0,19 мм от корпуса CN2; пересекаются только зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.7500 mm, 119.5500 mm): Footprint C18
+    @(109.0637 mm, 110.1433 mm): Footprint R42
+    C18/R42: корпуса не касаются, пересекаются только зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.7500 mm, 119.5500 mm): Footprint C18
+    @(109.0634 mm, 119.2326 mm): Footprint R39
+    C18/R39: корпус C18 в 0,11 мм от площадки R39; пересекаются только зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.7500 mm, 119.5500 mm): Footprint C18
+    @(102.5055 mm, 117.1453 mm): Footprint C49
+    C18/C49: корпус C18 в 0,05 мм от корпуса C49 (C49 сдвинут на 0,3 мм); зоны courtyard (2026-09-28). При пайке прижать C18 ровно.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(186.2004 mm, 77.2168 mm): Footprint C75
+    @(196.8354 mm, 74.2739 mm): Footprint R118
+    C75/R118: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(182.1486 mm, 91.4780 mm): Footprint R56
+    @(179.4288 mm, 88.9817 mm): Footprint D9
+    R56/D9: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(59.7756 mm, 111.9503 mm): Footprint C7
+    @(56.4320 mm, 97.4665 mm): Footprint R16
+    C7/R16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(155.4303 mm, 86.0192 mm): Footprint Q21
+    @(157.9266 mm, 85.9371 mm): Footprint C27
+    Q21/C27: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(148.5520 mm, 73.3414 mm): Footprint R47
+    @(151.0283 mm, 83.5014 mm): Footprint R48
+    R47/R48: плотная расстановка как на заводской плате AP12708/6a; корпуса не касаются (ранее исключено, маркер сместился в KiCad 10).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(148.5520 mm, 73.3414 mm): Footprint R47
+    @(146.0551 mm, 83.5014 mm): Footprint R46
+    R47/R46: плотная расстановка как на заводской плате AP12708/6a; корпуса не касаются (ранее исключено, маркер сместился в KiCad 10).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(225.1182 mm, 172.8865 mm): Footprint C54
+    @(219.4255 mm, 174.9888 mm): Footprint C55
+    C54/C55: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(225.1182 mm, 172.8865 mm): Footprint C54
+    @(230.2597 mm, 175.9382 mm): Footprint D16
+    C54/D16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(225.1182 mm, 172.8865 mm): Footprint C54
+    @(228.7570 mm, 170.4359 mm): Footprint D15
+    C54/D15: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(196.8354 mm, 74.2739 mm): Footprint R118
+    @(189.4379 mm, 71.5648 mm): Footprint Q36
+    R118/Q36: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(196.8354 mm, 74.2739 mm): Footprint R118
+    @(199.5116 mm, 78.5921 mm): Footprint C74
+    R118/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(196.8354 mm, 74.2739 mm): Footprint R118
+    @(195.6839 mm, 76.7709 mm): Footprint C73
+    R118/C73: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.3282 mm, 58.6769 mm): Footprint C46
+    @(104.3016 mm, 58.7820 mm): Footprint D4
+    C46/D4: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.3282 mm, 58.6769 mm): Footprint C46
+    @(90.4825 mm, 67.6617 mm): Footprint D2
+    C46/D2: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.3282 mm, 58.6769 mm): Footprint C46
+    @(101.0243 mm, 63.0789 mm): Footprint C13
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(133.4856 mm, 97.0655 mm): Footprint R43
+    @(138.9446 mm, 102.7329 mm): Footprint C25
+    R43/C25: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(133.4856 mm, 97.0655 mm): Footprint R43
+    @(119.4540 mm, 102.7329 mm): Footprint C23
+    R43/C23: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(133.4856 mm, 97.0655 mm): Footprint R43
+    @(136.0456 mm, 88.5000 mm): Footprint C24
+    R43/C24: C24 — TDK B32560 шаг 7,5; корпуса не касаются, пересекаются только зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(196.7298 mm, 79.6698 mm): Footprint R66
+    @(199.5116 mm, 78.5921 mm): Footprint C74
+    R66/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(191.0200 mm, 174.7000 mm): Footprint C81
+    @(196.4000 mm, 171.3458 mm): Footprint U8
+    C81/U8: Murata RDE 5,5x4 мм между U8 и U9, до корпуса U8 ~0,08 мм; пересекаются зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(191.0200 mm, 174.7000 mm): Footprint C81
+    @(181.3961 mm, 171.3458 mm): Footprint U9
+    C81/U9: Murata RDE 5,5x4 мм между U8 и U9, до корпуса U9 ~0,08 мм; пересекаются зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(108.4500 mm, 101.9022 mm): Footprint R29
+    @(105.2694 mm, 90.4847 mm): Footprint Q14
+    R29/Q14: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(108.4500 mm, 101.9022 mm): Footprint R29
+    @(110.9682 mm, 100.4335 mm): Footprint C16
+    R29/C16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(108.4500 mm, 101.9022 mm): Footprint R29
+    @(104.9573 mm, 98.9277 mm): Footprint Q16
+    R29/Q16: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(182.1486 mm, 86.4635 mm): Footprint R55
+    @(182.1486 mm, 83.4794 mm): Footprint R54
+    R55/R54: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(182.1486 mm, 86.4635 mm): Footprint R55
+    @(179.4288 mm, 88.9817 mm): Footprint D9
+    R55/D9: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(104.3016 mm, 58.7820 mm): Footprint D4
+    @(101.4710 mm, 69.6650 mm): Footprint TP2
+    D4/TP2: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(104.3016 mm, 58.7820 mm): Footprint D4
+    @(107.2432 mm, 55.9655 mm): Footprint C14
+    D4/C14: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(119.4540 mm, 102.7329 mm): Footprint C23
+    @(110.9682 mm, 100.4335 mm): Footprint C16
+    C23/C16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(119.4540 mm, 102.7329 mm): Footprint C23
+    @(112.5551 mm, 115.1154 mm): Footprint C22
+    C23/C22: корпуса соприкасаются (≤0.05 мм), пересекаются только зоны courtyard; расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(206.8132 mm, 131.2105 mm): Footprint R95
+    @(211.8497 mm, 143.7502 mm): Footprint R94
+    R95/R94: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(170.4343 mm, 135.6445 mm): Footprint J4
+    @(168.8906 mm, 140.1311 mm): Footprint D18
+    J4/D18: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(209.8288 mm, 74.7818 mm): Footprint R117
+    @(208.0195 mm, 71.5648 mm): Footprint Q22
+    R117/Q22: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(209.8288 mm, 74.7818 mm): Footprint R117
+    @(208.7627 mm, 77.2788 mm): Footprint C72
+    R117/C72: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(209.8288 mm, 74.7818 mm): Footprint R117
+    @(211.9122 mm, 83.2057 mm): Footprint R65
+    R117/R65: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(209.8288 mm, 74.7818 mm): Footprint R117
+    @(199.5116 mm, 78.5921 mm): Footprint C74
+    R117/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(119.4156 mm, 171.9596 mm): Footprint CN5
+    @(117.5713 mm, 166.9438 mm): Footprint D28
+    CN5/D28: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(62.4853 mm, 90.9707 mm): Footprint D1
+    @(65.2054 mm, 93.4683 mm): Footprint R17
+    D1/R17: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(70.3846 mm, 103.4778 mm): Footprint Q10
+    @(70.3846 mm, 106.9692 mm): Footprint Q9
+    Q10/Q9: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(95.1594 mm, 158.2878 mm): Footprint Q6
+    @(92.6619 mm, 166.1411 mm): Footprint R4
+    Q6/R4: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(95.1594 mm, 158.2878 mm): Footprint Q6
+    @(99.1588 mm, 158.2878 mm): Footprint Q5
+    Q6/Q5: плотная расстановка TO-92 как на заводской плате AP12708/6a (ранее исключено, маркер сместился в KiCad 10).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(128.5536 mm, 85.5718 mm): Footprint C66
+    @(134.5632 mm, 66.5686 mm): Footprint R44
+    C66/R44: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(210.3861 mm, 85.4684 mm): Footprint C78
+    @(211.9122 mm, 83.2057 mm): Footprint R65
+    C78/R65: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(215.8059 mm, 157.4422 mm): Footprint R90
+    @(222.9169 mm, 161.1425 mm): Footprint C53
+    R90/C53: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(215.8059 mm, 157.4422 mm): Footprint R90
+    @(227.8916 mm, 156.4477 mm): Footprint C59
+    R90/C59: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(72.9202 mm, 120.4507 mm): Footprint C6
+    @(73.9761 mm, 122.9020 mm): Footprint C4
+    C6/C4: корпуса соприкасаются (≤0.04 мм), пересекаются только зоны courtyard; расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(72.9202 mm, 120.4507 mm): Footprint C6
+    @(74.4951 mm, 118.1229 mm): Footprint R12
+    C6/R12: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(119.4540 mm, 122.2024 mm): Footprint C21
+    @(112.5551 mm, 115.1154 mm): Footprint C22
+    C21/C22: по типовому 3D-корпусу KiCad корпуса перекрываются на 0.29 мм; расстановка и отверстия как на заводской плате AP12708/6a, реальные детали там помещаются. Проверить при сборке.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(89.9533 mm, 125.9074 mm): Footprint C2
+    @(86.9692 mm, 124.4893 mm): Footprint C3
+    C2/C3: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(177.9256 mm, 122.2024 mm): Footprint C30
+    @(187.9145 mm, 124.8851 mm): Footprint R98
+    C30/R98: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(177.9256 mm, 122.2024 mm): Footprint C30
+    @(193.6508 mm, 134.6500 mm): Footprint R96
+    C30/R96: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(177.9256 mm, 122.2024 mm): Footprint C30
+    @(179.9606 mm, 136.6402 mm): Footprint C31
+    C30/C31: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(218.0010 mm, 106.9692 mm): Footprint Q29
+    @(218.0010 mm, 103.4778 mm): Footprint Q28
+    Q29/Q28: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(112.5551 mm, 115.1154 mm): Footprint C22
+    @(109.0637 mm, 110.1433 mm): Footprint R42
+    C22/R42: по типовому 3D-корпусу KiCad корпуса перекрываются на 0.32 мм; расстановка и отверстия как на заводской плате AP12708/6a, реальные детали там помещаются. Проверить при сборке.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(112.5551 mm, 115.1154 mm): Footprint C22
+    @(109.0634 mm, 119.2326 mm): Footprint R39
+    C22/R39: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(96.4722 mm, 122.4398 mm): Footprint R35
+    @(86.9692 mm, 124.4893 mm): Footprint C3
+    R35/C3: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(110.5669 mm, 75.0781 mm): Footprint R109
+    @(109.5573 mm, 72.0726 mm): Footprint Q19
+    R109/Q19: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(110.5669 mm, 75.0781 mm): Footprint R109
+    @(109.1085 mm, 77.5750 mm): Footprint C15
+    R109/C15: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(110.5669 mm, 75.0781 mm): Footprint R109
+    @(99.7305 mm, 78.2326 mm): Footprint C70
+    R109/C70: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(208.0195 mm, 71.5648 mm): Footprint Q22
+    @(227.1093 mm, 68.6652 mm): Footprint R69
+    Q22/R69: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(237.4130 mm, 111.8470 mm): Footprint R77
+    @(241.1599 mm, 108.4497 mm): Footprint C42
+    R77/C42: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(237.4130 mm, 111.8470 mm): Footprint R77
+    @(237.4130 mm, 102.3557 mm): Footprint R75
+    R77/R75: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(237.4130 mm, 111.8470 mm): Footprint R77
+    @(242.4074 mm, 114.9018 mm): Footprint C41
+    R77/C41: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(222.9169 mm, 161.1425 mm): Footprint C53
+    @(228.7570 mm, 160.9336 mm): Footprint D13
+    C53/D13: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(222.9169 mm, 161.1425 mm): Footprint C53
+    @(228.7570 mm, 165.9286 mm): Footprint D14
+    C53/D14: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(199.0250 mm, 164.9335 mm): Footprint H8
+    @(196.4000 mm, 171.3458 mm): Footprint U8
+    H8/U8: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(135.4525 mm, 170.3501 mm): Footprint C61
+    @(135.4525 mm, 165.3553 mm): Footprint C60
+    C61/C60: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(135.4525 mm, 170.3501 mm): Footprint C61
+    @(145.9838 mm, 171.8641 mm): Footprint CN6
+    C61/CN6: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(73.9761 mm, 122.9020 mm): Footprint C4
+    @(84.4759 mm, 118.2507 mm): Footprint U1
+    C4/U1: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(215.8059 mm, 154.9447 mm): Footprint R89
+    @(227.8916 mm, 156.4477 mm): Footprint C59
+    R89/C59: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(206.8789 mm, 117.6351 mm): Footprint C35
+    @(206.8789 mm, 120.1539 mm): Footprint C34
+    C35/C34: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(68.0385 mm, 73.4692 mm): Footprint R107
+    @(80.4730 mm, 82.2003 mm): Footprint R102
+    R107/R102: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(189.4379 mm, 71.5648 mm): Footprint Q36
+    @(188.1173 mm, 68.6652 mm): Footprint R52
+    Q36/R52: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(92.6619 mm, 147.3257 mm): Footprint R7
+    @(95.1594 mm, 149.3998 mm): Footprint Q3
+    R7/Q3: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(214.4098 mm, 80.4860 mm): Footprint R67
+    @(211.9122 mm, 83.2057 mm): Footprint R65
+    R67/R65: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(90.4825 mm, 67.6617 mm): Footprint D2
+    @(88.9605 mm, 68.6652 mm): Footprint R22
+    D2/R22: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(80.4730 mm, 82.2003 mm): Footprint R102
+    @(88.9605 mm, 68.6652 mm): Footprint R22
+    R102/R22: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(80.4730 mm, 82.2003 mm): Footprint R102
+    @(68.0385 mm, 76.4746 mm): Footprint R23
+    R102/R23: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(80.4730 mm, 82.2003 mm): Footprint R102
+    @(82.9248 mm, 82.9715 mm): Footprint C77
+    R102/C77: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(80.4730 mm, 82.2003 mm): Footprint R102
+    @(82.9693 mm, 79.4808 mm): Footprint R53
+    R102/R53: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(141.8000 mm, 156.3000 mm): Footprint C80
+    @(148.5000 mm, 139.2390 mm): Footprint CN20
+    C80/CN20: C80 — TDK B32560 шаг 7,5; до корпуса CN20 ~0,3 мм, пересекаются зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(233.4143 mm, 99.4053 mm): Footprint R74
+    @(245.8479 mm, 91.4780 mm): Footprint R72
+    R74/R72: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(233.4143 mm, 99.4053 mm): Footprint R74
+    @(229.9217 mm, 96.4304 mm): Footprint Q33
+    R74/Q33: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(233.4143 mm, 99.4053 mm): Footprint R74
+    @(245.8479 mm, 87.4793 mm): Footprint R71
+    R74/R71: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(191.0565 mm, 53.1642 mm): Footprint R68
+    @(206.7708 mm, 54.0213 mm): Footprint R101
+    R68/R101: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(90.9897 mm, 72.0726 mm): Footprint Q35
+    @(88.9605 mm, 68.6652 mm): Footprint R22
+    Q35/R22: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(90.9897 mm, 72.0726 mm): Footprint Q35
+    @(96.6732 mm, 75.0781 mm): Footprint R110
+    Q35/R110: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(161.5251 mm, 86.0092 mm): Footprint R49
+    @(165.1862 mm, 68.6640 mm): Footprint R50
+    R49/R50: корпуса соприкасаются (≤0.06 мм), пересекаются только зоны courtyard; расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(95.1594 mm, 149.3998 mm): Footprint Q3
+    @(99.1588 mm, 149.3998 mm): Footprint Q4
+    Q3/Q4: плотная расстановка TO-92 как на заводской плате AP12708/6a (ранее исключено, маркер сместился в KiCad 10).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(216.2723 mm, 128.1933 mm): Footprint C37
+    @(217.9686 mm, 118.1242 mm): Footprint U6
+    C37/U6: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(95.5074 mm, 128.1854 mm): Footprint CN2
+    @(101.3484 mm, 129.6343 mm): Footprint R40
+    CN2/R40: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(100.5331 mm, 134.6500 mm): Footprint R41
+    @(102.4996 mm, 132.1318 mm): Footprint C19
+    R41/C19: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(74.4951 mm, 118.1229 mm): Footprint R12
+    @(84.4759 mm, 118.2507 mm): Footprint U1
+    R12/U1: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(211.9122 mm, 83.2057 mm): Footprint R65
+    @(209.8288 mm, 80.2842 mm): Footprint R113
+    R65/R113: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(65.2054 mm, 87.9659 mm): Footprint R18
+    @(65.2054 mm, 84.9818 mm): Footprint R19
+    R18/R19: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(83.4570 mm, 103.4778 mm): Footprint Q8
+    @(83.4570 mm, 106.9692 mm): Footprint Q7
+    Q8/Q7: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(187.9145 mm, 124.8851 mm): Footprint R98
+    @(191.9216 mm, 121.1484 mm): Footprint C33
+    R98/C33: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(109.5573 mm, 72.0726 mm): Footprint Q19
+    @(127.6563 mm, 68.6652 mm): Footprint R100
+    Q19/R100: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(88.9605 mm, 68.6652 mm): Footprint R22
+    @(64.7068 mm, 60.7057 mm): Footprint C11
+    R22/C11: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(88.9605 mm, 68.6652 mm): Footprint R22
+    @(82.9693 mm, 79.4808 mm): Footprint R53
+    R22/R53: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(105.5085 mm, 95.4780 mm): Footprint Q15
+    @(104.9573 mm, 98.9277 mm): Footprint Q16
+    Q15/Q16: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(227.1093 mm, 68.6652 mm): Footprint R69
+    @(231.9113 mm, 60.7057 mm): Footprint C45
+    R69/C45: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(236.7000 mm, 132.8000 mm): Footprint C39
+    @(240.9139 mm, 123.9738 mm): Footprint CN11
+    C39/CN11: C39 (WIMA 11x7,2) перенесён под C76; до корпуса CN11 0,6 мм, пересекаются зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(211.8497 mm, 143.7502 mm): Footprint R94
+    @(213.5228 mm, 152.7897 mm): Footprint U7
+    R94/U7: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(102.4996 mm, 132.1318 mm): Footprint C19
+    @(101.3484 mm, 129.6343 mm): Footprint R40
+    C19/R40: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(227.9228 mm, 103.4778 mm): Footprint R81
+    @(229.9217 mm, 96.4304 mm): Footprint Q33
+    R81/Q33: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(227.9540 mm, 93.9762 mm): Footprint Q30
+    @(229.9217 mm, 96.4304 mm): Footprint Q33
+    Q30/Q33: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(143.5582 mm, 83.6812 mm): Footprint D7
+    @(146.0551 mm, 83.5014 mm): Footprint R46
+    D7/R46: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(204.4208 mm, 103.4778 mm): Footprint Q26
+    @(204.4208 mm, 106.9692 mm): Footprint Q27
+    Q26/Q27: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(199.9797 mm, 63.0789 mm): Footprint C47
+    @(201.2948 mm, 58.4865 mm): Footprint C48
+    C47/C48: C47 — NP-электролит Ø5; касается контура C48 на пределе допусков, ставить можно (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(109.0637 mm, 110.1433 mm): Footprint R42
+    @(109.0634 mm, 119.2326 mm): Footprint R39
+    R42/R39: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(223.8056 mm, 146.2440 mm): Footprint C52
+    @(213.5228 mm, 152.7897 mm): Footprint U7
+    C52/U7: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(204.2092 mm, 159.3861 mm): Footprint C56
+    @(196.4000 mm, 171.3458 mm): Footprint U8
+    C56/U8: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(209.8288 mm, 80.2842 mm): Footprint R113
+    @(199.5116 mm, 78.5921 mm): Footprint C74
+    R113/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(101.9525 mm, 106.9236 mm): Footprint C17
+    @(99.9746 mm, 113.4667 mm): Footprint R37
+    C17/R37: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(101.9525 mm, 106.9236 mm): Footprint C17
+    @(104.9573 mm, 98.9277 mm): Footprint Q16
+    C17/Q16: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(108.0162 mm, 53.1326 mm): Footprint R119
+    @(92.2912 mm, 53.1642 mm): Footprint R116
+    R119/R116: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(243.4026 mm, 128.3330 mm): Footprint R84
+    @(240.9050 mm, 128.9755 mm): Footprint C40
+    R84/C40: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(243.4026 mm, 128.3330 mm): Footprint R84
+    @(240.9139 mm, 123.9738 mm): Footprint CN11
+    R84/CN11: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(188.1173 mm, 68.6652 mm): Footprint R52
+    @(189.4169 mm, 67.5236 mm): Footprint D8
+    R52/D8: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(188.1173 mm, 68.6652 mm): Footprint R52
+    @(165.1862 mm, 68.6640 mm): Footprint R50
+    R52/R50: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(201.2948 mm, 58.4865 mm): Footprint C48
+    @(203.0249 mm, 58.5281 mm): Footprint D10
+    C48/D10: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(201.2948 mm, 58.4865 mm): Footprint C48
+    @(189.4169 mm, 67.5236 mm): Footprint D8
+    C48/D8: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(88.4730 mm, 113.9746 mm): Footprint R105
+    @(79.2779 mm, 115.5299 mm): Footprint R13
+    R105/R13: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(80.1548 mm, 151.5809 mm): Footprint Q2
+    @(80.1548 mm, 158.5854 mm): Footprint Q1
+    Q2/Q1: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(203.0249 mm, 58.5281 mm): Footprint D10
+    @(205.9239 mm, 56.9387 mm): Footprint C12
+    D10/C12: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(217.9686 mm, 118.1242 mm): Footprint U6
+    @(227.9228 mm, 120.9374 mm): Footprint R83
+    U6/R83: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(240.9050 mm, 128.9755 mm): Footprint C40
+    @(240.9139 mm, 123.9738 mm): Footprint CN11
+    C40/CN11: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(109.1085 mm, 77.5750 mm): Footprint C15
+    @(110.5669 mm, 80.0725 mm): Footprint R25
+    C15/R25: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(179.9606 mm, 136.6402 mm): Footprint C31
+    @(182.6568 mm, 139.1365 mm): Footprint R97
+    C31/R97: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(241.1599 mm, 108.4497 mm): Footprint C42
+    @(237.4130 mm, 102.3557 mm): Footprint R75
+    C42/R75: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(241.1599 mm, 108.4497 mm): Footprint C42
+    @(242.4074 mm, 114.9018 mm): Footprint C41
+    C42/C41: корпуса соприкасаются (≤0.07 мм), пересекаются только зоны courtyard; расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(163.9380 mm, 89.2600 mm): Footprint C28
+    @(165.1862 mm, 68.6640 mm): Footprint R50
+    C28/R50: C28 — TDK B32560 шаг 7,5; корпуса не касаются, пересекаются только зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(99.7305 mm, 78.2326 mm): Footprint C70
+    @(96.6732 mm, 75.0781 mm): Footprint R110
+    C70/R110: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(95.3313 mm, 77.4698 mm): Footprint C69
+    @(96.6732 mm, 75.0781 mm): Footprint R110
+    C69/R110: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(86.9692 mm, 124.4893 mm): Footprint C3
+    @(84.4759 mm, 118.2507 mm): Footprint U1
+    C3/U1: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(125.2846 mm, 75.5647 mm): Footprint R24
+    @(125.2846 mm, 73.0678 mm): Footprint R106
+    R24/R106: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(177.9256 mm, 102.7329 mm): Footprint C29
+    @(187.4279 mm, 88.9699 mm): Footprint R57
+    C29/R57: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(82.9693 mm, 79.4808 mm): Footprint R53
+    @(86.4619 mm, 78.4868 mm): Footprint C71
+    R53/C71: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(86.4619 mm, 78.4868 mm): Footprint C71
+    @(96.6732 mm, 75.0781 mm): Footprint R110
+    C71/R110: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(86.4619 mm, 78.4868 mm): Footprint C71
+    @(96.8743 mm, 80.0725 mm): Footprint R108
+    C71/R108: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(136.0456 mm, 88.5000 mm): Footprint C24
+    @(137.9500 mm, 76.7382 mm): Footprint R45
+    C24/R45: C24 — TDK B32560 шаг 7,5; корпус C24 отодвинут от площадки R45, пересекаются только зоны courtyard (2026-09-28).
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(134.5632 mm, 66.5686 mm): Footprint R44
+    @(137.9500 mm, 76.7382 mm): Footprint R45
+    R44/R45: R44** — проволочный 3 Вт Vishay AC03 (Ø4,8 мм); с R45 (Ø2,5) корпуса перекрылись бы на ~0,26 мм. R44 (и R50 для симметрии) ставить на выводах с зазором 3 мм над платой — над R45. Родной проволочный резистор со старой платы встаёт без зазора.
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **

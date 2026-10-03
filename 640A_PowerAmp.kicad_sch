@@ -1,0 +1,201 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bf0c143f-be7b-4486-a80d-d973592699da")
+	(paper "A4")
+	(title_block
+		(title "Cambridge Azur 640A - Power Amp PCB AP12707/6")
+		(date "2003-12-16")
+		(rev "AP12707/6")
+		(company "Cambridge Audio")
+		(comment 1 "Cambridge Azur 640A Integrated Amplifier - Power Amp PCB")
+		(comment 2 "Redrawn in KiCad from service manual AP14676/1 (issue Dec 2003, rev May 2008)")
+	)
+	(lib_symbols)
+	(text "Cambridge Audio Azur 640A Integrated Amplifier\nPower Amp PCB AP12707/6 - schematic redrawn from service manual AP14676/1 (pages 17-20)"
+		(exclude_from_sim no)
+		(at 30 20 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "266bc44c-0a26-4d15-a9ae-3aa86c82c0f6")
+	)
+	(sheet
+		(at 120 70)
+		(size 70 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28233c03-83f5-4c25-876e-7529369fa39f")
+		(property "Sheetname" "Right Channel"
+			(at 120 69.3 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "right_channel.kicad_sch"
+			(at 120 95.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "640A_PowerAmp"
+				(path "/bf0c143f-be7b-4486-a80d-d973592699da"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 70)
+		(size 70 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77d1db1b-1bca-435d-95f0-6472fae9a8be")
+		(property "Sheetname" "Left Channel"
+			(at 30 69.3 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left_channel.kicad_sch"
+			(at 30 95.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "640A_PowerAmp"
+				(path "/bf0c143f-be7b-4486-a80d-d973592699da"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 30)
+		(size 70 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c4ea856-eae2-4aea-bfe7-2cfb93153448")
+		(property "Sheetname" "Power Supply"
+			(at 30 29.3 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 30 55.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "640A_PowerAmp"
+				(path "/bf0c143f-be7b-4486-a80d-d973592699da"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120 30)
+		(size 70 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd3a6e54-4925-4687-9221-c05a4a966727")
+		(property "Sheetname" "Protection"
+			(at 120 29.3 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "protection.kicad_sch"
+			(at 120 55.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "640A_PowerAmp"
+				(path "/bf0c143f-be7b-4486-a80d-d973592699da"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
