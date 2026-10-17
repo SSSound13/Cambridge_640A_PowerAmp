@@ -4248,6 +4248,17 @@
 		)
 		(uuid "8bc26716-2457-453b-a320-e32099b69fe8")
 	)
+	(text "NOTE: net names are kept as in the Cambridge service manual. The output of THIS (right) channel is LO;\nits other channel nets are LE1, LE2, LFCLIP, LICLIP. The Left Channel sheet uses RO, RE1, RE2, RFCLIP, RICLIP.\nThe L/R letters in these net names do not match the channel names - this is how the manual names them."
+		(exclude_from_sim no)
+		(at 20.32 49.53 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "c6901e70-b092-4f15-b545-9a0786140ed5")
+	)
 	(text "SIGNAL IN"
 		(exclude_from_sim no)
 		(at 48.112 151.906 0)

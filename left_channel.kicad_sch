@@ -4226,6 +4226,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NOTE: net names are kept as in the Cambridge service manual. The output of THIS (left) channel is RO;\nits other channel nets are RE1, RE2, RFCLIP, RICLIP. The Right Channel sheet uses LO, LE1, LE2, LFCLIP, LICLIP.\nThe L/R letters in these net names do not match the channel names - this is how the manual names them."
+		(exclude_from_sim no)
+		(at 20.32 49.53 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "be4cb790-5197-4d54-8d64-30aaaa10c946")
+	)
 	(text "LEFT SPEAKER\nto Loudspeaker PCB\n1: OUT\n2: RTN (0V)"
 		(exclude_from_sim no)
 		(at 392.43 139.7 0)

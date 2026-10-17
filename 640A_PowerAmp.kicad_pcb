@@ -63004,7 +63004,7 @@
 		(layer "F.Cu")
 		(uuid "68695f14-f495-4d0e-bb39-defe78ae55d9")
 		(at 148.5 112.2 -90)
-		(descr "Star-point net tie: pad 1 = 4.0 mm PGND star, pad 2 = 3.0 mm GND, pitch 4.0 mm, tie on F.Cu only (1.0 mm)")
+		(descr "Star-point net tie: pad 1 = 4.0 mm PGND star (drill 1.6 for chassis wire), pad 2 = 3.0 mm GND, pitch 4.0 mm, tie on F.Cu only (1.0 mm)")
 		(tags "net tie star ground")
 		(property "Reference" "NT1"
 			(at 4.369 2.625 90)
@@ -63084,7 +63084,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0 270)
 			(size 4 4)
-			(drill 1)
+			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "PGND")
