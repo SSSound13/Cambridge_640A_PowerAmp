@@ -2564,7 +2564,7 @@
 		)
 		(uuid "bcc4405d-737a-4642-8ae0-c7fb69ec737b")
 	)
-	(text "Changes (marked **): R122**/C79**, R123**/C80** RC snubbers;\nD17**-D20** 6A10 (was 1N5402).\nU8: stock 7805, no insulation kit; U9/U10: insulation kits. Use heatsink compound (service manual p25)."
+	(text "Changes (marked **): R122**/C79**, R123**/C80** RC snubbers;\nD17**-D20** BY550-400 (was 1N5402).\nU8: stock 7805, no insulation kit; U9/U10: insulation kits. Use heatsink compound (service manual p25)."
 		(exclude_from_sim no)
 		(at 20.32 48.26 0)
 		(effects
