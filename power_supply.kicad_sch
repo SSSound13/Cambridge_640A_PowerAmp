@@ -2564,7 +2564,7 @@
 		)
 		(uuid "bcc4405d-737a-4642-8ae0-c7fb69ec737b")
 	)
-	(text "Changes (marked **): R122**/C79**, R123**/C80** RC snubbers;\nD17**-D20** 6A10 (was 1N5402); U8** TRACO TSR 1-2450 switching 7805 replacement (off heatsink)."
+	(text "Changes (marked **): R122**/C79**, R123**/C80** RC snubbers;\nD17**-D20** 6A10 (was 1N5402).\nU8: stock 7805, no insulation kit; U9/U10: insulation kits. Use heatsink compound (service manual p25)."
 		(exclude_from_sim no)
 		(at 20.32 48.26 0)
 		(effects
@@ -2898,38 +2898,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fef3438b-9298-4305-a18b-c18868ca625a")
-	)
-	(wire
-		(pts
-			(xy 213.36 187.96) (xy 213.36 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c71c92c6-b488-4aa0-a766-3bf0f56c89a0")
-	)
-	(wire
-		(pts
-			(xy 213.36 199.39) (xy 213.36 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3690d448-f88f-4e55-8e0c-2c65488ac8e2")
-	)
-	(junction
-		(at 213.36 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52ce6d1b-269c-4e1a-9611-24214eaa3e9a")
-	)
-	(junction
-		(at 213.36 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4d94e99-a3f8-44f5-9aaa-d6aabf67d824")
 	)
 	(wire
 		(pts
@@ -5880,7 +5848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSR 1-2450"
+		(property "Value" "7805"
 			(at 223.389 184.161 0)
 			(effects
 				(font
@@ -5889,7 +5857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -5909,56 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TRACO TSR 1-2450 switching 7805 replacement (pin 1 Vin, 2 GND, 3 Vout), Vin 6.5-36V, 1A; mount off the heatsink"
-			(at 224.79 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mod" "**"
-			(at 222.627 183.571 0)
-			(effects
-				(font
-					(size 1.6 1.6)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "TRACO Power"
-			(at 224.79 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TSR 1-2450"
-			(at 224.79 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 224.79 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "9000071796"
+		(property "Description" "Stock 7805 linear regulator, TO-220; 1 IN, 2 GND/tab (digital), 3 OUT. Fit to original common heatsink with compound and NO insulation kit (service manual p25)."
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -7295,133 +7214,6 @@
 			(project "640A_PowerAmp"
 				(path "/bf0c143f-be7b-4486-a80d-d973592699da/8c4ea856-eae2-4aea-bfe7-2cfb93153448"
 					(reference "C80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 213.36 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4301d880-ec65-4c2c-acf3-ecfc5e9a250b")
-		(property "Reference" "C81"
-			(at 215.9 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u 50V X7S"
-			(at 215.9 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "640A:C_Rect_L5.5mm_W4.0mm_P5.00mm_Murata_RDE"
-			(at 213.36 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Input bypass for U8 (TSR 1-2450): Murata RDE 10uF 50V X7S, 5.5x4.0 mm body, P5, between the U8 and U9 bodies (~0.1 mm each side), right at U8 pins 1-2"
-			(at 213.36 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mod" "**"
-			(at 220.05900000000003 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 213.36 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RDEC71H106K3K1H03B"
-			(at 213.36 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 213.36 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8061900278"
-			(at 213.36 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e7866cb-e9f8-4e66-9697-5ba96d9fbac7")
-		)
-		(pin "2"
-			(uuid "4393c65b-2f01-4e27-9bfb-5d1115431e0b")
-		)
-		(instances
-			(project "power_supply"
-				(path "/12c6bcb2-a3cd-492f-8f6e-79f37c4d2849"
-					(reference "C81")
-					(unit 1)
-				)
-			)
-			(project "640A_PowerAmp"
-				(path "/bf0c143f-be7b-4486-a80d-d973592699da/8c4ea856-eae2-4aea-bfe7-2cfb93153448"
-					(reference "C81")
 					(unit 1)
 				)
 			)

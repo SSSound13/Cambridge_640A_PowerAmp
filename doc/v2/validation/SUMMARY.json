@@ -1,0 +1,54 @@
+{
+  "status": "V2_UNDER_VERIFICATION",
+  "KiCad": "10.0.7",
+  "PCB_SHA256": "afbb1f3e352790437b41c24e7ed26685754e641f314f9be500790ae9bb533d88",
+  "ERC_violations": 0,
+  "DRC_nonexcluded_violations": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "legacy_excluded_courtyards": 142,
+  "removed_stale_exclusions": 4,
+  "new_exclusions": 0,
+  "font": {
+    "visible_texts": 303,
+    "height_mm": 1,
+    "width_mm": 1,
+    "stroke_mm": 0.2,
+    "bold": false
+  },
+  "diode_F_SilkS_K_removed": 26,
+  "axial_diode_cathode_bands_preserved": 28,
+  "new_heatsink_lines": {
+    "F.SilkS": 80,
+    "Dwgs.User": 162
+  },
+  "preserved_remaining_footprint_poses": 296,
+  "preserved_vias": 21,
+  "preserved_cached_zones": 10,
+  "native_connectivity": {
+    "objects": 2049,
+    "edges": 43281,
+    "identical_after_graphics_merge": true,
+    "independent_refill_no_connectivity_change": true
+  },
+  "front_text_Fab_clear": 297,
+  "front_text_Fab_overlap": [
+    "R117 over R65",
+    "R39 over C18"
+  ],
+  "QR": {
+    "layer": "B.SilkS",
+    "size_mm": 16.4,
+    "module_mm": 0.4,
+    "quiet_mm": 1.6,
+    "error_correction": "M",
+    "exact_URL": "https://github.com/SSSound13/Cambridge_640A_PowerAmp",
+    "minimum_mask_bbox_clearance_mm": 0.3449,
+    "URL_mask_bbox_clearance_mm": 0.3664,
+    "native_plot_decode_200_300_600_dpi": true,
+    "requires_white_silk_dark_mask": true
+  },
+  "fabrication_Gerber_not_created": true,
+  "information_will_be_updated_after_verification": true,
+  "schematic_notes_retained_from_previous_main": true
+}

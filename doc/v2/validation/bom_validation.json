@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "BOM_total": 283,
+  "schematic_refs": 286,
+  "deliberately_excluded_copper_netties": [
+    "NT1",
+    "NT2",
+    "NT3"
+  ],
+  "all_other_schematic_refs_in_BOM_once": true,
+  "C81_absent": true,
+  "U8_value": "7805",
+  "other_original_v2_BOM_dimensions_and_powers_preserved": true
+}
