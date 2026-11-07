@@ -638,6 +638,22 @@
         [
           "courtyards_overlap|98078246|59862215|0d1c73dd-85d3-437f-bc1f-431d9c40d9b8|d12f6446-d087-4b95-867e-d8a6a18ed5f7",
           ""
+        ],
+        [
+          "silk_overlap|186706700|53011904|1c186322-9c33-4aa8-ba8a-24d286d5b6ea|25c6f241-e15b-48ff-b864-4c85e1bd8311",
+          "Принято пользователем 07.11.2026: Segment of U4 on F.Silkscreen / Reference field of R121"
+        ],
+        [
+          "silk_overlap|167806200|75452219|2ef26aaf-ff21-40eb-89d0-af833844c4ba|ffbe5e3a-9bbf-4c6a-85cd-b8b299338fc2",
+          "Принято пользователем 07.11.2026: Segment of R50 on F.Silkscreen / Reference field of R112"
+        ],
+        [
+          "silk_overlap|215321428|84098400|0c422d58-a6aa-4545-ab08-f798628094c2|ffb73509-49bf-4c3c-b536-999960ec3416",
+          "Принято пользователем 07.11.2026: Segment of C78 on F.Silkscreen / Reference field of R65"
+        ],
+        [
+          "silk_overlap|105252127|85220500|6db863c5-fb73-45de-a5a6-b9c715d6703c|85b81d43-c86f-4b4d-b86d-59727ba073fb",
+          "Принято пользователем 07.11.2026: Reference field of R25 / Arc of Q18 on F.Silkscreen"
         ]
       ],
       "meta": {

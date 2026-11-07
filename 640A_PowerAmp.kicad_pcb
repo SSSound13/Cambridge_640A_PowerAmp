@@ -56517,7 +56517,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R12"
-			(at 9.9951 -0.1271 0)
+			(at 9.9951 -0.9271 0)
 			(layer "F.SilkS")
 			(uuid "4e551970-9534-4414-9883-006932240d0b")
 			(effects

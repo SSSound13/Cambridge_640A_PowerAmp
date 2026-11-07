@@ -1,0 +1,55 @@
+{
+  "baseline_commit": "dc34d68d511573bbf8a1af9a689956af030c424d",
+  "kicad_version": "10.0.7",
+  "pcb_sha256": "fab5ad2d169c11edd13225c05fcc267cca08748494c56a05c9273d19f9d117da",
+  "only_pcb_change": "R12 reference from (64.5,118.25) to (64.5,119.05) mm; down 0.8 mm",
+  "source_comparison": "Byte identical after reverting that one coordinate; copper, placements, pads, U6, QR and all other board data unchanged",
+  "project_comparison": "Only four specific exclusions appended; existing 142 and all other settings unchanged",
+  "new_exclusions": [
+    [
+      "silk_overlap|186706700|53011904|1c186322-9c33-4aa8-ba8a-24d286d5b6ea|25c6f241-e15b-48ff-b864-4c85e1bd8311",
+      "Принято пользователем 07.11.2026: Segment of U4 on F.Silkscreen / Reference field of R121"
+    ],
+    [
+      "silk_overlap|167806200|75452219|2ef26aaf-ff21-40eb-89d0-af833844c4ba|ffbe5e3a-9bbf-4c6a-85cd-b8b299338fc2",
+      "Принято пользователем 07.11.2026: Segment of R50 on F.Silkscreen / Reference field of R112"
+    ],
+    [
+      "silk_overlap|215321428|84098400|0c422d58-a6aa-4545-ab08-f798628094c2|ffb73509-49bf-4c3c-b536-999960ec3416",
+      "Принято пользователем 07.11.2026: Segment of C78 on F.Silkscreen / Reference field of R65"
+    ],
+    [
+      "silk_overlap|105252127|85220500|6db863c5-fb73-45de-a5a6-b9c715d6703c|85b81d43-c86f-4b4d-b86d-59727ba073fb",
+      "Принято пользователем 07.11.2026: Reference field of R25 / Arc of Q18 on F.Silkscreen"
+    ]
+  ],
+  "active_drc": {
+    "errors": 0,
+    "warnings": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "all_drc_exclusions": 146,
+  "generated_files_identical_to_base_ignoring_timestamps": {
+    "640A_PowerAmp-B_Cu.gbr": true,
+    "640A_PowerAmp-B_Mask.gbr": true,
+    "640A_PowerAmp-B_Paste.gbr": true,
+    "640A_PowerAmp-B_Silkscreen.gbr": true,
+    "640A_PowerAmp-Edge_Cuts.gbr": true,
+    "640A_PowerAmp-F_Cu.gbr": true,
+    "640A_PowerAmp-F_Mask.gbr": true,
+    "640A_PowerAmp-F_Paste.gbr": true,
+    "640A_PowerAmp-F_Silkscreen.gbr": false,
+    "640A_PowerAmp-In1_Cu.gbr": true,
+    "640A_PowerAmp-In2_Cu.gbr": true,
+    "640A_PowerAmp-NPTH-drl_map.gbr": true,
+    "640A_PowerAmp-NPTH.drl": true,
+    "640A_PowerAmp-PTH-drl_map.gbr": true,
+    "640A_PowerAmp-PTH.drl": true,
+    "640A_PowerAmp-drl.rpt": true,
+    "640A_PowerAmp-job.gbrjob": true,
+    "640A_PowerAmp.d356": true
+  },
+  "visual_check": "R12 final F.Silkscreen Gerber raster inspected; full lettering clear of C7, C6 and solder-mask clipping",
+  "erc": "Not rerun; all schematic files unchanged"
+}

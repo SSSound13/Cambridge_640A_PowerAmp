@@ -1,8 +1,8 @@
 # Gerber / drill export, 2026-11-07
 
-Source: main commit `5dcab897b116dd5cd4a2f4a718dbb827556a5aa2`.
-PCB SHA256: `d9af2641e284b8d14db9773f614da6ab3660ce755ededf99e6f408ab51a18f22`.
-Generated using KiCad CLI 10.0.7. PCB, schematic and project files were not changed.
+Source: PCB in the same commit as this export, based on `dc34d68d511573bbf8a1af9a689956af030c424d` with the R12 silkscreen correction.
+PCB SHA256: `fab5ad2d169c11edd13225c05fcc267cca08748494c56a05c9273d19f9d117da`.
+Generated using KiCad CLI 10.0.7. Only R12 reference moved down 0.8 mm; four user-approved silk-overlap exclusions added to the project. Copper, component positions, QR, U6 and schematic files are unchanged.
 
 ## Contents
 
@@ -22,12 +22,14 @@ Confirm the actual stackup and surface finish with the fabricator: the project h
 ## Validation and limitations
 
 Zone check/refill was enabled for export. Independent DRC with zone refill and schematic parity:
-0 errors, 23 silk_overlap warnings, 0 unconnected items, 0 schematic parity issues.
-Existing project exclusions and disabled rules remain in effect; no new exclusions were added.
+0 errors, 0 active warnings, 0 unconnected items, 0 schematic parity issues.
+R12/C7 overlaps are fixed. R121/U4, R112/R50, R65/C78 and R25/Q18 are accepted as four specific KiCad exclusions.
+The existing 142 courtyard exclusions and disabled rules remain unchanged.
+With exclusions included: 146 excluded violations, of which 4 are the accepted silk overlaps.
 Report: `doc/v2/validation/gerber_2026-11-07_drc.json` in the repository.
 The source contains the v2 U6 correction; the historical 2026-10-03 archive does not.
 
-Resolve/review the silkscreen warnings and confirm component, heatsink and mounting fit before ordering.
+Confirm component, heatsink and mounting fit before ordering.
 Protection, thermal performance, insulation and operation of the physical amplifier still need validation.
 
 `gerber.zip` and root `640A_PowerAmp_v2_fab_2026-11-07.zip` contain the same current files.

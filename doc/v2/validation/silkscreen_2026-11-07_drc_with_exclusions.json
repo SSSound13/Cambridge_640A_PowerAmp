@@ -1,0 +1,3700 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T10:21:45",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint doesn't match copy in library",
+            "key": "lib_footprint_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "640A_PowerAmp.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "comment": "C18/R35: WIMA MKS2 11x7,2 мм, корпус в 0,08 мм от площадки R35; пересекаются только технологические зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 119.55
+                    },
+                    "uuid": "003259ea-15f9-4c6a-8121-48fec11e7577"
+                },
+                {
+                    "description": "Footprint R35",
+                    "pos": {
+                        "x": 96.4722,
+                        "y": 122.4398
+                    },
+                    "uuid": "2cb70ac0-c79e-4ca7-b0dc-4913995a7ad0"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C18/CN2: корпус C18 (WIMA 11x7,2) в 0,19 мм от корпуса CN2; пересекаются только зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 119.55
+                    },
+                    "uuid": "003259ea-15f9-4c6a-8121-48fec11e7577"
+                },
+                {
+                    "description": "Footprint CN2",
+                    "pos": {
+                        "x": 95.5074,
+                        "y": 128.1854
+                    },
+                    "uuid": "537ce41c-0a1a-4f40-84aa-56c3fac3d758"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C18/R42: корпуса не касаются, пересекаются только зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 119.55
+                    },
+                    "uuid": "003259ea-15f9-4c6a-8121-48fec11e7577"
+                },
+                {
+                    "description": "Footprint R42",
+                    "pos": {
+                        "x": 109.0637,
+                        "y": 110.1433
+                    },
+                    "uuid": "7fa79e5e-9a94-470d-af19-a0e989482220"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C18/R39: корпус C18 в 0,11 мм от площадки R39; пересекаются только зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 119.55
+                    },
+                    "uuid": "003259ea-15f9-4c6a-8121-48fec11e7577"
+                },
+                {
+                    "description": "Footprint R39",
+                    "pos": {
+                        "x": 109.0634,
+                        "y": 119.2326
+                    },
+                    "uuid": "de0783d9-e641-4aa4-bffd-d2be1929531b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C18/C49: корпус C18 в 0,05 мм от корпуса C49 (C49 сдвинут на 0,3 мм); зоны courtyard (2026-09-28). При пайке прижать C18 ровно.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 119.55
+                    },
+                    "uuid": "003259ea-15f9-4c6a-8121-48fec11e7577"
+                },
+                {
+                    "description": "Footprint C49",
+                    "pos": {
+                        "x": 102.5055,
+                        "y": 117.1453
+                    },
+                    "uuid": "f1cf54f3-f1b8-4e10-9f30-43d24ba55ea3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C75/R118: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C75",
+                    "pos": {
+                        "x": 186.2004,
+                        "y": 77.2168
+                    },
+                    "uuid": "019d3d75-735e-4aad-b7be-ddc38a335df4"
+                },
+                {
+                    "description": "Footprint R118",
+                    "pos": {
+                        "x": 196.8354,
+                        "y": 74.2739
+                    },
+                    "uuid": "0ce62ec0-4102-4a59-9e63-71541167727d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R56/D9: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R56",
+                    "pos": {
+                        "x": 182.1486,
+                        "y": 91.478
+                    },
+                    "uuid": "03f4afe4-36d2-4962-b671-5c78bc4cd001"
+                },
+                {
+                    "description": "Footprint D9",
+                    "pos": {
+                        "x": 179.4288,
+                        "y": 88.9817
+                    },
+                    "uuid": "a05396d6-72f2-45bf-a2da-b6aedffec495"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C7/R16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 59.7756,
+                        "y": 111.9503
+                    },
+                    "uuid": "0505b426-c429-40ce-906e-7daf1c4a5d39"
+                },
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 56.432,
+                        "y": 97.4665
+                    },
+                    "uuid": "c6cd5b5f-c37c-406d-9024-01436df30bbf"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q21/C27: по контурам Fab корпуса перекрываются на 0,50 мм (TO-92 Q21 и диск C27 Ø7,5); расстановка как на заводской плате AP12708/6a — Q21 ставить с наклоном от C27 (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q21",
+                    "pos": {
+                        "x": 155.4303,
+                        "y": 86.0192
+                    },
+                    "uuid": "0541a68c-a8fe-46f1-8751-1be1ce8d52ad"
+                },
+                {
+                    "description": "Footprint C27",
+                    "pos": {
+                        "x": 157.9266,
+                        "y": 85.9371
+                    },
+                    "uuid": "e5dcc33c-afc2-422a-97bc-07b0d6165281"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R47/R48: плотная расстановка как на заводской плате AP12708/6a; корпуса не касаются (ранее исключено, маркер сместился в KiCad 10).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R47",
+                    "pos": {
+                        "x": 148.552,
+                        "y": 73.3414
+                    },
+                    "uuid": "079625fc-5c05-4816-8fac-c01d35ed7d09"
+                },
+                {
+                    "description": "Footprint R48",
+                    "pos": {
+                        "x": 151.0283,
+                        "y": 83.5014
+                    },
+                    "uuid": "992b25c1-435c-44c6-826e-39b84772d681"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R47/R46: плотная расстановка как на заводской плате AP12708/6a; корпуса не касаются (ранее исключено, маркер сместился в KiCad 10).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R47",
+                    "pos": {
+                        "x": 148.552,
+                        "y": 73.3414
+                    },
+                    "uuid": "079625fc-5c05-4816-8fac-c01d35ed7d09"
+                },
+                {
+                    "description": "Footprint R46",
+                    "pos": {
+                        "x": 146.0551,
+                        "y": 83.5014
+                    },
+                    "uuid": "eabfd204-9c60-4ec5-905f-8540af08d721"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C54/C55: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C54",
+                    "pos": {
+                        "x": 225.1182,
+                        "y": 172.8865
+                    },
+                    "uuid": "0928ece1-37c6-4503-a7f9-3102fc1f6bab"
+                },
+                {
+                    "description": "Footprint C55",
+                    "pos": {
+                        "x": 219.4255,
+                        "y": 174.9888
+                    },
+                    "uuid": "136ee307-f6fd-49e6-a0c8-cdf45f9066cb"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C54/D16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C54",
+                    "pos": {
+                        "x": 225.1182,
+                        "y": 172.8865
+                    },
+                    "uuid": "0928ece1-37c6-4503-a7f9-3102fc1f6bab"
+                },
+                {
+                    "description": "Footprint D16",
+                    "pos": {
+                        "x": 230.2597,
+                        "y": 175.9382
+                    },
+                    "uuid": "1f28a8a4-40b5-42c3-acd7-be1f41a81f52"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C54/D15: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C54",
+                    "pos": {
+                        "x": 225.1182,
+                        "y": 172.8865
+                    },
+                    "uuid": "0928ece1-37c6-4503-a7f9-3102fc1f6bab"
+                },
+                {
+                    "description": "Footprint D15",
+                    "pos": {
+                        "x": 228.757,
+                        "y": 170.4359
+                    },
+                    "uuid": "eedc9a3f-3afb-4e97-bbcc-218b5e7400c7"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R118/Q36: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R118",
+                    "pos": {
+                        "x": 196.8354,
+                        "y": 74.2739
+                    },
+                    "uuid": "0ce62ec0-4102-4a59-9e63-71541167727d"
+                },
+                {
+                    "description": "Footprint Q36",
+                    "pos": {
+                        "x": 189.4379,
+                        "y": 71.5648
+                    },
+                    "uuid": "3e7793f0-f51c-4425-a928-97f4e0213b70"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R118/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R118",
+                    "pos": {
+                        "x": 196.8354,
+                        "y": 74.2739
+                    },
+                    "uuid": "0ce62ec0-4102-4a59-9e63-71541167727d"
+                },
+                {
+                    "description": "Footprint C74",
+                    "pos": {
+                        "x": 199.5116,
+                        "y": 78.5921
+                    },
+                    "uuid": "f4092ec3-fcd7-49bb-b989-8c1b3b817a08"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R118/C73: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R118",
+                    "pos": {
+                        "x": 196.8354,
+                        "y": 74.2739
+                    },
+                    "uuid": "0ce62ec0-4102-4a59-9e63-71541167727d"
+                },
+                {
+                    "description": "Footprint C73",
+                    "pos": {
+                        "x": 195.6839,
+                        "y": 76.7709
+                    },
+                    "uuid": "f9dd8eb6-561d-4fa9-a5c9-e659c0915f6a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C46/D4: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C46",
+                    "pos": {
+                        "x": 102.3282,
+                        "y": 58.6769
+                    },
+                    "uuid": "0d1c73dd-85d3-437f-bc1f-431d9c40d9b8"
+                },
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 104.3016,
+                        "y": 58.782
+                    },
+                    "uuid": "174b8ce1-3404-4e19-bd92-d59c2ca33566"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C46/D2: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C46",
+                    "pos": {
+                        "x": 102.3282,
+                        "y": 58.6769
+                    },
+                    "uuid": "0d1c73dd-85d3-437f-bc1f-431d9c40d9b8"
+                },
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 90.4825,
+                        "y": 67.6617
+                    },
+                    "uuid": "43ab36b8-a9b6-4b94-9d93-4604feb031bf"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C46",
+                    "pos": {
+                        "x": 102.3282,
+                        "y": 58.6769
+                    },
+                    "uuid": "0d1c73dd-85d3-437f-bc1f-431d9c40d9b8"
+                },
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 101.0243,
+                        "y": 63.0789
+                    },
+                    "uuid": "d12f6446-d087-4b95-867e-d8a6a18ed5f7"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R43/C25: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R43",
+                    "pos": {
+                        "x": 133.4856,
+                        "y": 97.0655
+                    },
+                    "uuid": "0d4528a4-5c2a-416b-b80a-357ea7549863"
+                },
+                {
+                    "description": "Footprint C25",
+                    "pos": {
+                        "x": 138.9446,
+                        "y": 102.7329
+                    },
+                    "uuid": "0e19a4eb-6e6c-4d8e-8c9a-cd4648888151"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R43/C23: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R43",
+                    "pos": {
+                        "x": 133.4856,
+                        "y": 97.0655
+                    },
+                    "uuid": "0d4528a4-5c2a-416b-b80a-357ea7549863"
+                },
+                {
+                    "description": "Footprint C23",
+                    "pos": {
+                        "x": 119.454,
+                        "y": 102.7329
+                    },
+                    "uuid": "176c7bc1-a95b-4cdc-aca1-680883a72d98"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R43/C24: C24 — TDK B32560 шаг 7,5; корпуса не касаются, пересекаются только зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R43",
+                    "pos": {
+                        "x": 133.4856,
+                        "y": 97.0655
+                    },
+                    "uuid": "0d4528a4-5c2a-416b-b80a-357ea7549863"
+                },
+                {
+                    "description": "Footprint C24",
+                    "pos": {
+                        "x": 136.0456,
+                        "y": 88.5
+                    },
+                    "uuid": "cd771d36-2047-4424-9320-e131d2fe7f44"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R66/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R66",
+                    "pos": {
+                        "x": 196.7298,
+                        "y": 79.6698
+                    },
+                    "uuid": "0e4eae75-3006-4e40-a303-bd5a6451b515"
+                },
+                {
+                    "description": "Footprint C74",
+                    "pos": {
+                        "x": 199.5116,
+                        "y": 78.5921
+                    },
+                    "uuid": "f4092ec3-fcd7-49bb-b989-8c1b3b817a08"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R29/Q14: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R29",
+                    "pos": {
+                        "x": 108.45,
+                        "y": 101.9022
+                    },
+                    "uuid": "131dc213-0487-42e5-b70f-b93b57f65f29"
+                },
+                {
+                    "description": "Footprint Q14",
+                    "pos": {
+                        "x": 105.2694,
+                        "y": 90.4847
+                    },
+                    "uuid": "1d6ef3d3-8929-4674-84eb-4ac46438947d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R29/C16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R29",
+                    "pos": {
+                        "x": 108.45,
+                        "y": 101.9022
+                    },
+                    "uuid": "131dc213-0487-42e5-b70f-b93b57f65f29"
+                },
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 110.9682,
+                        "y": 100.4335
+                    },
+                    "uuid": "1d9546d2-4b97-441b-bd3b-c7f2559c5229"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R29/Q16: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R29",
+                    "pos": {
+                        "x": 108.45,
+                        "y": 101.9022
+                    },
+                    "uuid": "131dc213-0487-42e5-b70f-b93b57f65f29"
+                },
+                {
+                    "description": "Footprint Q16",
+                    "pos": {
+                        "x": 104.9573,
+                        "y": 98.9277
+                    },
+                    "uuid": "b08c850f-18b5-4ad6-9e91-0abc1d319007"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R55/R54: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R55",
+                    "pos": {
+                        "x": 182.1486,
+                        "y": 86.4635
+                    },
+                    "uuid": "1596c939-3150-47db-8923-2e61112a7e73"
+                },
+                {
+                    "description": "Footprint R54",
+                    "pos": {
+                        "x": 182.1486,
+                        "y": 83.4794
+                    },
+                    "uuid": "71d88ee3-c4a8-4722-8d9a-de2c7825f568"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R55/D9: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R55",
+                    "pos": {
+                        "x": 182.1486,
+                        "y": 86.4635
+                    },
+                    "uuid": "1596c939-3150-47db-8923-2e61112a7e73"
+                },
+                {
+                    "description": "Footprint D9",
+                    "pos": {
+                        "x": 179.4288,
+                        "y": 88.9817
+                    },
+                    "uuid": "a05396d6-72f2-45bf-a2da-b6aedffec495"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "D4/TP2: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 104.3016,
+                        "y": 58.782
+                    },
+                    "uuid": "174b8ce1-3404-4e19-bd92-d59c2ca33566"
+                },
+                {
+                    "description": "Footprint TP2",
+                    "pos": {
+                        "x": 101.471,
+                        "y": 69.665
+                    },
+                    "uuid": "c965544e-4ce3-495d-b882-128fc6048caa"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "D4/C14: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 104.3016,
+                        "y": 58.782
+                    },
+                    "uuid": "174b8ce1-3404-4e19-bd92-d59c2ca33566"
+                },
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 107.2432,
+                        "y": 55.9655
+                    },
+                    "uuid": "fd67a5db-7db1-4976-934c-1b2fec773dc1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C23/C16: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C23",
+                    "pos": {
+                        "x": 119.454,
+                        "y": 102.7329
+                    },
+                    "uuid": "176c7bc1-a95b-4cdc-aca1-680883a72d98"
+                },
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 110.9682,
+                        "y": 100.4335
+                    },
+                    "uuid": "1d9546d2-4b97-441b-bd3b-c7f2559c5229"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C23/C22: корпуса соприкасаются (≤0.05 мм), пересекаются только зоны courtyard; расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C23",
+                    "pos": {
+                        "x": 119.454,
+                        "y": 102.7329
+                    },
+                    "uuid": "176c7bc1-a95b-4cdc-aca1-680883a72d98"
+                },
+                {
+                    "description": "Footprint C22",
+                    "pos": {
+                        "x": 112.5551,
+                        "y": 115.1154
+                    },
+                    "uuid": "2c8b44fd-da33-45ad-878e-9214fc55133d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R95/R94: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R95",
+                    "pos": {
+                        "x": 206.8132,
+                        "y": 131.2105
+                    },
+                    "uuid": "1858aaa1-423b-43c2-8d07-b856e3285bae"
+                },
+                {
+                    "description": "Footprint R94",
+                    "pos": {
+                        "x": 211.8497,
+                        "y": 143.7502
+                    },
+                    "uuid": "63b95265-ba3f-4bc2-92e9-42823dd32ae1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "J4/D18: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 170.4343,
+                        "y": 135.6445
+                    },
+                    "uuid": "1a9f12fc-423f-4127-8f59-569c39cc8171"
+                },
+                {
+                    "description": "Footprint D18",
+                    "pos": {
+                        "x": 168.8906,
+                        "y": 140.1311
+                    },
+                    "uuid": "c240fb4f-eaec-40e5-81e0-7c4eddb73ede"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R117/Q22: по контурам Fab корпуса перекрываются на 0,06 мм; расстановка как на заводской плате AP12708/6a — Q22 ставить с наклоном (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R117",
+                    "pos": {
+                        "x": 209.8288,
+                        "y": 74.7818
+                    },
+                    "uuid": "1c394b46-4973-40cc-b7b2-36b9db640576"
+                },
+                {
+                    "description": "Footprint Q22",
+                    "pos": {
+                        "x": 208.0195,
+                        "y": 71.5648
+                    },
+                    "uuid": "2f0e554c-8e3c-41b2-a87d-87db86581f1e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R117/C72: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R117",
+                    "pos": {
+                        "x": 209.8288,
+                        "y": 74.7818
+                    },
+                    "uuid": "1c394b46-4973-40cc-b7b2-36b9db640576"
+                },
+                {
+                    "description": "Footprint C72",
+                    "pos": {
+                        "x": 208.7627,
+                        "y": 77.2788
+                    },
+                    "uuid": "43b30e7d-af3b-433b-841c-dc019c6216fd"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R117/R65: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R117",
+                    "pos": {
+                        "x": 209.8288,
+                        "y": 74.7818
+                    },
+                    "uuid": "1c394b46-4973-40cc-b7b2-36b9db640576"
+                },
+                {
+                    "description": "Footprint R65",
+                    "pos": {
+                        "x": 211.9122,
+                        "y": 83.2057
+                    },
+                    "uuid": "574884b2-813a-4958-a830-e03fe938183a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R117/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R117",
+                    "pos": {
+                        "x": 209.8288,
+                        "y": 74.7818
+                    },
+                    "uuid": "1c394b46-4973-40cc-b7b2-36b9db640576"
+                },
+                {
+                    "description": "Footprint C74",
+                    "pos": {
+                        "x": 199.5116,
+                        "y": 78.5921
+                    },
+                    "uuid": "f4092ec3-fcd7-49bb-b989-8c1b3b817a08"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "CN5/D28: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint CN5",
+                    "pos": {
+                        "x": 119.4156,
+                        "y": 171.9596
+                    },
+                    "uuid": "1d4d89a5-75df-405f-a48e-ba899b241781"
+                },
+                {
+                    "description": "Footprint D28",
+                    "pos": {
+                        "x": 117.5713,
+                        "y": 166.9438
+                    },
+                    "uuid": "2cb3dc50-e917-4204-89b7-fb5ab23b3919"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "D1/R17: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 62.4853,
+                        "y": 90.9707
+                    },
+                    "uuid": "1d73278e-8f0b-4ade-93ff-4a8e7db03858"
+                },
+                {
+                    "description": "Footprint R17",
+                    "pos": {
+                        "x": 65.2054,
+                        "y": 93.4683
+                    },
+                    "uuid": "e0d56e8b-9dc7-48d2-a20b-3607945cf765"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q10/Q9: пара TO-92 с шагом 3,5 мм, по контурам Fab корпуса перекрываются на 0,74 мм — ставить с наклоном/разной высотой, как на заводской плате AP12708/6a (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q10",
+                    "pos": {
+                        "x": 70.3846,
+                        "y": 103.4778
+                    },
+                    "uuid": "1e92e1dc-5860-4510-9fbe-dbfcdb20e14c"
+                },
+                {
+                    "description": "Footprint Q9",
+                    "pos": {
+                        "x": 70.3846,
+                        "y": 106.9692
+                    },
+                    "uuid": "22d04009-ca3f-414c-a9fa-768dbf1da9c9"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q6/R4: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q6",
+                    "pos": {
+                        "x": 95.1594,
+                        "y": 158.2878
+                    },
+                    "uuid": "1eb04e16-d500-4891-b4b9-285c6f9227fa"
+                },
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 92.6619,
+                        "y": 166.1411
+                    },
+                    "uuid": "8fbd97b5-a0c0-4c2e-90da-1717a4029507"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q6/Q5: пара TO-92, по контурам Fab корпуса перекрываются на 0,23 мм — ставить с наклоном, как на заводской плате AP12708/6a (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q6",
+                    "pos": {
+                        "x": 95.1594,
+                        "y": 158.2878
+                    },
+                    "uuid": "1eb04e16-d500-4891-b4b9-285c6f9227fa"
+                },
+                {
+                    "description": "Footprint Q5",
+                    "pos": {
+                        "x": 99.1588,
+                        "y": 158.2878
+                    },
+                    "uuid": "9ab98a62-f6b4-4083-874f-2d2b555f7bdd"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C66/R44: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C66",
+                    "pos": {
+                        "x": 128.5536,
+                        "y": 85.5718
+                    },
+                    "uuid": "21096a4d-87da-46f5-9446-75dd6244b287"
+                },
+                {
+                    "description": "Footprint R44",
+                    "pos": {
+                        "x": 134.5632,
+                        "y": 66.5686
+                    },
+                    "uuid": "e4ec226d-c175-4b89-a875-d20354cf1c85"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C78/R65: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C78",
+                    "pos": {
+                        "x": 210.3861,
+                        "y": 85.4684
+                    },
+                    "uuid": "210e169a-0ae8-4011-9b0b-bc8c522da4c2"
+                },
+                {
+                    "description": "Footprint R65",
+                    "pos": {
+                        "x": 211.9122,
+                        "y": 83.2057
+                    },
+                    "uuid": "574884b2-813a-4958-a830-e03fe938183a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R90/C53: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R90",
+                    "pos": {
+                        "x": 215.8059,
+                        "y": 157.4422
+                    },
+                    "uuid": "24942848-ecfa-4168-96ad-390dc08811b9"
+                },
+                {
+                    "description": "Footprint C53",
+                    "pos": {
+                        "x": 222.9169,
+                        "y": 161.1425
+                    },
+                    "uuid": "34f628ed-6c88-497f-a8bf-1a4772b42323"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R90/C59: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R90",
+                    "pos": {
+                        "x": 215.8059,
+                        "y": 157.4422
+                    },
+                    "uuid": "24942848-ecfa-4168-96ad-390dc08811b9"
+                },
+                {
+                    "description": "Footprint C59",
+                    "pos": {
+                        "x": 227.8916,
+                        "y": 156.4477
+                    },
+                    "uuid": "b5fc83a4-499e-49ea-b15d-b4bc792b4224"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C6/C4: корпуса соприкасаются (≤0.04 мм), пересекаются только зоны courtyard; расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 72.9202,
+                        "y": 120.4507
+                    },
+                    "uuid": "27c080f1-c685-4c4b-aed7-4cb2b8df9dc3"
+                },
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 73.9761,
+                        "y": 122.902
+                    },
+                    "uuid": "3804720d-2047-4feb-a194-b7bdbbcf9edf"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C6/R12: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 72.9202,
+                        "y": 120.4507
+                    },
+                    "uuid": "27c080f1-c685-4c4b-aed7-4cb2b8df9dc3"
+                },
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 74.4951,
+                        "y": 118.1229
+                    },
+                    "uuid": "547c035f-3a2d-4202-9dbe-4807700cfb64"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C21/C22: по типовому 3D-корпусу KiCad корпуса перекрываются на 0.29 мм; расстановка и отверстия как на заводской плате AP12708/6a, реальные детали там помещаются. Проверить при сборке.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C21",
+                    "pos": {
+                        "x": 119.454,
+                        "y": 122.2024
+                    },
+                    "uuid": "27e0d0e0-380d-4f21-849c-f4ab90bf322b"
+                },
+                {
+                    "description": "Footprint C22",
+                    "pos": {
+                        "x": 112.5551,
+                        "y": 115.1154
+                    },
+                    "uuid": "2c8b44fd-da33-45ad-878e-9214fc55133d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C2/C3: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 89.9533,
+                        "y": 125.9074
+                    },
+                    "uuid": "29390950-a0f6-4bd8-a626-08a781fb3253"
+                },
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 86.9692,
+                        "y": 124.4893
+                    },
+                    "uuid": "adfeeede-3280-485b-85ed-c2f263aa2248"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C30/R98: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C30",
+                    "pos": {
+                        "x": 177.9256,
+                        "y": 122.2024
+                    },
+                    "uuid": "29aa86b2-a9bd-45b8-bcce-54ba8db27f2c"
+                },
+                {
+                    "description": "Footprint R98",
+                    "pos": {
+                        "x": 187.9145,
+                        "y": 124.8851
+                    },
+                    "uuid": "5ac5fb20-c06a-4312-9606-b1aed3a7f260"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C30/R96: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C30",
+                    "pos": {
+                        "x": 177.9256,
+                        "y": 122.2024
+                    },
+                    "uuid": "29aa86b2-a9bd-45b8-bcce-54ba8db27f2c"
+                },
+                {
+                    "description": "Footprint R96",
+                    "pos": {
+                        "x": 193.6508,
+                        "y": 134.65
+                    },
+                    "uuid": "6b651fdb-dc90-41e4-a64a-98a4b7ed2bb8"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C30/C31: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C30",
+                    "pos": {
+                        "x": 177.9256,
+                        "y": 122.2024
+                    },
+                    "uuid": "29aa86b2-a9bd-45b8-bcce-54ba8db27f2c"
+                },
+                {
+                    "description": "Footprint C31",
+                    "pos": {
+                        "x": 179.9606,
+                        "y": 136.6402
+                    },
+                    "uuid": "9a048744-8390-4178-9a15-1430d4f48a92"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q29/Q28: пара TO-92 с шагом 3,5 мм, по контурам Fab корпуса перекрываются на 0,74 мм — ставить с наклоном/разной высотой, как на заводской плате AP12708/6a (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q29",
+                    "pos": {
+                        "x": 218.001,
+                        "y": 106.9692
+                    },
+                    "uuid": "2bf75ece-3516-4aa6-aa08-42e2eda76da3"
+                },
+                {
+                    "description": "Footprint Q28",
+                    "pos": {
+                        "x": 218.001,
+                        "y": 103.4778
+                    },
+                    "uuid": "7f5b34c5-ca8e-4bf4-9e09-ad4f414cb59e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C22/R42: по типовому 3D-корпусу KiCad корпуса перекрываются на 0.32 мм; расстановка и отверстия как на заводской плате AP12708/6a, реальные детали там помещаются. Проверить при сборке.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C22",
+                    "pos": {
+                        "x": 112.5551,
+                        "y": 115.1154
+                    },
+                    "uuid": "2c8b44fd-da33-45ad-878e-9214fc55133d"
+                },
+                {
+                    "description": "Footprint R42",
+                    "pos": {
+                        "x": 109.0637,
+                        "y": 110.1433
+                    },
+                    "uuid": "7fa79e5e-9a94-470d-af19-a0e989482220"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C22/R39: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C22",
+                    "pos": {
+                        "x": 112.5551,
+                        "y": 115.1154
+                    },
+                    "uuid": "2c8b44fd-da33-45ad-878e-9214fc55133d"
+                },
+                {
+                    "description": "Footprint R39",
+                    "pos": {
+                        "x": 109.0634,
+                        "y": 119.2326
+                    },
+                    "uuid": "de0783d9-e641-4aa4-bffd-d2be1929531b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R35/C3: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R35",
+                    "pos": {
+                        "x": 96.4722,
+                        "y": 122.4398
+                    },
+                    "uuid": "2cb70ac0-c79e-4ca7-b0dc-4913995a7ad0"
+                },
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 86.9692,
+                        "y": 124.4893
+                    },
+                    "uuid": "adfeeede-3280-485b-85ed-c2f263aa2248"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R109/Q19: по контурам Fab корпуса перекрываются на 0,27 мм; расстановка как на заводской плате AP12708/6a — Q19 ставить с наклоном (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R109",
+                    "pos": {
+                        "x": 110.5669,
+                        "y": 75.0781
+                    },
+                    "uuid": "2e566b4c-e8a4-497c-9dce-e4744d182e9e"
+                },
+                {
+                    "description": "Footprint Q19",
+                    "pos": {
+                        "x": 109.5573,
+                        "y": 72.0726
+                    },
+                    "uuid": "5b774fd4-dcbf-4154-a3ea-28e8b40e20ec"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R109/C15: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R109",
+                    "pos": {
+                        "x": 110.5669,
+                        "y": 75.0781
+                    },
+                    "uuid": "2e566b4c-e8a4-497c-9dce-e4744d182e9e"
+                },
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 109.1085,
+                        "y": 77.575
+                    },
+                    "uuid": "96ec07d7-fb77-4576-884d-262f7a664e6c"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R109/C70: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R109",
+                    "pos": {
+                        "x": 110.5669,
+                        "y": 75.0781
+                    },
+                    "uuid": "2e566b4c-e8a4-497c-9dce-e4744d182e9e"
+                },
+                {
+                    "description": "Footprint C70",
+                    "pos": {
+                        "x": 99.7305,
+                        "y": 78.2326
+                    },
+                    "uuid": "a0672f25-6460-4fa4-b792-fc30dca2840b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q22/R69: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q22",
+                    "pos": {
+                        "x": 208.0195,
+                        "y": 71.5648
+                    },
+                    "uuid": "2f0e554c-8e3c-41b2-a87d-87db86581f1e"
+                },
+                {
+                    "description": "Footprint R69",
+                    "pos": {
+                        "x": 227.1093,
+                        "y": 68.6652
+                    },
+                    "uuid": "62f8bfe0-a0e6-4802-9adf-cf5b460a46a6"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R77/C42: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R77",
+                    "pos": {
+                        "x": 237.413,
+                        "y": 111.847
+                    },
+                    "uuid": "3417c48a-b137-4abc-8bb2-3bf760ac1511"
+                },
+                {
+                    "description": "Footprint C42",
+                    "pos": {
+                        "x": 241.1599,
+                        "y": 108.4497
+                    },
+                    "uuid": "9a730eb1-dd8c-433e-a362-ff7702c884f4"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R77/R75: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R77",
+                    "pos": {
+                        "x": 237.413,
+                        "y": 111.847
+                    },
+                    "uuid": "3417c48a-b137-4abc-8bb2-3bf760ac1511"
+                },
+                {
+                    "description": "Footprint R75",
+                    "pos": {
+                        "x": 237.413,
+                        "y": 102.3557
+                    },
+                    "uuid": "bc3b6956-a1b9-47a0-85a7-4d4e7d699aff"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R77/C41: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R77",
+                    "pos": {
+                        "x": 237.413,
+                        "y": 111.847
+                    },
+                    "uuid": "3417c48a-b137-4abc-8bb2-3bf760ac1511"
+                },
+                {
+                    "description": "Footprint C41",
+                    "pos": {
+                        "x": 242.4074,
+                        "y": 114.9018
+                    },
+                    "uuid": "cfc171cc-375c-442e-ac26-e754e776f051"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C53/D13: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C53",
+                    "pos": {
+                        "x": 222.9169,
+                        "y": 161.1425
+                    },
+                    "uuid": "34f628ed-6c88-497f-a8bf-1a4772b42323"
+                },
+                {
+                    "description": "Footprint D13",
+                    "pos": {
+                        "x": 228.757,
+                        "y": 160.9336
+                    },
+                    "uuid": "60764345-81d0-4c02-9e67-75e142f57a00"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C53/D14: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C53",
+                    "pos": {
+                        "x": 222.9169,
+                        "y": 161.1425
+                    },
+                    "uuid": "34f628ed-6c88-497f-a8bf-1a4772b42323"
+                },
+                {
+                    "description": "Footprint D14",
+                    "pos": {
+                        "x": 228.757,
+                        "y": 165.9286
+                    },
+                    "uuid": "e4d31f2d-0a10-48f7-a4bd-4cb41ee91518"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C61/C60: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C61",
+                    "pos": {
+                        "x": 135.4525,
+                        "y": 170.3501
+                    },
+                    "uuid": "35f65a0a-0704-4dd9-ab6a-58bb28bcd2d1"
+                },
+                {
+                    "description": "Footprint C60",
+                    "pos": {
+                        "x": 135.4525,
+                        "y": 165.3553
+                    },
+                    "uuid": "993958eb-c47d-4675-b030-f8aac7fd354f"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C61/CN6: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C61",
+                    "pos": {
+                        "x": 135.4525,
+                        "y": 170.3501
+                    },
+                    "uuid": "35f65a0a-0704-4dd9-ab6a-58bb28bcd2d1"
+                },
+                {
+                    "description": "Footprint CN6",
+                    "pos": {
+                        "x": 145.9838,
+                        "y": 171.8641
+                    },
+                    "uuid": "f9a81bd3-6c9c-475b-9e97-87e12ddebda0"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C4/U1: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 73.9761,
+                        "y": 122.902
+                    },
+                    "uuid": "3804720d-2047-4feb-a194-b7bdbbcf9edf"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 84.4759,
+                        "y": 118.2507
+                    },
+                    "uuid": "c7b8de20-5588-4826-85c3-3df126b45bc5"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R89/C59: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R89",
+                    "pos": {
+                        "x": 215.8059,
+                        "y": 154.9447
+                    },
+                    "uuid": "3a4d7c55-3cce-4b8e-9a28-9a75eeeb6d79"
+                },
+                {
+                    "description": "Footprint C59",
+                    "pos": {
+                        "x": 227.8916,
+                        "y": 156.4477
+                    },
+                    "uuid": "b5fc83a4-499e-49ea-b15d-b4bc792b4224"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C35/C34: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C35",
+                    "pos": {
+                        "x": 206.8789,
+                        "y": 117.6351
+                    },
+                    "uuid": "3b412dc7-88b7-4068-9295-4d613d267886"
+                },
+                {
+                    "description": "Footprint C34",
+                    "pos": {
+                        "x": 206.8789,
+                        "y": 120.1539
+                    },
+                    "uuid": "ca91c8b8-8b7d-457f-be7b-9ca05c96e19a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R107/R102: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R107",
+                    "pos": {
+                        "x": 68.0385,
+                        "y": 73.4692
+                    },
+                    "uuid": "3c47499a-b702-46f2-81cb-ddf30667cb61"
+                },
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 80.473,
+                        "y": 82.2003
+                    },
+                    "uuid": "46787099-0a2c-4d92-a3d2-1526e9abd4ab"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q36/R52: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q36",
+                    "pos": {
+                        "x": 189.4379,
+                        "y": 71.5648
+                    },
+                    "uuid": "3e7793f0-f51c-4425-a928-97f4e0213b70"
+                },
+                {
+                    "description": "Footprint R52",
+                    "pos": {
+                        "x": 188.1173,
+                        "y": 68.6652
+                    },
+                    "uuid": "8df3a12a-fb23-4aa3-a564-7bf61dd69bec"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R7/Q3: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 92.6619,
+                        "y": 147.3257
+                    },
+                    "uuid": "418036d8-939c-49a3-9dac-8c1df527365c"
+                },
+                {
+                    "description": "Footprint Q3",
+                    "pos": {
+                        "x": 95.1594,
+                        "y": 149.3998
+                    },
+                    "uuid": "5138834c-e2ce-457f-b1f9-6edb53363a5e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R67/R65: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R67",
+                    "pos": {
+                        "x": 214.4098,
+                        "y": 80.486
+                    },
+                    "uuid": "41dc9fa3-08f3-472a-a0f5-a43c52a6b238"
+                },
+                {
+                    "description": "Footprint R65",
+                    "pos": {
+                        "x": 211.9122,
+                        "y": 83.2057
+                    },
+                    "uuid": "574884b2-813a-4958-a830-e03fe938183a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "D2/R22: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 90.4825,
+                        "y": 67.6617
+                    },
+                    "uuid": "43ab36b8-a9b6-4b94-9d93-4604feb031bf"
+                },
+                {
+                    "description": "Footprint R22",
+                    "pos": {
+                        "x": 88.9605,
+                        "y": 68.6652
+                    },
+                    "uuid": "5e688d04-222e-46ab-af13-5644e43c8e92"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R102/R22: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 80.473,
+                        "y": 82.2003
+                    },
+                    "uuid": "46787099-0a2c-4d92-a3d2-1526e9abd4ab"
+                },
+                {
+                    "description": "Footprint R22",
+                    "pos": {
+                        "x": 88.9605,
+                        "y": 68.6652
+                    },
+                    "uuid": "5e688d04-222e-46ab-af13-5644e43c8e92"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R102/R23: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 80.473,
+                        "y": 82.2003
+                    },
+                    "uuid": "46787099-0a2c-4d92-a3d2-1526e9abd4ab"
+                },
+                {
+                    "description": "Footprint R23",
+                    "pos": {
+                        "x": 68.0385,
+                        "y": 76.4746
+                    },
+                    "uuid": "6796fec8-5e38-4155-92c3-4dc0c0570d94"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R102/C77: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 80.473,
+                        "y": 82.2003
+                    },
+                    "uuid": "46787099-0a2c-4d92-a3d2-1526e9abd4ab"
+                },
+                {
+                    "description": "Footprint C77",
+                    "pos": {
+                        "x": 82.9248,
+                        "y": 82.9715
+                    },
+                    "uuid": "a1f234ce-dfc9-4e2a-bc58-8fe9ce5f26c3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R102/R53: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 80.473,
+                        "y": 82.2003
+                    },
+                    "uuid": "46787099-0a2c-4d92-a3d2-1526e9abd4ab"
+                },
+                {
+                    "description": "Footprint R53",
+                    "pos": {
+                        "x": 82.9693,
+                        "y": 79.4808
+                    },
+                    "uuid": "b9ab73b9-3132-410d-9651-6ab38e7a6f0f"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C80/CN20: C80 — TDK B32560 шаг 7,5; до корпуса CN20 ~0,3 мм, пересекаются зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C80",
+                    "pos": {
+                        "x": 141.8,
+                        "y": 156.3
+                    },
+                    "uuid": "4a9eba43-2179-426d-b3fb-f2098f26fd0f"
+                },
+                {
+                    "description": "Footprint CN20",
+                    "pos": {
+                        "x": 148.5,
+                        "y": 139.239
+                    },
+                    "uuid": "aede2cac-1353-454d-a4d0-0fd2d149a997"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R74/R72: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R74",
+                    "pos": {
+                        "x": 233.4143,
+                        "y": 99.4053
+                    },
+                    "uuid": "4aeaa46c-598a-42d0-b1da-3962b26375cc"
+                },
+                {
+                    "description": "Footprint R72",
+                    "pos": {
+                        "x": 245.8479,
+                        "y": 91.478
+                    },
+                    "uuid": "5f345da8-4b25-418a-84a5-88f20966c26c"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R74/Q33: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R74",
+                    "pos": {
+                        "x": 233.4143,
+                        "y": 99.4053
+                    },
+                    "uuid": "4aeaa46c-598a-42d0-b1da-3962b26375cc"
+                },
+                {
+                    "description": "Footprint Q33",
+                    "pos": {
+                        "x": 229.9217,
+                        "y": 96.4304
+                    },
+                    "uuid": "be93fa0a-87e8-42c8-bd99-f4a59acbf56b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R74/R71: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R74",
+                    "pos": {
+                        "x": 233.4143,
+                        "y": 99.4053
+                    },
+                    "uuid": "4aeaa46c-598a-42d0-b1da-3962b26375cc"
+                },
+                {
+                    "description": "Footprint R71",
+                    "pos": {
+                        "x": 245.8479,
+                        "y": 87.4793
+                    },
+                    "uuid": "d495cda9-d7da-4bca-987d-74f13e3e24ee"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q35/R22: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q35",
+                    "pos": {
+                        "x": 90.9897,
+                        "y": 72.0726
+                    },
+                    "uuid": "4b4bf748-6d04-46de-afd5-0eec14418141"
+                },
+                {
+                    "description": "Footprint R22",
+                    "pos": {
+                        "x": 88.9605,
+                        "y": 68.6652
+                    },
+                    "uuid": "5e688d04-222e-46ab-af13-5644e43c8e92"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q35/R110: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q35",
+                    "pos": {
+                        "x": 90.9897,
+                        "y": 72.0726
+                    },
+                    "uuid": "4b4bf748-6d04-46de-afd5-0eec14418141"
+                },
+                {
+                    "description": "Footprint R110",
+                    "pos": {
+                        "x": 96.6732,
+                        "y": 75.0781
+                    },
+                    "uuid": "dea8f5ee-29d7-494a-b7c3-2b9f651fe8f4"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R49/R50: по контурам Fab корпуса перекрываются на 0,09 мм; расстановка как на заводской плате AP12708/6a (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R49",
+                    "pos": {
+                        "x": 161.5251,
+                        "y": 86.0092
+                    },
+                    "uuid": "5123baf5-5fe3-47b0-816e-096f94103de5"
+                },
+                {
+                    "description": "Footprint R50",
+                    "pos": {
+                        "x": 165.1862,
+                        "y": 68.664
+                    },
+                    "uuid": "d8f16395-d554-4bc4-a4cd-9a0e1a23ecc5"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q3/Q4: пара TO-92, по контурам Fab корпуса перекрываются на 0,23 мм — ставить с наклоном, как на заводской плате AP12708/6a (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q3",
+                    "pos": {
+                        "x": 95.1594,
+                        "y": 149.3998
+                    },
+                    "uuid": "5138834c-e2ce-457f-b1f9-6edb53363a5e"
+                },
+                {
+                    "description": "Footprint Q4",
+                    "pos": {
+                        "x": 99.1588,
+                        "y": 149.3998
+                    },
+                    "uuid": "b8cd40cd-2585-4419-96b2-d7dc74369c3c"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C37/U6: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C37",
+                    "pos": {
+                        "x": 216.2723,
+                        "y": 128.1933
+                    },
+                    "uuid": "5308831f-490f-47df-a934-ebe61159d1eb"
+                },
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 217.9686,
+                        "y": 118.1242
+                    },
+                    "uuid": "922a85e4-2aec-464c-83e3-0074278b96b2"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "CN2/R40: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint CN2",
+                    "pos": {
+                        "x": 95.5074,
+                        "y": 128.1854
+                    },
+                    "uuid": "537ce41c-0a1a-4f40-84aa-56c3fac3d758"
+                },
+                {
+                    "description": "Footprint R40",
+                    "pos": {
+                        "x": 101.3484,
+                        "y": 129.6343
+                    },
+                    "uuid": "e3d8001f-7007-4c5b-a067-03c2afb8b73e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R41/C19: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R41",
+                    "pos": {
+                        "x": 100.5331,
+                        "y": 134.65
+                    },
+                    "uuid": "542e522a-b3dd-4bdf-92ac-c5fde77ac976"
+                },
+                {
+                    "description": "Footprint C19",
+                    "pos": {
+                        "x": 102.4996,
+                        "y": 132.1318
+                    },
+                    "uuid": "717e094e-008b-4634-8eab-884acbff5e99"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R12/U1: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 74.4951,
+                        "y": 118.1229
+                    },
+                    "uuid": "547c035f-3a2d-4202-9dbe-4807700cfb64"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 84.4759,
+                        "y": 118.2507
+                    },
+                    "uuid": "c7b8de20-5588-4826-85c3-3df126b45bc5"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R65/R113: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R65",
+                    "pos": {
+                        "x": 211.9122,
+                        "y": 83.2057
+                    },
+                    "uuid": "574884b2-813a-4958-a830-e03fe938183a"
+                },
+                {
+                    "description": "Footprint R113",
+                    "pos": {
+                        "x": 209.8288,
+                        "y": 80.2842
+                    },
+                    "uuid": "843115ba-a01b-4041-9c4b-988521c4396a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R18/R19: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R18",
+                    "pos": {
+                        "x": 65.2054,
+                        "y": 87.9659
+                    },
+                    "uuid": "589336b1-d754-48f9-be83-06ca085d4165"
+                },
+                {
+                    "description": "Footprint R19",
+                    "pos": {
+                        "x": 65.2054,
+                        "y": 84.9818
+                    },
+                    "uuid": "fb7773e4-48ee-45fe-827a-d9a7bfbaa9fa"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q8/Q7: пара TO-92 с шагом 3,5 мм, по контурам Fab корпуса перекрываются на 0,74 мм — ставить с наклоном/разной высотой, как на заводской плате AP12708/6a (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q8",
+                    "pos": {
+                        "x": 83.457,
+                        "y": 103.4778
+                    },
+                    "uuid": "5916ca11-c367-41be-b046-b1594fab3df4"
+                },
+                {
+                    "description": "Footprint Q7",
+                    "pos": {
+                        "x": 83.457,
+                        "y": 106.9692
+                    },
+                    "uuid": "9d0e95a0-7383-4c38-9e57-d1fb8afc056e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R98/C33: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R98",
+                    "pos": {
+                        "x": 187.9145,
+                        "y": 124.8851
+                    },
+                    "uuid": "5ac5fb20-c06a-4312-9606-b1aed3a7f260"
+                },
+                {
+                    "description": "Footprint C33",
+                    "pos": {
+                        "x": 191.9216,
+                        "y": 121.1484
+                    },
+                    "uuid": "832a76f2-76f6-4003-81b4-293b0b085ec6"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q19/R100: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q19",
+                    "pos": {
+                        "x": 109.5573,
+                        "y": 72.0726
+                    },
+                    "uuid": "5b774fd4-dcbf-4154-a3ea-28e8b40e20ec"
+                },
+                {
+                    "description": "Footprint R100",
+                    "pos": {
+                        "x": 127.6563,
+                        "y": 68.6652
+                    },
+                    "uuid": "f2345e59-2972-47e6-ae8e-dfc0054ad18e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R22/C11: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R22",
+                    "pos": {
+                        "x": 88.9605,
+                        "y": 68.6652
+                    },
+                    "uuid": "5e688d04-222e-46ab-af13-5644e43c8e92"
+                },
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 64.7068,
+                        "y": 60.7057
+                    },
+                    "uuid": "8f97b251-e121-42b1-bf28-6b6bd0657924"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R22/R53: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R22",
+                    "pos": {
+                        "x": 88.9605,
+                        "y": 68.6652
+                    },
+                    "uuid": "5e688d04-222e-46ab-af13-5644e43c8e92"
+                },
+                {
+                    "description": "Footprint R53",
+                    "pos": {
+                        "x": 82.9693,
+                        "y": 79.4808
+                    },
+                    "uuid": "b9ab73b9-3132-410d-9651-6ab38e7a6f0f"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q15/Q16: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q15",
+                    "pos": {
+                        "x": 105.5085,
+                        "y": 95.478
+                    },
+                    "uuid": "625c6d1e-4c3c-40f4-96c1-ecefb699df3c"
+                },
+                {
+                    "description": "Footprint Q16",
+                    "pos": {
+                        "x": 104.9573,
+                        "y": 98.9277
+                    },
+                    "uuid": "b08c850f-18b5-4ad6-9e91-0abc1d319007"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R69/C45: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R69",
+                    "pos": {
+                        "x": 227.1093,
+                        "y": 68.6652
+                    },
+                    "uuid": "62f8bfe0-a0e6-4802-9adf-cf5b460a46a6"
+                },
+                {
+                    "description": "Footprint C45",
+                    "pos": {
+                        "x": 231.9113,
+                        "y": 60.7057
+                    },
+                    "uuid": "abdfa2c3-a955-4ca0-a68e-fa6c84e52155"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C39/CN11: C39 (WIMA 11x7,2) перенесён под C76; до корпуса CN11 0,6 мм, пересекаются зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C39",
+                    "pos": {
+                        "x": 236.7,
+                        "y": 132.8
+                    },
+                    "uuid": "63896260-bb9e-4bee-8519-6f8ad378802f"
+                },
+                {
+                    "description": "Footprint CN11",
+                    "pos": {
+                        "x": 240.9139,
+                        "y": 123.9738
+                    },
+                    "uuid": "b0b07545-1809-402e-8bb9-391c109baa43"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R94/U7: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R94",
+                    "pos": {
+                        "x": 211.8497,
+                        "y": 143.7502
+                    },
+                    "uuid": "63b95265-ba3f-4bc2-92e9-42823dd32ae1"
+                },
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 213.5228,
+                        "y": 152.7897
+                    },
+                    "uuid": "90aa305c-0a02-47e6-bfa1-f6f54f7d1421"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C19/R40: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C19",
+                    "pos": {
+                        "x": 102.4996,
+                        "y": 132.1318
+                    },
+                    "uuid": "717e094e-008b-4634-8eab-884acbff5e99"
+                },
+                {
+                    "description": "Footprint R40",
+                    "pos": {
+                        "x": 101.3484,
+                        "y": 129.6343
+                    },
+                    "uuid": "e3d8001f-7007-4c5b-a067-03c2afb8b73e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R81/Q33: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R81",
+                    "pos": {
+                        "x": 227.9228,
+                        "y": 103.4778
+                    },
+                    "uuid": "73000b7c-4168-41b2-9f0d-495c015038e4"
+                },
+                {
+                    "description": "Footprint Q33",
+                    "pos": {
+                        "x": 229.9217,
+                        "y": 96.4304
+                    },
+                    "uuid": "be93fa0a-87e8-42c8-bd99-f4a59acbf56b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q30/Q33: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q30",
+                    "pos": {
+                        "x": 227.954,
+                        "y": 93.9762
+                    },
+                    "uuid": "7900d0af-af29-4de0-8f57-f16cd82aff9b"
+                },
+                {
+                    "description": "Footprint Q33",
+                    "pos": {
+                        "x": 229.9217,
+                        "y": 96.4304
+                    },
+                    "uuid": "be93fa0a-87e8-42c8-bd99-f4a59acbf56b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "D7/R46: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint D7",
+                    "pos": {
+                        "x": 143.5582,
+                        "y": 83.6812
+                    },
+                    "uuid": "7ccd6f97-fc21-4862-9d13-2ee82b477fd1"
+                },
+                {
+                    "description": "Footprint R46",
+                    "pos": {
+                        "x": 146.0551,
+                        "y": 83.5014
+                    },
+                    "uuid": "eabfd204-9c60-4ec5-905f-8540af08d721"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q26/Q27: пара TO-92 с шагом 3,5 мм, по контурам Fab корпуса перекрываются на 0,74 мм — ставить с наклоном/разной высотой, как на заводской плате AP12708/6a (проверено 2026-09-29).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q26",
+                    "pos": {
+                        "x": 204.4208,
+                        "y": 103.4778
+                    },
+                    "uuid": "7dc67ab0-d4e3-4c72-af6d-0dc620e8b78e"
+                },
+                {
+                    "description": "Footprint Q27",
+                    "pos": {
+                        "x": 204.4208,
+                        "y": 106.9692
+                    },
+                    "uuid": "b5851c60-4b3c-4e23-b932-55655cf7c32c"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C47/C48: C47 — NP-электролит Ø5; касается контура C48 на пределе допусков, ставить можно (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C47",
+                    "pos": {
+                        "x": 199.9797,
+                        "y": 63.0789
+                    },
+                    "uuid": "7f67bf05-0636-4e0b-9152-608b9137b84d"
+                },
+                {
+                    "description": "Footprint C48",
+                    "pos": {
+                        "x": 201.2948,
+                        "y": 58.4865
+                    },
+                    "uuid": "8e524d48-0058-47bb-9c95-6e0dcfb02aed"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R42/R39: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R42",
+                    "pos": {
+                        "x": 109.0637,
+                        "y": 110.1433
+                    },
+                    "uuid": "7fa79e5e-9a94-470d-af19-a0e989482220"
+                },
+                {
+                    "description": "Footprint R39",
+                    "pos": {
+                        "x": 109.0634,
+                        "y": 119.2326
+                    },
+                    "uuid": "de0783d9-e641-4aa4-bffd-d2be1929531b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C52/U7: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C52",
+                    "pos": {
+                        "x": 223.8056,
+                        "y": 146.244
+                    },
+                    "uuid": "82f52c3c-b0d3-4d79-9b3d-197f7aec302c"
+                },
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 213.5228,
+                        "y": 152.7897
+                    },
+                    "uuid": "90aa305c-0a02-47e6-bfa1-f6f54f7d1421"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R113/C74: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R113",
+                    "pos": {
+                        "x": 209.8288,
+                        "y": 80.2842
+                    },
+                    "uuid": "843115ba-a01b-4041-9c4b-988521c4396a"
+                },
+                {
+                    "description": "Footprint C74",
+                    "pos": {
+                        "x": 199.5116,
+                        "y": 78.5921
+                    },
+                    "uuid": "f4092ec3-fcd7-49bb-b989-8c1b3b817a08"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C17/R37: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C17",
+                    "pos": {
+                        "x": 101.9525,
+                        "y": 106.9236
+                    },
+                    "uuid": "85cc889f-4c61-47ee-835a-da14d211e812"
+                },
+                {
+                    "description": "Footprint R37",
+                    "pos": {
+                        "x": 99.9746,
+                        "y": 113.4667
+                    },
+                    "uuid": "9df96636-9862-4181-a01e-f97f6a289ad5"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C17/Q16: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C17",
+                    "pos": {
+                        "x": 101.9525,
+                        "y": 106.9236
+                    },
+                    "uuid": "85cc889f-4c61-47ee-835a-da14d211e812"
+                },
+                {
+                    "description": "Footprint Q16",
+                    "pos": {
+                        "x": 104.9573,
+                        "y": 98.9277
+                    },
+                    "uuid": "b08c850f-18b5-4ad6-9e91-0abc1d319007"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R84/C40: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R84",
+                    "pos": {
+                        "x": 243.4026,
+                        "y": 128.333
+                    },
+                    "uuid": "8a8e2e92-2788-4b83-9110-b30c5eb12e8f"
+                },
+                {
+                    "description": "Footprint C40",
+                    "pos": {
+                        "x": 240.905,
+                        "y": 128.9755
+                    },
+                    "uuid": "93827022-afa2-43b2-85fe-626351bce585"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R84/CN11: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R84",
+                    "pos": {
+                        "x": 243.4026,
+                        "y": 128.333
+                    },
+                    "uuid": "8a8e2e92-2788-4b83-9110-b30c5eb12e8f"
+                },
+                {
+                    "description": "Footprint CN11",
+                    "pos": {
+                        "x": 240.9139,
+                        "y": 123.9738
+                    },
+                    "uuid": "b0b07545-1809-402e-8bb9-391c109baa43"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R52/D8: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R52",
+                    "pos": {
+                        "x": 188.1173,
+                        "y": 68.6652
+                    },
+                    "uuid": "8df3a12a-fb23-4aa3-a564-7bf61dd69bec"
+                },
+                {
+                    "description": "Footprint D8",
+                    "pos": {
+                        "x": 189.4169,
+                        "y": 67.5236
+                    },
+                    "uuid": "d246fed2-9e37-45b8-97c1-1a22594a1626"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R52/R50: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R52",
+                    "pos": {
+                        "x": 188.1173,
+                        "y": 68.6652
+                    },
+                    "uuid": "8df3a12a-fb23-4aa3-a564-7bf61dd69bec"
+                },
+                {
+                    "description": "Footprint R50",
+                    "pos": {
+                        "x": 165.1862,
+                        "y": 68.664
+                    },
+                    "uuid": "d8f16395-d554-4bc4-a4cd-9a0e1a23ecc5"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C48/D10: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C48",
+                    "pos": {
+                        "x": 201.2948,
+                        "y": 58.4865
+                    },
+                    "uuid": "8e524d48-0058-47bb-9c95-6e0dcfb02aed"
+                },
+                {
+                    "description": "Footprint D10",
+                    "pos": {
+                        "x": 203.0249,
+                        "y": 58.5281
+                    },
+                    "uuid": "91f2640f-f06e-4348-a160-a37b7aea1381"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C48/D8: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C48",
+                    "pos": {
+                        "x": 201.2948,
+                        "y": 58.4865
+                    },
+                    "uuid": "8e524d48-0058-47bb-9c95-6e0dcfb02aed"
+                },
+                {
+                    "description": "Footprint D8",
+                    "pos": {
+                        "x": 189.4169,
+                        "y": 67.5236
+                    },
+                    "uuid": "d246fed2-9e37-45b8-97c1-1a22594a1626"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R105/R13: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R105",
+                    "pos": {
+                        "x": 88.473,
+                        "y": 113.9746
+                    },
+                    "uuid": "8f6d50d1-05a3-41d5-82bd-c7933ad1a179"
+                },
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 79.2779,
+                        "y": 115.5299
+                    },
+                    "uuid": "b16912fa-ff6a-463a-a3e5-d5d50e986496"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Q2/Q1: плотная расстановка как на заводской плате AP12708/6a (TO-92/контрольные точки/крепёж без контура корпуса на слое Fab); пересекаются зоны courtyard.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 80.1548,
+                        "y": 151.5809
+                    },
+                    "uuid": "8feb00bb-4d45-4faa-9af4-53c6c6cbf098"
+                },
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 80.1548,
+                        "y": 158.5854
+                    },
+                    "uuid": "cea17d00-cd55-4ec2-84c0-4eee43b5e839"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "D10/C12: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint D10",
+                    "pos": {
+                        "x": 203.0249,
+                        "y": 58.5281
+                    },
+                    "uuid": "91f2640f-f06e-4348-a160-a37b7aea1381"
+                },
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 205.9239,
+                        "y": 56.9387
+                    },
+                    "uuid": "ed2b22aa-3e1a-47ed-8618-725a015e9776"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "U6/R83: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 217.9686,
+                        "y": 118.1242
+                    },
+                    "uuid": "922a85e4-2aec-464c-83e3-0074278b96b2"
+                },
+                {
+                    "description": "Footprint R83",
+                    "pos": {
+                        "x": 227.9228,
+                        "y": 120.9374
+                    },
+                    "uuid": "ca03a29b-b678-4f2a-8260-68d39c751813"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C40/CN11: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C40",
+                    "pos": {
+                        "x": 240.905,
+                        "y": 128.9755
+                    },
+                    "uuid": "93827022-afa2-43b2-85fe-626351bce585"
+                },
+                {
+                    "description": "Footprint CN11",
+                    "pos": {
+                        "x": 240.9139,
+                        "y": 123.9738
+                    },
+                    "uuid": "b0b07545-1809-402e-8bb9-391c109baa43"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C15/R25: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 109.1085,
+                        "y": 77.575
+                    },
+                    "uuid": "96ec07d7-fb77-4576-884d-262f7a664e6c"
+                },
+                {
+                    "description": "Footprint R25",
+                    "pos": {
+                        "x": 110.5669,
+                        "y": 80.0725
+                    },
+                    "uuid": "dc5d73d1-33b7-48c7-9f2c-6e2dc464bc66"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C31/R97: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C31",
+                    "pos": {
+                        "x": 179.9606,
+                        "y": 136.6402
+                    },
+                    "uuid": "9a048744-8390-4178-9a15-1430d4f48a92"
+                },
+                {
+                    "description": "Footprint R97",
+                    "pos": {
+                        "x": 182.6568,
+                        "y": 139.1365
+                    },
+                    "uuid": "c9278431-4cea-4a27-bc2a-128a40402d2d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C42/R75: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C42",
+                    "pos": {
+                        "x": 241.1599,
+                        "y": 108.4497
+                    },
+                    "uuid": "9a730eb1-dd8c-433e-a362-ff7702c884f4"
+                },
+                {
+                    "description": "Footprint R75",
+                    "pos": {
+                        "x": 237.413,
+                        "y": 102.3557
+                    },
+                    "uuid": "bc3b6956-a1b9-47a0-85a7-4d4e7d699aff"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C42/C41: корпуса соприкасаются (≤0.07 мм), пересекаются только зоны courtyard; расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C42",
+                    "pos": {
+                        "x": 241.1599,
+                        "y": 108.4497
+                    },
+                    "uuid": "9a730eb1-dd8c-433e-a362-ff7702c884f4"
+                },
+                {
+                    "description": "Footprint C41",
+                    "pos": {
+                        "x": 242.4074,
+                        "y": 114.9018
+                    },
+                    "uuid": "cfc171cc-375c-442e-ac26-e754e776f051"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C28/R50: C28 — TDK B32560 шаг 7,5; корпуса не касаются, пересекаются только зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C28",
+                    "pos": {
+                        "x": 163.938,
+                        "y": 89.26
+                    },
+                    "uuid": "9e8ad555-f2cd-4b4f-b89c-05c014971e4c"
+                },
+                {
+                    "description": "Footprint R50",
+                    "pos": {
+                        "x": 165.1862,
+                        "y": 68.664
+                    },
+                    "uuid": "d8f16395-d554-4bc4-a4cd-9a0e1a23ecc5"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C70/R110: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C70",
+                    "pos": {
+                        "x": 99.7305,
+                        "y": 78.2326
+                    },
+                    "uuid": "a0672f25-6460-4fa4-b792-fc30dca2840b"
+                },
+                {
+                    "description": "Footprint R110",
+                    "pos": {
+                        "x": 96.6732,
+                        "y": 75.0781
+                    },
+                    "uuid": "dea8f5ee-29d7-494a-b7c3-2b9f651fe8f4"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C69/R110: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C69",
+                    "pos": {
+                        "x": 95.3313,
+                        "y": 77.4698
+                    },
+                    "uuid": "abc26167-f9c1-4474-8ea5-5de75c96bfed"
+                },
+                {
+                    "description": "Footprint R110",
+                    "pos": {
+                        "x": 96.6732,
+                        "y": 75.0781
+                    },
+                    "uuid": "dea8f5ee-29d7-494a-b7c3-2b9f651fe8f4"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C3/U1: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 86.9692,
+                        "y": 124.4893
+                    },
+                    "uuid": "adfeeede-3280-485b-85ed-c2f263aa2248"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 84.4759,
+                        "y": 118.2507
+                    },
+                    "uuid": "c7b8de20-5588-4826-85c3-3df126b45bc5"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R24/R106: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R24",
+                    "pos": {
+                        "x": 125.2846,
+                        "y": 75.5647
+                    },
+                    "uuid": "b3162802-4e26-4cf4-8704-b8ef1f54d17f"
+                },
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 125.2846,
+                        "y": 73.0678
+                    },
+                    "uuid": "cf0589a8-955d-419d-916a-f23f7ba60227"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C29/R57: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C29",
+                    "pos": {
+                        "x": 177.9256,
+                        "y": 102.7329
+                    },
+                    "uuid": "b90e8ac6-6e2f-435e-91f1-80ece8b5fdd2"
+                },
+                {
+                    "description": "Footprint R57",
+                    "pos": {
+                        "x": 187.4279,
+                        "y": 88.9699
+                    },
+                    "uuid": "fd8710f0-2572-4844-bc07-b3b8c5607777"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R53/C71: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R53",
+                    "pos": {
+                        "x": 82.9693,
+                        "y": 79.4808
+                    },
+                    "uuid": "b9ab73b9-3132-410d-9651-6ab38e7a6f0f"
+                },
+                {
+                    "description": "Footprint C71",
+                    "pos": {
+                        "x": 86.4619,
+                        "y": 78.4868
+                    },
+                    "uuid": "c4462c60-f1d7-46cf-997b-3bed9d0d98d3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C71/R110: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C71",
+                    "pos": {
+                        "x": 86.4619,
+                        "y": 78.4868
+                    },
+                    "uuid": "c4462c60-f1d7-46cf-997b-3bed9d0d98d3"
+                },
+                {
+                    "description": "Footprint R110",
+                    "pos": {
+                        "x": 96.6732,
+                        "y": 75.0781
+                    },
+                    "uuid": "dea8f5ee-29d7-494a-b7c3-2b9f651fe8f4"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C71/R108: корпуса не касаются, пересекаются только технологические зоны courtyard (запас 0,25 мм); расстановка как на заводской плате AP12708/6a.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C71",
+                    "pos": {
+                        "x": 86.4619,
+                        "y": 78.4868
+                    },
+                    "uuid": "c4462c60-f1d7-46cf-997b-3bed9d0d98d3"
+                },
+                {
+                    "description": "Footprint R108",
+                    "pos": {
+                        "x": 96.8743,
+                        "y": 80.0725
+                    },
+                    "uuid": "fd8386a6-43d2-483a-8648-3a259d243703"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "C24/R45: C24 — TDK B32560 шаг 7,5; корпус C24 отодвинут от площадки R45, пересекаются только зоны courtyard (2026-09-28).",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C24",
+                    "pos": {
+                        "x": 136.0456,
+                        "y": 88.5
+                    },
+                    "uuid": "cd771d36-2047-4424-9320-e131d2fe7f44"
+                },
+                {
+                    "description": "Footprint R45",
+                    "pos": {
+                        "x": 137.95,
+                        "y": 76.7382
+                    },
+                    "uuid": "ed14519f-213e-4b57-b078-f9dbb223caef"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "R44/R45: R44** — проволочный 3 Вт Vishay AC03 (Ø4,8 мм); с R45 (Ø2,5) корпуса перекрылись бы на ~0,26 мм. R44 (и R50 для симметрии) ставить на выводах с зазором 3 мм над платой — над R45. Родной проволочный резистор со старой платы встаёт без зазора.",
+            "description": "Courtyards overlap",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint R44",
+                    "pos": {
+                        "x": 134.5632,
+                        "y": 66.5686
+                    },
+                    "uuid": "e4ec226d-c175-4b89-a875-d20354cf1c85"
+                },
+                {
+                    "description": "Footprint R45",
+                    "pos": {
+                        "x": 137.95,
+                        "y": 76.7382
+                    },
+                    "uuid": "ed14519f-213e-4b57-b078-f9dbb223caef"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "comment": "Принято пользователем 07.11.2026: Segment of U4 on F.Silkscreen / Reference field of R121",
+            "description": "Silkscreen clearance",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Segment of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 186.7067,
+                        "y": 55.948
+                    },
+                    "uuid": "1c186322-9c33-4aa8-ba8a-24d286d5b6ea"
+                },
+                {
+                    "description": "Reference field of R121",
+                    "pos": {
+                        "x": 186.75,
+                        "y": 53.75
+                    },
+                    "uuid": "25c6f241-e15b-48ff-b864-4c85e1bd8311"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "comment": "Принято пользователем 07.11.2026: Segment of R50 on F.Silkscreen / Reference field of R112",
+            "description": "Silkscreen clearance",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Segment of R50 on F.Silkscreen",
+                    "pos": {
+                        "x": 167.8062,
+                        "y": 70.7393
+                    },
+                    "uuid": "2ef26aaf-ff21-40eb-89d0-af833844c4ba"
+                },
+                {
+                    "description": "Reference field of R112",
+                    "pos": {
+                        "x": 169.0,
+                        "y": 76.0
+                    },
+                    "uuid": "ffbe5e3a-9bbf-4c6a-85cd-b8b299338fc2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "comment": "Принято пользователем 07.11.2026: Segment of C78 on F.Silkscreen / Reference field of R65",
+            "description": "Silkscreen clearance",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Segment of C78 on F.Silkscreen",
+                    "pos": {
+                        "x": 212.2815,
+                        "y": 84.0984
+                    },
+                    "uuid": "0c422d58-a6aa-4545-ab08-f798628094c2"
+                },
+                {
+                    "description": "Reference field of R65",
+                    "pos": {
+                        "x": 214.25,
+                        "y": 83.5
+                    },
+                    "uuid": "ffb73509-49bf-4c3c-b536-999960ec3416"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "comment": "Принято пользователем 07.11.2026: Reference field of R25 / Arc of Q18 on F.Silkscreen",
+            "description": "Silkscreen clearance",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 106.5,
+                        "y": 84.75
+                    },
+                    "uuid": "6db863c5-fb73-45de-a5a6-b9c715d6703c"
+                },
+                {
+                    "description": "Arc of Q18 on F.Silkscreen",
+                    "pos": {
+                        "x": 102.9685,
+                        "y": 86.4635
+                    },
+                    "uuid": "85b81d43-c86f-4b4d-b86d-59727ba073fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
