@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.6"
+      "Version": "10.0.7+dfsg-1"
     },
-    "CreationDate": "2026-10-03T10:32:28+03:00"
+    "CreationDate": "2026-11-07T09:43:27+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -61,8 +61,23 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "640A_PowerAmp-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "640A_PowerAmp-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "640A_PowerAmp-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "640A_PowerAmp-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {

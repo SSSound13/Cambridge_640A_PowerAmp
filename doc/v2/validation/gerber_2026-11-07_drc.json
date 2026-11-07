@@ -1,0 +1,578 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T09:44:05",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint doesn't match copy in library",
+            "key": "lib_footprint_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "640A_PowerAmp.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 186.7067,
+                        "y": 55.948
+                    },
+                    "uuid": "1c186322-9c33-4aa8-ba8a-24d286d5b6ea"
+                },
+                {
+                    "description": "Reference field of R121",
+                    "pos": {
+                        "x": 186.75,
+                        "y": 53.75
+                    },
+                    "uuid": "25c6f241-e15b-48ff-b864-4c85e1bd8311"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R50 on F.Silkscreen",
+                    "pos": {
+                        "x": 167.8062,
+                        "y": 70.7393
+                    },
+                    "uuid": "2ef26aaf-ff21-40eb-89d0-af833844c4ba"
+                },
+                {
+                    "description": "Reference field of R112",
+                    "pos": {
+                        "x": 169.0,
+                        "y": 76.0
+                    },
+                    "uuid": "ffbe5e3a-9bbf-4c6a-85cd-b8b299338fc2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C78 on F.Silkscreen",
+                    "pos": {
+                        "x": 212.2815,
+                        "y": 84.0984
+                    },
+                    "uuid": "0c422d58-a6aa-4545-ab08-f798628094c2"
+                },
+                {
+                    "description": "Reference field of R65",
+                    "pos": {
+                        "x": 214.25,
+                        "y": 83.5
+                    },
+                    "uuid": "ffb73509-49bf-4c3c-b536-999960ec3416"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 106.5,
+                        "y": 84.75
+                    },
+                    "uuid": "6db863c5-fb73-45de-a5a6-b9c715d6703c"
+                },
+                {
+                    "description": "Arc of Q18 on F.Silkscreen",
+                    "pos": {
+                        "x": 102.9685,
+                        "y": 86.4635
+                    },
+                    "uuid": "85b81d43-c86f-4b4d-b86d-59727ba073fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.1666,
+                        "y": 118.2503
+                    },
+                    "uuid": "89376d67-fb44-48a6-8594-8301e246de33"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.2106,
+                        "y": 118.2103
+                    },
+                    "uuid": "e7fd868f-d31a-4e2f-8edf-23d2c12a0171"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Circle of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.7756,
+                        "y": 114.4503
+                    },
+                    "uuid": "63548fbe-a0f4-4013-a09c-c13af764b669"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.2536,
+                        "y": 118.1703
+                    },
+                    "uuid": "bf3ed05c-b6fa-4ded-883b-39d876862389"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.2956,
+                        "y": 118.1303
+                    },
+                    "uuid": "673e8b01-a844-4aaf-bd31-1a100fef58e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.3366,
+                        "y": 118.0903
+                    },
+                    "uuid": "b01f3e45-4ad7-4ed3-af8f-cc683b4d4268"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.3766,
+                        "y": 118.0503
+                    },
+                    "uuid": "65cd22ba-4fab-4514-8c95-afc15c078e76"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.4156,
+                        "y": 118.0103
+                    },
+                    "uuid": "a69016ce-32fe-48d0-b921-db6019f3d037"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.4536,
+                        "y": 117.9703
+                    },
+                    "uuid": "90dac583-d334-4a81-981b-bf49115e8068"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.4916,
+                        "y": 117.9303
+                    },
+                    "uuid": "8bb92c01-90b7-447e-a72b-589e3b6b5411"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.5276,
+                        "y": 117.8903
+                    },
+                    "uuid": "e884f884-977a-440a-8138-5570f26d88b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.5636,
+                        "y": 117.8503
+                    },
+                    "uuid": "175df4dd-5343-4cd8-bb48-a67b60dd75d0"
+                },
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.5986,
+                        "y": 117.8103
+                    },
+                    "uuid": "a69c9f45-bbe8-4453-9203-16e716fc0d39"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.6336,
+                        "y": 117.7703
+                    },
+                    "uuid": "9e6c56ad-d8f1-46c9-80f0-dfb995e91821"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.6666,
+                        "y": 117.7303
+                    },
+                    "uuid": "208ea487-0c45-4c4e-a64a-687c5e7f0e29"
+                },
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.6996,
+                        "y": 117.6903
+                    },
+                    "uuid": "dbea8cc4-5ff3-4d4c-a380-c0b0741a7ee2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.7326,
+                        "y": 117.6503
+                    },
+                    "uuid": "e4d3f2e6-1dec-4d93-aeff-29ef0b4cbcbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.7636,
+                        "y": 117.6103
+                    },
+                    "uuid": "8d555687-f970-4ada-97ad-c2759a7e7a21"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 64.5,
+                        "y": 118.25
+                    },
+                    "uuid": "4e551970-9534-4414-9883-006932240d0b"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 63.7956,
+                        "y": 117.5703
+                    },
+                    "uuid": "efca4e76-55d8-43ef-aab7-f6484d3e88d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
