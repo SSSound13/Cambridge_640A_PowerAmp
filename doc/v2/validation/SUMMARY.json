@@ -1,7 +1,7 @@
 {
   "status": "V2_UNDER_VERIFICATION",
   "KiCad": "10.0.7",
-  "PCB_SHA256": "afbb1f3e352790437b41c24e7ed26685754e641f314f9be500790ae9bb533d88",
+  "PCB_SHA256": "6fa50d8fba04d5a24a0f95fd23892cc0ee665c719e176e5d658fea1c7677dd55",
   "ERC_violations": 0,
   "DRC_nonexcluded_violations": 0,
   "unconnected": 0,
@@ -37,16 +37,30 @@
     "R39 over C18"
   ],
   "QR": {
-    "layer": "B.SilkS",
-    "size_mm": 16.4,
-    "module_mm": 0.4,
-    "quiet_mm": 1.6,
+    "layer": "F.SilkS",
+    "size_mm": 12.3,
+    "module_mm": 0.3,
+    "quiet_mm": 1.2,
     "error_correction": "M",
     "exact_URL": "https://github.com/SSSound13/Cambridge_640A_PowerAmp",
-    "minimum_mask_bbox_clearance_mm": 0.3449,
+    "minimum_mask_bbox_clearance_mm": 2.1311,
     "URL_mask_bbox_clearance_mm": 0.3664,
     "native_plot_decode_200_300_600_dpi": true,
-    "requires_white_silk_dark_mask": true
+    "requires_white_silk_dark_mask": true,
+    "outer_bbox_mm": [
+      234.5,
+      72,
+      246.8,
+      84.3
+    ],
+    "minimum_existing_silk_bbox_clearance_mm": 0.4933,
+    "minimum_component_courtyard_bbox_clearance_mm": 1.6543,
+    "right_edge_clearance_mm": 2.1259,
+    "native_plot_decode_1200_dpi": true,
+    "full_URL_remains_on_B_SilkS": true,
+    "assumed_H2_washer_diameter_mm": 6,
+    "assumed_H2_washer_clearance_mm": 0.6311,
+    "physical_H2_hardware_and_assembled_visibility_verified": false
   },
   "fabrication_Gerber_not_created": true,
   "information_will_be_updated_after_verification": true,

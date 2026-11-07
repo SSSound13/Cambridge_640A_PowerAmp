@@ -1,0 +1,31 @@
+{
+  "source": "Native KiCad 10.0.7 F.SilkS with soldermask subtracted; physical white ink / dark mask polarity",
+  "results": {
+    "native_1200dpi": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ],
+    "downsampled_600dpi": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ],
+    "downsampled_300dpi": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ],
+    "downsampled_200dpi": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ],
+    "blur_sigma_1_1200dpi": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ],
+    "blur_sigma_2_1200dpi": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ],
+    "blur_sigma_3_1200dpi": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ],
+    "published_positive_polarity_preview": [
+      "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
+    ]
+  },
+  "physical_print_tested": false,
+  "inside_assembled_amplifier_visibility_verified": false
+}

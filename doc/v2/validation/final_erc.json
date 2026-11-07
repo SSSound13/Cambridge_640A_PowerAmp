@@ -1,65 +1,65 @@
 {
-  "$schema": "https://schemas.kicad.org/erc.v1.json",
-  "coordinate_units": "mm",
-  "date": "2026-11-06T20:55:55",
-  "ignored_checks": [
-    {
-      "description": "Input Power pin not driven by any Output Power pins",
-      "key": "power_pin_not_driven"
-    },
-    {
-      "description": "Global label only appears once in the schematic",
-      "key": "single_global_label"
-    },
-    {
-      "description": "Four connection points are joined together",
-      "key": "four_way_junction"
-    },
-    {
-      "description": "SPICE model issue",
-      "key": "simulation_model_issue"
-    },
-    {
-      "description": "Symbol doesn't match copy in library",
-      "key": "lib_symbol_mismatch"
-    },
-    {
-      "description": "Assigned footprint doesn't match footprint filters",
-      "key": "footprint_filter"
-    }
-  ],
-  "included_severities": [
-    "error",
-    "warning",
-    "exclusion"
-  ],
-  "kicad_version": "10.0.7",
-  "sheets": [
-    {
-      "path": "/",
-      "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da",
-      "violations": []
-    },
-    {
-      "path": "/Power Supply/",
-      "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/8c4ea856-eae2-4aea-bfe7-2cfb93153448",
-      "violations": []
-    },
-    {
-      "path": "/Protection/",
-      "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/bd3a6e54-4925-4687-9221-c05a4a966727",
-      "violations": []
-    },
-    {
-      "path": "/Left Channel/",
-      "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/77d1db1b-1bca-435d-95f0-6472fae9a8be",
-      "violations": []
-    },
-    {
-      "path": "/Right Channel/",
-      "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/28233c03-83f5-4c25-876e-7529369fa39f",
-      "violations": []
-    }
-  ],
-  "source": "640A_PowerAmp.kicad_sch"
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T08:01:00",
+    "ignored_checks": [
+        {
+            "description": "Input Power pin not driven by any Output Power pins",
+            "key": "power_pin_not_driven"
+        },
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Symbol doesn't match copy in library",
+            "key": "lib_symbol_mismatch"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da",
+            "violations": []
+        },
+        {
+            "path": "/Power Supply/",
+            "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/8c4ea856-eae2-4aea-bfe7-2cfb93153448",
+            "violations": []
+        },
+        {
+            "path": "/Protection/",
+            "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/bd3a6e54-4925-4687-9221-c05a4a966727",
+            "violations": []
+        },
+        {
+            "path": "/Left Channel/",
+            "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/77d1db1b-1bca-435d-95f0-6472fae9a8be",
+            "violations": []
+        },
+        {
+            "path": "/Right Channel/",
+            "uuid_path": "/bf0c143f-be7b-4486-a80d-d973592699da/28233c03-83f5-4c25-876e-7529369fa39f",
+            "violations": []
+        }
+    ],
+    "source": "640A_PowerAmp.kicad_sch"
 }
