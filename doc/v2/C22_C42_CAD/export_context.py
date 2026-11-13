@@ -253,5 +253,5 @@ with ZipFile(OUT / "C22_C42_SolidWorks_reference.zip", "w", ZIP_DEFLATED,
              compresslevel=9) as archive:
     for filename in ("README.md", "C22_SolidWorks_context.step",
                      "C22_SolidWorks_top_view.dxf", "C42_SolidWorks_context.step",
-                     "C42_SolidWorks_top_view.dxf"):
+                     "C42_SolidWorks_top_view.dxf", "C22_C42_mobile_render.png"):
         archive.write(OUT / filename, arcname=filename)
