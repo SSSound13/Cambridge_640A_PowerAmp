@@ -1,0 +1,2915 @@
+{
+  "size_mm": 1,
+  "stroke_mm": 0.15,
+  "line_pitch_mm": 1.5,
+  "labels": [
+    {
+      "ref": "R123",
+      "angle": 0,
+      "xy": [
+        148.5,
+        156.0
+      ],
+      "group": [
+        "R123",
+        "R122"
+      ]
+    },
+    {
+      "ref": "R122",
+      "angle": 0,
+      "xy": [
+        148.5,
+        157.5
+      ],
+      "group": [
+        "R123",
+        "R122"
+      ]
+    },
+    {
+      "ref": "R88",
+      "angle": 0,
+      "xy": [
+        227.75,
+        139.25
+      ],
+      "group": [
+        "R88",
+        "R87"
+      ]
+    },
+    {
+      "ref": "R87",
+      "angle": 0,
+      "xy": [
+        227.75,
+        140.75
+      ],
+      "group": [
+        "R88",
+        "R87"
+      ]
+    },
+    {
+      "ref": "R106",
+      "angle": 0,
+      "xy": [
+        112.0,
+        73.5
+      ],
+      "group": [
+        "R106",
+        "R24"
+      ]
+    },
+    {
+      "ref": "R24",
+      "angle": 0,
+      "xy": [
+        112.0,
+        75.0
+      ],
+      "group": [
+        "R106",
+        "R24"
+      ]
+    },
+    {
+      "ref": "R120",
+      "angle": 0,
+      "xy": [
+        85.0,
+        57.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R121",
+      "angle": 0,
+      "xy": [
+        183.9558,
+        57.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C13",
+      "angle": 0,
+      "xy": [
+        91.5,
+        64.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C47",
+      "angle": 0,
+      "xy": [
+        190.4558,
+        64.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q13",
+      "angle": 0,
+      "xy": [
+        83.0,
+        78.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q23",
+      "angle": 0,
+      "xy": [
+        181.9558,
+        78.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C46",
+      "angle": 0,
+      "xy": [
+        104.0,
+        61.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C48",
+      "angle": 0,
+      "xy": [
+        202.9558,
+        61.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q14",
+      "angle": 0,
+      "xy": [
+        111.25,
+        83.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q31",
+      "angle": 0,
+      "xy": [
+        210.2058,
+        83.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C77",
+      "angle": 0,
+      "xy": [
+        104.5,
+        71.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C78",
+      "angle": 0,
+      "xy": [
+        203.4558,
+        71.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R16",
+      "angle": 0,
+      "xy": [
+        87.5,
+        96.5
+      ],
+      "group": [
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "ref": "R57",
+      "angle": 0,
+      "xy": [
+        186.4558,
+        96.5
+      ],
+      "group": [
+        "R57",
+        "R56"
+      ]
+    },
+    {
+      "ref": "U3",
+      "angle": 0,
+      "xy": [
+        117.92,
+        58.64
+      ],
+      "group": null
+    },
+    {
+      "ref": "U5",
+      "angle": 0,
+      "xy": [
+        216.8758,
+        58.64
+      ],
+      "group": null
+    },
+    {
+      "ref": "U2",
+      "angle": 0,
+      "xy": [
+        79.93,
+        58.64
+      ],
+      "group": null
+    },
+    {
+      "ref": "U4",
+      "angle": 0,
+      "xy": [
+        178.8858,
+        58.64
+      ],
+      "group": null
+    },
+    {
+      "ref": "C9",
+      "angle": 0,
+      "xy": [
+        122.25,
+        95.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C50",
+      "angle": 0,
+      "xy": [
+        221.2058,
+        95.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R19",
+      "angle": 0,
+      "xy": [
+        82.5,
+        84.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R54",
+      "angle": 0,
+      "xy": [
+        181.4558,
+        84.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D2",
+      "angle": 0,
+      "xy": [
+        70.5,
+        81.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D8",
+      "angle": 0,
+      "xy": [
+        169.4558,
+        81.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D4",
+      "angle": 0,
+      "xy": [
+        88.75,
+        66.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D10",
+      "angle": 0,
+      "xy": [
+        187.7058,
+        66.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R116",
+      "angle": 0,
+      "xy": [
+        103.74,
+        51.36
+      ],
+      "group": null
+    },
+    {
+      "ref": "R68",
+      "angle": 0,
+      "xy": [
+        202.6958,
+        51.36
+      ],
+      "group": null
+    },
+    {
+      "ref": "R21",
+      "angle": 0,
+      "xy": [
+        80.25,
+        81.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R51",
+      "angle": 0,
+      "xy": [
+        179.2058,
+        81.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R18",
+      "angle": 90,
+      "xy": [
+        82.5,
+        89.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R55",
+      "angle": 90,
+      "xy": [
+        181.4558,
+        89.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q18",
+      "angle": 0,
+      "xy": [
+        97.5,
+        101.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q32",
+      "angle": 0,
+      "xy": [
+        196.4558,
+        101.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q12",
+      "angle": 0,
+      "xy": [
+        69.0,
+        87.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q25",
+      "angle": 0,
+      "xy": [
+        167.9558,
+        87.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q11",
+      "angle": 90,
+      "xy": [
+        88.25,
+        100.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q24",
+      "angle": 90,
+      "xy": [
+        187.2058,
+        100.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R17",
+      "angle": 0,
+      "xy": [
+        87.5,
+        98.0
+      ],
+      "group": [
+        "R16",
+        "R17"
+      ]
+    },
+    {
+      "ref": "R56",
+      "angle": 0,
+      "xy": [
+        186.4558,
+        98.0
+      ],
+      "group": [
+        "R57",
+        "R56"
+      ]
+    },
+    {
+      "ref": "C70",
+      "angle": 0,
+      "xy": [
+        113.0,
+        78.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C74",
+      "angle": 0,
+      "xy": [
+        211.9558,
+        78.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C71",
+      "angle": 0,
+      "xy": [
+        91.5,
+        73.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C75",
+      "angle": 0,
+      "xy": [
+        190.4558,
+        73.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "TP2",
+      "angle": 0,
+      "xy": [
+        87.0,
+        63.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "TP5",
+      "angle": 0,
+      "xy": [
+        185.9558,
+        63.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q35",
+      "angle": 90,
+      "xy": [
+        89.0,
+        78.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q36",
+      "angle": 90,
+      "xy": [
+        187.9558,
+        78.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q19",
+      "angle": 0,
+      "xy": [
+        119.5,
+        82.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q22",
+      "angle": 0,
+      "xy": [
+        218.4558,
+        82.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R110",
+      "angle": 90,
+      "xy": [
+        89.75,
+        83.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R118",
+      "angle": 90,
+      "xy": [
+        188.7058,
+        83.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C69",
+      "angle": 0,
+      "xy": [
+        98.25,
+        90.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C73",
+      "angle": 0,
+      "xy": [
+        197.2058,
+        90.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R108",
+      "angle": 90,
+      "xy": [
+        89.0,
+        89.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R66",
+      "angle": 90,
+      "xy": [
+        187.9558,
+        89.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R109",
+      "angle": 0,
+      "xy": [
+        97.75,
+        84.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R117",
+      "angle": 0,
+      "xy": [
+        196.7058,
+        84.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C15",
+      "angle": 0,
+      "xy": [
+        98.0,
+        88.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C72",
+      "angle": 0,
+      "xy": [
+        196.9558,
+        88.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R25",
+      "angle": 0,
+      "xy": [
+        98.25,
+        94.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R113",
+      "angle": 0,
+      "xy": [
+        197.2058,
+        94.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R53",
+      "angle": 0,
+      "xy": [
+        108.5,
+        66.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R67",
+      "angle": 0,
+      "xy": [
+        207.4558,
+        66.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R102",
+      "angle": 0,
+      "xy": [
+        101.0,
+        73.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R65",
+      "angle": 0,
+      "xy": [
+        199.9558,
+        73.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C18",
+      "angle": 0,
+      "xy": [
+        102.75,
+        127.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C38",
+      "angle": 0,
+      "xy": [
+        225.25,
+        129.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C7",
+      "angle": 0,
+      "xy": [
+        59.75,
+        120.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q21",
+      "angle": 0,
+      "xy": [
+        154.5,
+        79.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R14",
+      "angle": 0,
+      "xy": [
+        56.75,
+        107.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R47",
+      "angle": 0,
+      "xy": [
+        148.5,
+        85.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C54",
+      "angle": 0,
+      "xy": [
+        231.25,
+        178.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C67",
+      "angle": 0,
+      "xy": [
+        151.0,
+        165.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R43",
+      "angle": 0,
+      "xy": [
+        128.5,
+        99.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C25",
+      "angle": 0,
+      "xy": [
+        130.4496,
+        113.2219
+      ],
+      "group": null
+    },
+    {
+      "ref": "H2",
+      "angle": 0,
+      "xy": [
+        239.0,
+        71.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R30",
+      "angle": 0,
+      "xy": [
+        96.75,
+        103.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R29",
+      "angle": 0,
+      "xy": [
+        108.5,
+        104.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C55",
+      "angle": 0,
+      "xy": [
+        219.5,
+        177.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C5",
+      "angle": 0,
+      "xy": [
+        69.0,
+        126.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C68",
+      "angle": 0,
+      "xy": [
+        154.5,
+        175.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C23",
+      "angle": 0,
+      "xy": [
+        108.5,
+        108.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R95",
+      "angle": 0,
+      "xy": [
+        206.75,
+        129.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "J4",
+      "angle": 0,
+      "xy": [
+        167.25,
+        135.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN5",
+      "angle": 0,
+      "xy": [
+        115.75,
+        175.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "D1",
+      "angle": 0,
+      "xy": [
+        58.75,
+        93.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R80",
+      "angle": 0,
+      "xy": [
+        230.5,
+        107.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C16",
+      "angle": 0,
+      "xy": [
+        108.0,
+        106.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q10",
+      "angle": 0,
+      "xy": [
+        68.9036,
+        101.8528
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q6",
+      "angle": 0,
+      "xy": [
+        95.5,
+        165.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D16",
+      "angle": 0,
+      "xy": [
+        235.25,
+        178.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C66",
+      "angle": 0,
+      "xy": [
+        128.5,
+        94.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q9",
+      "angle": 0,
+      "xy": [
+        73.0,
+        110.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R15",
+      "angle": 0,
+      "xy": [
+        63.25,
+        101.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R90",
+      "angle": 0,
+      "xy": [
+        217.5,
+        159.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C6",
+      "angle": 0,
+      "xy": [
+        65.5,
+        120.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C21",
+      "angle": 0,
+      "xy": [
+        119.5,
+        136.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C2",
+      "angle": 0,
+      "xy": [
+        90.0,
+        133.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "H9",
+      "angle": 0,
+      "xy": [
+        68.0,
+        110.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C30",
+      "angle": 0,
+      "xy": [
+        189.0,
+        127.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "TP3",
+      "angle": 0,
+      "xy": [
+        62.0,
+        70.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C1",
+      "angle": 0,
+      "xy": [
+        91.5,
+        174.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q29",
+      "angle": 0,
+      "xy": [
+        211.461,
+        108.5942
+      ],
+      "group": null
+    },
+    {
+      "ref": "C22",
+      "angle": 0,
+      "xy": [
+        106.5,
+        115.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "D28",
+      "angle": 0,
+      "xy": [
+        120.25,
+        167.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R35",
+      "angle": 0,
+      "xy": [
+        93.25,
+        124.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "H10",
+      "angle": 0,
+      "xy": [
+        240.5,
+        142.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R11",
+      "angle": 0,
+      "xy": [
+        73.0,
+        144.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R77",
+      "angle": 0,
+      "xy": [
+        235.5,
+        121.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R91",
+      "angle": 0,
+      "xy": [
+        209.0,
+        164.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C53",
+      "angle": 0,
+      "xy": [
+        230.0,
+        163.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "H5",
+      "angle": 0,
+      "xy": [
+        58.0,
+        71.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "H8",
+      "angle": 0,
+      "xy": [
+        199.0,
+        161.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C61",
+      "angle": 0,
+      "xy": [
+        135.5,
+        175.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C20",
+      "angle": 0,
+      "xy": [
+        118.25,
+        141.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C4",
+      "angle": 0,
+      "xy": [
+        74.0,
+        130.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R89",
+      "angle": 0,
+      "xy": [
+        227.0,
+        153.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R3",
+      "angle": 0,
+      "xy": [
+        90.25,
+        156.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C35",
+      "angle": 0,
+      "xy": [
+        199.5039,
+        116.7351
+      ],
+      "group": null
+    },
+    {
+      "ref": "TP6",
+      "angle": 0,
+      "xy": [
+        161.0,
+        70.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "U10",
+      "angle": 0,
+      "xy": [
+        175.7939,
+        170.3958
+      ],
+      "group": null
+    },
+    {
+      "ref": "R107",
+      "angle": 0,
+      "xy": [
+        81.5,
+        73.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R5",
+      "angle": 0,
+      "xy": [
+        103.5,
+        171.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R7",
+      "angle": 0,
+      "xy": [
+        92.75,
+        157.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "H3",
+      "angle": 0,
+      "xy": [
+        157.0,
+        71.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C80",
+      "angle": 0,
+      "xy": [
+        141.75,
+        158.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R74",
+      "angle": 0,
+      "xy": [
+        230.25,
+        94.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R58",
+      "angle": 0,
+      "xy": [
+        191.25,
+        103.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN24",
+      "angle": 0,
+      "xy": [
+        151.5,
+        98.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R82",
+      "angle": 0,
+      "xy": [
+        224.5,
+        119.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D17",
+      "angle": 0,
+      "xy": [
+        162.0,
+        151.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R49",
+      "angle": 0,
+      "xy": [
+        160.5,
+        88.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q3",
+      "angle": 0,
+      "xy": [
+        95.5,
+        156.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R60",
+      "angle": 0,
+      "xy": [
+        198.25,
+        112.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C37",
+      "angle": 0,
+      "xy": [
+        216.25,
+        135.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN2",
+      "angle": 0,
+      "xy": [
+        96.75,
+        133.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C26",
+      "angle": 0,
+      "xy": [
+        160.5851,
+        96.4925
+      ],
+      "group": null
+    },
+    {
+      "ref": "R41",
+      "angle": 0,
+      "xy": [
+        105.5,
+        137.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R12",
+      "angle": 0,
+      "xy": [
+        64.25,
+        122.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D27",
+      "angle": 0,
+      "xy": [
+        120.25,
+        164.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D31",
+      "angle": 0,
+      "xy": [
+        125.5,
+        174.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q8",
+      "angle": 0,
+      "xy": [
+        80.917,
+        100.7528
+      ],
+      "group": null
+    },
+    {
+      "ref": "R64",
+      "angle": 0,
+      "xy": [
+        209.0,
+        96.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R98",
+      "angle": 0,
+      "xy": [
+        188.0,
+        112.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R2",
+      "angle": 0,
+      "xy": [
+        87.75,
+        168.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "D24",
+      "angle": 0,
+      "xy": [
+        120.25,
+        156.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R27",
+      "angle": 0,
+      "xy": [
+        108.75,
+        89.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R8",
+      "angle": 0,
+      "xy": [
+        90.25,
+        145.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C32",
+      "angle": 0,
+      "xy": [
+        188.0,
+        143.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D12",
+      "angle": 0,
+      "xy": [
+        206.5,
+        151.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R22",
+      "angle": 0,
+      "xy": [
+        79.0,
+        64.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R72",
+      "angle": 0,
+      "xy": [
+        245.7229,
+        89.728
+      ],
+      "group": null
+    },
+    {
+      "ref": "D13",
+      "angle": 0,
+      "xy": [
+        233.75,
+        158.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "D20",
+      "angle": 0,
+      "xy": [
+        131.0,
+        151.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q15",
+      "angle": 0,
+      "xy": [
+        101.0,
+        99.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R69",
+      "angle": 0,
+      "xy": [
+        217.25,
+        64.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C39",
+      "angle": 0,
+      "xy": [
+        234.25,
+        139.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R94",
+      "angle": 0,
+      "xy": [
+        206.75,
+        146.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R23",
+      "angle": 0,
+      "xy": [
+        65.25,
+        76.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D22",
+      "angle": 0,
+      "xy": [
+        120.25,
+        151.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "TP1",
+      "angle": 0,
+      "xy": [
+        127.75,
+        54.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C63",
+      "angle": 0,
+      "xy": [
+        158.5,
+        136.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R115",
+      "angle": 90,
+      "xy": [
+        169.75,
+        71.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R96",
+      "angle": 0,
+      "xy": [
+        188.5,
+        137.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R59",
+      "angle": 0,
+      "xy": [
+        197.75,
+        109.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R93",
+      "angle": 0,
+      "xy": [
+        202.75,
+        154.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C19",
+      "angle": 0,
+      "xy": [
+        110.5,
+        132.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R81",
+      "angle": 0,
+      "xy": [
+        224.0,
+        101.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "TP4",
+      "angle": 0,
+      "xy": [
+        226.75,
+        54.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q30",
+      "angle": 0,
+      "xy": [
+        225.5,
+        97.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R31",
+      "angle": 0,
+      "xy": [
+        96.75,
+        106.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D26",
+      "angle": 0,
+      "xy": [
+        120.25,
+        162.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R79",
+      "angle": 0,
+      "xy": [
+        233.75,
+        110.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D7",
+      "angle": 0,
+      "xy": [
+        143.5,
+        74.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q26",
+      "angle": 0,
+      "xy": [
+        202.9398,
+        101.8528
+      ],
+      "group": null
+    },
+    {
+      "ref": "D29",
+      "angle": 0,
+      "xy": [
+        106.75,
+        167.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q28",
+      "angle": 0,
+      "xy": [
+        215.5,
+        100.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R42",
+      "angle": 0,
+      "xy": [
+        106.25,
+        113.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D25",
+      "angle": 0,
+      "xy": [
+        120.25,
+        159.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C52",
+      "angle": 0,
+      "xy": [
+        223.75,
+        143.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C33",
+      "angle": 0,
+      "xy": [
+        194.5,
+        127.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C56",
+      "angle": 0,
+      "xy": [
+        204.25,
+        166.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C17",
+      "angle": 0,
+      "xy": [
+        102.5,
+        114.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R86",
+      "angle": 0,
+      "xy": [
+        238.0,
+        155.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R119",
+      "angle": 0,
+      "xy": [
+        111.75,
+        57.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C76",
+      "angle": 0,
+      "xy": [
+        231.0,
+        117.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R84",
+      "angle": 0,
+      "xy": [
+        244.0,
+        138.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "U8",
+      "angle": 0,
+      "xy": [
+        199.0,
+        174.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R52",
+      "angle": 0,
+      "xy": [
+        178.25,
+        64.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R105",
+      "angle": 0,
+      "xy": [
+        84.75,
+        116.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C11",
+      "angle": 0,
+      "xy": [
+        64.75,
+        57.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R4",
+      "angle": 0,
+      "xy": [
+        94.75,
+        168.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q2",
+      "angle": 0,
+      "xy": [
+        79.75,
+        144.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "U7",
+      "angle": 0,
+      "xy": [
+        217.25,
+        143.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "U6",
+      "angle": 0,
+      "xy": [
+        214.25,
+        116.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R101",
+      "angle": 0,
+      "xy": [
+        206.75,
+        52.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C40",
+      "angle": 0,
+      "xy": [
+        246.75,
+        131.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R99",
+      "angle": 0,
+      "xy": [
+        128.0,
+        79.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C79",
+      "angle": 0,
+      "xy": [
+        154.0,
+        160.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C58",
+      "angle": 0,
+      "xy": [
+        166.5,
+        178.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "D19",
+      "angle": 0,
+      "xy": [
+        131.0,
+        144.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D23",
+      "angle": 0,
+      "xy": [
+        120.25,
+        154.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "D30",
+      "angle": 0,
+      "xy": [
+        106.75,
+        144.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R48",
+      "angle": 0,
+      "xy": [
+        151.0,
+        71.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C60",
+      "angle": 0,
+      "xy": [
+        135.5,
+        162.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R104",
+      "angle": 0,
+      "xy": [
+        88.25,
+        112.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C31",
+      "angle": 0,
+      "xy": [
+        183.25,
+        136.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C42",
+      "angle": 0,
+      "xy": [
+        246.25,
+        109.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q5",
+      "angle": 0,
+      "xy": [
+        99.5,
+        165.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R114",
+      "angle": 0,
+      "xy": [
+        230.5,
+        76.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q7",
+      "angle": 0,
+      "xy": [
+        84.586,
+        108.5942
+      ],
+      "group": null
+    },
+    {
+      "ref": "R37",
+      "angle": 0,
+      "xy": [
+        94.25,
+        115.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C28",
+      "angle": 0,
+      "xy": [
+        166.0,
+        98.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C44",
+      "angle": 0,
+      "xy": [
+        234.5,
+        101.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D9",
+      "angle": 0,
+      "xy": [
+        169.0,
+        85.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q20",
+      "angle": 0,
+      "xy": [
+        148.5,
+        62.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C51",
+      "angle": 0,
+      "xy": [
+        200.5,
+        96.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R6",
+      "angle": 0,
+      "xy": [
+        103.5,
+        157.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R61",
+      "angle": 0,
+      "xy": [
+        198.25,
+        114.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C62",
+      "angle": 0,
+      "xy": [
+        139.0,
+        136.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C45",
+      "angle": 0,
+      "xy": [
+        232.0,
+        69.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C3",
+      "angle": 0,
+      "xy": [
+        87.0,
+        132.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN20",
+      "angle": 0,
+      "xy": [
+        141.0,
+        143.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q16",
+      "angle": 0,
+      "xy": [
+        101.25,
+        101.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN11",
+      "angle": 0,
+      "xy": [
+        235.75,
+        124.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R13",
+      "angle": 0,
+      "xy": [
+        75.5,
+        113.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q27",
+      "angle": 0,
+      "xy": [
+        207.0,
+        110.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C59",
+      "angle": 0,
+      "xy": [
+        231.25,
+        156.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R62",
+      "angle": 0,
+      "xy": [
+        217.25,
+        116.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN7",
+      "angle": 0,
+      "xy": [
+        185.0,
+        151.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R112",
+      "angle": 90,
+      "xy": [
+        169.75,
+        76.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q4",
+      "angle": 0,
+      "xy": [
+        99.5,
+        156.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C29",
+      "angle": 0,
+      "xy": [
+        189.0,
+        106.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R1",
+      "angle": 0,
+      "xy": [
+        85.25,
+        167.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R75",
+      "angle": 0,
+      "xy": [
+        234.75,
+        106.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "H7",
+      "angle": 0,
+      "xy": [
+        172.5,
+        165.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q33",
+      "angle": 0,
+      "xy": [
+        230.25,
+        103.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "C65",
+      "angle": 0,
+      "xy": [
+        134.0,
+        53.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "D18",
+      "angle": 0,
+      "xy": [
+        162.0,
+        136.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN8",
+      "angle": 0,
+      "xy": [
+        213.75,
+        175.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R10",
+      "angle": 0,
+      "xy": [
+        85.25,
+        145.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "H4",
+      "angle": 0,
+      "xy": [
+        58.0,
+        56.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "U1",
+      "angle": 0,
+      "xy": [
+        80.75,
+        128.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R103",
+      "angle": 90,
+      "xy": [
+        76.0,
+        99.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R97",
+      "angle": 0,
+      "xy": [
+        177.5,
+        141.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "U9",
+      "angle": 0,
+      "xy": [
+        184.0,
+        174.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R83",
+      "angle": 0,
+      "xy": [
+        224.0,
+        123.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C34",
+      "angle": 0,
+      "xy": [
+        210.1599,
+        116.5039
+      ],
+      "group": null
+    },
+    {
+      "ref": "C24",
+      "angle": 0,
+      "xy": [
+        132.55608,
+        93.425
+      ],
+      "group": null
+    },
+    {
+      "ref": "R63",
+      "angle": 0,
+      "xy": [
+        221.5,
+        111.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN21",
+      "angle": 0,
+      "xy": [
+        243.75,
+        175.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "Q1",
+      "angle": 0,
+      "xy": [
+        79.75,
+        160.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C41",
+      "angle": 0,
+      "xy": [
+        234.75,
+        116.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R71",
+      "angle": 0,
+      "xy": [
+        233.0,
+        87.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R36",
+      "angle": 0,
+      "xy": [
+        90.75,
+        117.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R50",
+      "angle": 0,
+      "xy": [
+        165.25,
+        66.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R34",
+      "angle": 0,
+      "xy": [
+        92.25,
+        112.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R39",
+      "angle": 0,
+      "xy": [
+        106.0,
+        117.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R9",
+      "angle": 0,
+      "xy": [
+        87.75,
+        157.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "H1",
+      "angle": 0,
+      "xy": [
+        239.0,
+        56.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN23",
+      "angle": 0,
+      "xy": [
+        144.5,
+        87.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R40",
+      "angle": 0,
+      "xy": [
+        106.25,
+        127.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D14",
+      "angle": 0,
+      "xy": [
+        233.837,
+        163.5836
+      ],
+      "group": null
+    },
+    {
+      "ref": "R44",
+      "angle": 0,
+      "xy": [
+        130.0,
+        75.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C27",
+      "angle": 0,
+      "xy": [
+        158.5,
+        78.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "D21",
+      "angle": 0,
+      "xy": [
+        113.75,
+        146.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C36",
+      "angle": 0,
+      "xy": [
+        204.5,
+        126.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C64",
+      "angle": 0,
+      "xy": [
+        164.5,
+        53.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R28",
+      "angle": 0,
+      "xy": [
+        124.5,
+        93.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R46",
+      "angle": 0,
+      "xy": [
+        146.0,
+        71.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "R45",
+      "angle": 0,
+      "xy": [
+        139.0,
+        74.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "C12",
+      "angle": 0,
+      "xy": [
+        209.25,
+        58.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "H6",
+      "angle": 0,
+      "xy": [
+        140.0,
+        71.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "D15",
+      "angle": 0,
+      "xy": [
+        233.75,
+        173.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C57",
+      "angle": 0,
+      "xy": [
+        182.0,
+        179.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C43",
+      "angle": 0,
+      "xy": [
+        243.5,
+        105.25
+      ],
+      "group": null
+    },
+    {
+      "ref": "C8",
+      "angle": 0,
+      "xy": [
+        66.5,
+        99.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "C49",
+      "angle": 0,
+      "xy": [
+        94.5,
+        117.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R100",
+      "angle": 0,
+      "xy": [
+        117.75,
+        64.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "D6",
+      "angle": 0,
+      "xy": [
+        140.5,
+        85.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R111",
+      "angle": 0,
+      "xy": [
+        214.0,
+        73.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "R78",
+      "angle": 0,
+      "xy": [
+        234.5,
+        113.5
+      ],
+      "group": null
+    },
+    {
+      "ref": "CN6",
+      "angle": 0,
+      "xy": [
+        143.5,
+        175.75
+      ],
+      "group": null
+    },
+    {
+      "ref": "R70",
+      "angle": 0,
+      "xy": [
+        222.25,
+        82.0
+      ],
+      "group": null
+    },
+    {
+      "ref": "R92",
+      "angle": 0,
+      "xy": [
+        208.9287,
+        162.2231
+      ],
+      "group": null
+    },
+    {
+      "ref": "C14",
+      "angle": 0,
+      "xy": [
+        107.75,
+        51.0
+      ],
+      "group": null
+    }
+  ],
+  "groups": [
+    {
+      "labels": [
+        {
+          "ref": "R123",
+          "angle": 0,
+          "xy": [
+            148.5,
+            156.0
+          ],
+          "group": [
+            "R123",
+            "R122"
+          ]
+        },
+        {
+          "ref": "R122",
+          "angle": 0,
+          "xy": [
+            148.5,
+            157.5
+          ],
+          "group": [
+            "R123",
+            "R122"
+          ]
+        }
+      ],
+      "side": "below"
+    },
+    {
+      "labels": [
+        {
+          "ref": "R88",
+          "angle": 0,
+          "xy": [
+            227.75,
+            139.25
+          ],
+          "group": [
+            "R88",
+            "R87"
+          ]
+        },
+        {
+          "ref": "R87",
+          "angle": 0,
+          "xy": [
+            227.75,
+            140.75
+          ],
+          "group": [
+            "R88",
+            "R87"
+          ]
+        }
+      ],
+      "side": "above"
+    },
+    {
+      "labels": [
+        {
+          "ref": "R106",
+          "angle": 0,
+          "xy": [
+            112.0,
+            73.5
+          ],
+          "group": [
+            "R106",
+            "R24"
+          ]
+        },
+        {
+          "ref": "R24",
+          "angle": 0,
+          "xy": [
+            112.0,
+            75.0
+          ],
+          "group": [
+            "R106",
+            "R24"
+          ]
+        }
+      ],
+      "side": "left"
+    },
+    {
+      "labels": [
+        {
+          "ref": "R16",
+          "angle": 0,
+          "xy": [
+            87.5,
+            96.5
+          ],
+          "group": [
+            "R16",
+            "R17"
+          ]
+        },
+        {
+          "ref": "R17",
+          "angle": 0,
+          "xy": [
+            87.5,
+            98.0
+          ],
+          "group": [
+            "R16",
+            "R17"
+          ]
+        }
+      ],
+      "side": "below_right",
+      "order": "top_to_bottom"
+    },
+    {
+      "labels": [
+        {
+          "ref": "R57",
+          "angle": 0,
+          "xy": [
+            186.4558,
+            96.5
+          ],
+          "group": [
+            "R57",
+            "R56"
+          ]
+        },
+        {
+          "ref": "R56",
+          "angle": 0,
+          "xy": [
+            186.4558,
+            98.0
+          ],
+          "group": [
+            "R57",
+            "R56"
+          ]
+        }
+      ],
+      "side": "below_right",
+      "order": "top_to_bottom"
+    }
+  ],
+  "leaders": [
+    {
+      "ref": "R120",
+      "width_mm": 0.15,
+      "points": [
+        [
+          87.15,
+          57.75
+        ],
+        [
+          88.7,
+          56.2
+        ]
+      ]
+    },
+    {
+      "ref": "R121",
+      "width_mm": 0.15,
+      "points": [
+        [
+          186.1058,
+          57.75
+        ],
+        [
+          187.6558,
+          56.2
+        ]
+      ]
+    },
+    {
+      "ref": "TP2",
+      "width_mm": 0.15,
+      "points": [
+        [
+          87.75,
+          62.9
+        ],
+        [
+          88.0,
+          62.65
+        ],
+        [
+          88.0,
+          61.2
+        ],
+        [
+          89.2,
+          60
+        ]
+      ]
+    },
+    {
+      "ref": "TP5",
+      "width_mm": 0.15,
+      "points": [
+        [
+          186.7058,
+          62.9
+        ],
+        [
+          186.9558,
+          62.65
+        ],
+        [
+          186.9558,
+          61.2
+        ],
+        [
+          188.1558,
+          60
+        ]
+      ]
+    },
+    {
+      "ref": "C16",
+      "width_mm": 0.15,
+      "points": [
+        [
+          109.65,
+          106.25
+        ],
+        [
+          110,
+          105.9
+        ],
+        [
+          110,
+          101
+        ]
+      ]
+    }
+  ]
+}

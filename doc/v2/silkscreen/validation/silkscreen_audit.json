@@ -1,0 +1,22 @@
+{
+  "visible_references": 293,
+  "horizontal": 280,
+  "vertical": 13,
+  "text_size_mm": 1,
+  "stroke_mm": 0.15,
+  "group_line_pitch_mm": 1.5,
+  "group_blocks": 5,
+  "leaders": 5,
+  "matched_reference_pairs": 33,
+  "symmetry_errors": [],
+  "footprints_and_pads_unchanged": true,
+  "copper_tracks_and_vias_unchanged": true,
+  "back_silkscreen_unchanged": true,
+  "board_outline_unchanged": true,
+  "project_rules_unchanged": true,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity_errors": 0,
+  "previous_silkscreen_warnings": 231,
+  "pcb_sha256": "986a886b2f0fb1f1e3a2b3e725ac8ec48d20f6411d51462bf25cb0a6b01fc16c"
+}
