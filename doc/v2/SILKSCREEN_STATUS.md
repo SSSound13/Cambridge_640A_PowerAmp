@@ -1,3 +1,5 @@
+> Следующая версия: [дополнительное размещение C22/C42, R122/R123, C79/C80](ADDITIONAL_PLACEMENT.md).
+
 # Шелкография v2 — 14.11.2026
 
 Актуальный проект: [Cambridge_640A_v2_silkscreen.zip](silkscreen/Cambridge_640A_v2_silkscreen.zip). Распаковать и открыть 640A_PowerAmp.kicad_pro в KiCad 10. Исходная PCB в корне репозитория остаётся исходной; новая версия находится в отдельном архиве.

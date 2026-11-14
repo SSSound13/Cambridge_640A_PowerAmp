@@ -1,0 +1,21 @@
+{
+  "footprint_count": 296,
+  "physical_changes": [
+    "C17",
+    "C22",
+    "C42",
+    "C80",
+    "R122",
+    "R123",
+    "R31",
+    "R34",
+    "R42",
+    "R75",
+    "R77"
+  ],
+  "values_and_pad_nets_preserved": true,
+  "project_rules_and_exclusions_unchanged": true,
+  "changed_courtyard_overlaps": [],
+  "source_pcb_sha256": "986a886b2f0fb1f1e3a2b3e725ac8ec48d20f6411d51462bf25cb0a6b01fc16c",
+  "errors": []
+}
