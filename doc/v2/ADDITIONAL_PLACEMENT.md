@@ -1,3 +1,5 @@
+> Следующая версия: [упорядоченные узлы U1/U6](ORDERED_SIGNAL_LAYOUT.md).
+
 # Дополнительное размещение v2 — 14.11.2026
 
 Актуальный проект: [Cambridge_640A_v2_adjusted.zip](additional-placement/Cambridge_640A_v2_adjusted.zip).
