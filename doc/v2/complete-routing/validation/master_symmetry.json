@@ -1,0 +1,17 @@
+{
+  "matched_component_pairs": 33,
+  "matched_terminals_per_channel": 79,
+  "local_nets_per_channel": 29,
+  "paired_connections": 50,
+  "paired_connections_by_width_mm": {
+    "2": 18,
+    "0.5": 32
+  },
+  "native_track_centerline_tolerance_mm": 3e-06,
+  "pair_translation_mm": [
+    98.9558,
+    0
+  ],
+  "failed_routes": [],
+  "errors": []
+}

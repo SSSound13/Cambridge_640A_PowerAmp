@@ -1,0 +1,71 @@
+{
+  "pads_and_net_ties_unchanged": true,
+  "schematics_unchanged": true,
+  "project_existing_rules_and_exclusions_unchanged": true,
+  "new_custom_minimum_width_rules": true,
+  "below_preferred_width_count": 0,
+  "paired_zone_outlines": [
+    {
+      "net": "+45V",
+      "layer": "In1.Cu",
+      "translation_mm": [
+        98.9558,
+        0
+      ],
+      "nominal_outline_equal": true,
+      "source": "native final PCB zone outlines"
+    },
+    {
+      "net": "-45V",
+      "layer": "In1.Cu",
+      "translation_mm": [
+        98.9558,
+        0
+      ],
+      "nominal_outline_equal": true,
+      "source": "native final PCB zone outlines"
+    },
+    {
+      "net": "PGND",
+      "layer": "In2.Cu",
+      "translation_mm": [
+        98.9558,
+        0
+      ],
+      "nominal_outline_equal": true,
+      "source": "native final PCB zone outlines"
+    }
+  ],
+  "pgnd_filled_regions": 1,
+  "pgnd_area_mm2": 6528.305,
+  "new_vias": 6,
+  "removed_vias": 1,
+  "matched_existing_core": {
+    "matched_component_pairs": 33,
+    "matched_terminals_per_channel": 79,
+    "local_nets_per_channel": 29,
+    "paired_connections": 50,
+    "paired_connections_by_width_mm": {
+      "2": 18,
+      "0.5": 32
+    },
+    "native_track_centerline_tolerance_mm": 3e-06,
+    "pair_translation_mm": [
+      98.9558,
+      0
+    ],
+    "failed_routes": [],
+    "errors": []
+  },
+  "signals": {
+    "PIC DC": {
+      "before_mm": 124.702,
+      "after_mm": 103.861
+    },
+    "PIC OVERCURRENT/SHORT": {
+      "before_mm": 118.309,
+      "after_mm": 115.671
+    }
+  },
+  "errors": []
+}
