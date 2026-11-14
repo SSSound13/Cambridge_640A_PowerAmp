@@ -1,3 +1,5 @@
+> Следующая проверка и исправления: [все четыре слоя](ALL_LAYERS_REVIEW.md).
+
 # Ровные ряды резисторов около U1/U6 — 14.11.2026
 
 Актуальный проект: [Cambridge_640A_v2_ordered.zip](ordered-signal/Cambridge_640A_v2_ordered.zip).

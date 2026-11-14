@@ -1,0 +1,23 @@
+[
+  {
+    "layer": "In1.Cu",
+    "net": "+45V",
+    "zones": 4,
+    "area_mm2": 2777.76,
+    "separate_2d_regions": 3
+  },
+  {
+    "layer": "In1.Cu",
+    "net": "-45V",
+    "zones": 3,
+    "area_mm2": 2114.07,
+    "separate_2d_regions": 2
+  },
+  {
+    "layer": "In2.Cu",
+    "net": "PGND",
+    "zones": 3,
+    "area_mm2": 6813.37,
+    "separate_2d_regions": 1
+  }
+]
