@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+doc/v2/C22_C42_CAD/*.step binary
+doc/v2/C22_C42_CAD/*.dxf binary
