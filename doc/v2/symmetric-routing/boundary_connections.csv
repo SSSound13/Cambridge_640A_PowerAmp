@@ -1,0 +1,67 @@
+connection,net,width_mm,endpoint_1,endpoint_2,endpoint_1_class,endpoint_2_class,length_mm,vias
+1,LO,2,PTH pad 1 [LO] of CN24,PTH pad 1 [LO] of D8,fixed_other,matched_R,34.7907,1
+2,LO,2,"Track [LO] on F.Cu, length 0.3536 mm",PTH pad 1 [LO] of R50,matched_R,fixed_other,12.1908,0
+3,LO,2,"Track [LO] on F.Cu, length 1.0607 mm",PTH pad 2 [LO] of R101,matched_R,fixed_other,21.9099,1
+4,RO,2,PTH pad 2 [RO] of R119,"Track [RO] on F.Cu, length 1.0000 mm",fixed_other,matched_L,21.0257,1
+5,RO,2,"Track [RO] on F.Cu, length 0.3536 mm","Track [RO] on F.Cu, length 7.6799 mm",matched_L,existing_external_copper,14.917,0
+6,RE1,2,"Track [RE1] on F.Cu, length 2.6037 mm","Track [RE1] on B.Cu, length 0.0003 mm",matched_L,existing_external_copper,10.132,1
+7,RE2,2,PTH pad 1 [RE2] of TP3,PTH pad 1 [RE2] of R23,fixed_other,fixed_other,7.7983,0
+8,RE2,2,PTH pad 1 [RE2] of R23,PTH pad 2 [RE2] of R22,fixed_other,fixed_other,9.5971,0
+9,RE2,2,"Track [RE2] on F.Cu, length 2.5400 mm",PTH pad 2 [RE2] of R22,matched_L,fixed_other,9.8116,0
+10,LE2,2,PTH pad 2 [LE2] of R52,PTH pad 1 [LE2] of TP6,fixed_other,fixed_other,9.6442,0
+11,LE2,2,PTH pad 2 [LE2] of R52,"Track [LE2] on F.Cu, length 2.5400 mm",fixed_other,matched_R,9.318,1
+12,LE2,2,PTH pad 1 [LE2] of R112,PTH pad 2 [LE2] of R52,fixed_other,fixed_other,9.2184,0
+13,LE1,2,"Track [LE1] on F.Cu, length 0.0637 mm",PTH pad 1 [LE1] of R69,matched_R,fixed_other,9.5947,0
+14,+45V,2,PTH pad 1 [+45V] of C45,PTH pad 3 [+45V] of U5,fixed_other,matched_R,17.8071,0
+15,+45V,2,PTH pad 2 [+45V] of R98,PTH pad 1 [+45V] of C29,fixed_other,fixed_other,16.1313,0
+16,+45V,2,PTH pad 1 [+45V] of C45,PTH pad 1 [+45V] of R114,fixed_other,fixed_other,18.0462,0
+17,+45V,2,PTH pad 1 [+45V] of C29,PTH pad 1 [+45V] of C26,fixed_other,fixed_other,19.8583,0
+18,+45V,2,PTH pad 1 [+45V] of C25,PTH pad 2 [+45V] of R43,fixed_other,fixed_other,17.9402,0
+19,+45V,2,PTH pad 3 [+45V] of U3,PTH pad 1 [+45V] of R106,matched_L,fixed_other,15.4555,0
+20,+45V,2,PTH pad 3 [+45V] of U3,PTH pad 1 [+45V] of C65,matched_L,fixed_other,19.7246,0
+21,-45V,2,PTH pad 2 [-45V] of D8,PTH pad 1 [-45V] of R115,matched_R,fixed_other,10.0368,0
+22,-45V,2,PTH pad 1 [-45V] of R115,PTH pad 2 [-45V] of C64,fixed_other,fixed_other,20.1331,1
+23,-45V,2,PTH pad 2 [-45V] of D2,PTH pad 1 [-45V] of R107,matched_L,fixed_other,15.0123,0
+24,-45V,2,PTH pad 1 [-45V] of R107,PTH pad 2 [-45V] of C11,fixed_other,fixed_other,9.1652,0
+25,Net-(Q36-E),0.5,PTH pad 2 [Net-(Q36-E)] of R115,"Track [Net-(Q36-E)] on B.Cu, length 2.0000 mm",fixed_other,matched_R,4.0507,0
+26,Net-(Q36-E),0.5,"Track [Net-(Q36-E)] on B.Cu, length 0.3536 mm",PTH pad 2 [Net-(Q36-E)] of R112,matched_R,fixed_other,2.3725,0
+27,Net-(D9-A),0.5,PTH pad 2 [Net-(D9-A)] of R56,PTH pad 2 [Net-(D9-A)] of R58,matched_R,fixed_other,27.0246,0
+28,GND,0.8,"Track [GND] on F.Cu, length 0.2500 mm",PTH pad 2 [GND] of R16,existing_external_copper,matched_L,34.7602,0
+29,GND,0.8,PTH pad 2 [GND] of R57,"Track [GND] on B.Cu, length 38.4732 mm",matched_R,existing_external_copper,20.821,0
+30,Net-(D1-A),0.5,"Track [Net-(D1-A)] on F.Cu, length 3.4920 mm","Track [Net-(D1-A)] on F.Cu, length 3.0000 mm",existing_external_copper,matched_L,18.32,0
+31,Net-(Q16-E),0.5,PTH pad 1 [Net-(Q16-E)] of Q16,PTH pad 3 [Net-(Q16-E)] of Q18,fixed_other,matched_L,10.7219,0
+32,Net-(Q16-E),0.5,PTH pad 1 [Net-(Q16-E)] of C22,PTH pad 1 [Net-(Q16-E)] of Q16,fixed_other,fixed_other,19.2675,0
+33,Net-(Q16-E),0.5,PTH pad 1 [Net-(Q16-E)] of R27,PTH pad 1 [Net-(Q16-E)] of R28,fixed_other,fixed_other,3.3328,0
+34,Net-(Q16-E),0.5,PTH pad 1 [Net-(Q16-E)] of R28,PTH pad 1 [Net-(Q16-E)] of Q16,fixed_other,fixed_other,19.8413,0
+35,Net-(Q16-E),0.5,PTH pad 1 [Net-(Q16-E)] of C66,PTH pad 1 [Net-(Q16-E)] of R27,fixed_other,fixed_other,8.9347,0
+36,Net-(Q16-E),0.5,PTH pad 1 [Net-(Q16-E)] of R43,PTH pad 1 [Net-(Q16-E)] of C66,fixed_other,fixed_other,13.5208,0
+37,Net-(Q14-E),0.5,PTH pad 2 [Net-(Q14-E)] of R29,PTH pad 2 [Net-(Q14-E)] of R27,fixed_other,fixed_other,4.2614,0
+38,Net-(Q14-E),0.5,PTH pad 2 [Net-(Q14-E)] of R27,PTH pad 1 [Net-(Q14-E)] of Q14,fixed_other,matched_L,5.2577,0
+39,Net-(Q22-B),0.5,"Track [Net-(Q22-B)] on F.Cu, length 9.2500 mm",PTH pad 2 [Net-(Q22-B)] of R114,matched_R,fixed_other,8.5013,1
+40,Net-(Q22-B),0.5,PTH pad 2 [Net-(Q22-B)] of R114,PTH pad 2 [Net-(Q22-B)] of R111,fixed_other,fixed_other,3.3391,0
+41,Net-(Q11-C),0.5,"Track [Net-(Q11-C)] on F.Cu, length 1.7500 mm",PTH pad 2 [Net-(Q11-C)] of C16,matched_L,fixed_other,1.8394,0
+42,Net-(Q14-B),0.5,PTH pad 3 [Net-(Q14-B)] of Q16,PTH pad 2 [Net-(Q14-B)] of Q15,fixed_other,fixed_other,9.2941,0
+43,Net-(Q14-B),0.5,PTH pad 3 [Net-(Q14-B)] of Q14,PTH pad 2 [Net-(Q14-B)] of Q15,matched_L,fixed_other,13.1949,0
+44,Net-(D1-K),0.5,PTH pad 1 [Net-(D1-K)] of D1,"Track [Net-(D1-K)] on B.Cu, length 1.2500 mm",fixed_other,matched_L,9.4168,0
+45,Net-(Q24-C),0.5,PTH pad 2 [Net-(Q24-C)] of C44,"Track [Net-(Q24-C)] on F.Cu, length 1.0607 mm",fixed_other,matched_R,30.7391,1
+46,Net-(D9-K),0.5,PTH pad 1 [Net-(D9-K)] of D9,"Track [Net-(D9-K)] on B.Cu, length 0.3536 mm",fixed_other,matched_R,2.6143,0
+47,Net-(U3-B),0.5,PTH pad 2 [Net-(U3-B)] of R99,"Track [Net-(U3-B)] on B.Cu, length 5.7500 mm",fixed_other,matched_L,36.8891,0
+48,LFCLIP,0.5,"Track [LFCLIP] on B.Cu, length 2.4749 mm",PTH pad 2 [LFCLIP] of Q28,matched_R,fixed_other,10.3739,0
+49,Net-(Q13-B),0.5,PTH pad 2 [Net-(Q13-B)] of C8,"Track [Net-(Q13-B)] on B.Cu, length 3.5000 mm",fixed_other,existing_external_copper,20.05,0
+50,Net-(Q13-B),0.5,PTH pad 2 [Net-(Q13-B)] of Q13,PTH pad 2 [Net-(Q13-B)] of C8,matched_L,fixed_other,27.5847,0
+51,Net-(Q23-B),0.5,PTH pad 2 [Net-(Q23-B)] of Q23,PTH pad 2 [Net-(Q23-B)] of C51,matched_R,fixed_other,27.5935,0
+52,Net-(Q23-B),0.5,PTH pad 2 [Net-(Q23-B)] of C51,"Track [Net-(Q23-B)] on In1.Cu, length 3.4202 mm",fixed_other,existing_external_copper,19.3847,0
+53,Net-(Q19-B),0.5,PTH pad 2 [Net-(Q19-B)] of R24,PTH pad 2 [Net-(Q19-B)] of R106,fixed_other,fixed_other,3.1016,0
+54,Net-(Q19-B),0.5,"Track [Net-(Q19-B)] on F.Cu, length 9.2500 mm",PTH pad 2 [Net-(Q19-B)] of R24,matched_L,fixed_other,9.3439,1
+55,Net-(Q22-C),0.5,"Track [Net-(Q22-C)] on F.Cu, length 0.2500 mm","Track [Net-(Q22-C)] on B.Cu, length 15.5000 mm",existing_external_copper,matched_R,24.8322,2
+56,Net-(Q32-E),0.5,PTH pad 1 [Net-(Q32-E)] of Q32,PTH pad 1 [Net-(Q32-E)] of R70,matched_R,fixed_other,40.81,1
+57,Net-(Q32-C),0.5,"Track [Net-(Q32-C)] on B.Cu, length 4.5962 mm",PTH pad 3 [Net-(Q32-C)] of Q32,existing_external_copper,matched_R,9.1349,0
+58,Net-(Q35-E),0.5,PTH pad 2 [Net-(Q35-E)] of R107,PTH pad 2 [Net-(Q35-E)] of R23,fixed_other,fixed_other,3.3479,0
+59,Net-(Q35-E),0.5,PTH pad 2 [Net-(Q35-E)] of R23,"Track [Net-(Q35-E)] on B.Cu, length 2.0000 mm",fixed_other,matched_L,7.0625,1
+60,RFCLIP,0.5,"Track [RFCLIP] on F.Cu, length 0.0945 mm","Track [RFCLIP] on B.Cu, length 6.2500 mm",existing_external_copper,matched_L,43.4194,1
+61,Net-(Q31-E),0.5,PTH pad 1 [Net-(Q31-E)] of Q31,"Track [Net-(Q31-E)] on In1.Cu, length 0.5076 mm",matched_R,existing_external_copper,22.8713,0
+62,Net-(Q19-C),0.5,PTH pad 1 [Net-(Q19-C)] of R45,"Track [Net-(Q19-C)] on B.Cu, length 0.3536 mm",fixed_other,matched_L,30.7091,0
+63,Net-(Q30-B),0.5,PTH pad 2 [Net-(Q30-B)] of Q30,PTH pad 3 [Net-(Q30-B)] of Q31,fixed_other,matched_R,24.9528,3
+64,Net-(Q18-E),0.5,PTH pad 1 [Net-(Q18-E)] of Q18,PTH pad 1 [Net-(Q18-E)] of R99,matched_L,fixed_other,48.0481,0
+65,Net-(U5-B),0.5,PTH pad 2 [Net-(U5-B)] of R70,"Track [Net-(U5-B)] on B.Cu, length 5.7500 mm",fixed_other,matched_R,25.8168,1
+66,RE1,2,PTH pad 1 [RE1] of R24,"Track [RE1] on B.Cu, length 4.5350 mm",fixed_other,existing_external_copper,3.8113,0

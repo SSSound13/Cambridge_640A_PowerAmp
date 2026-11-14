@@ -12169,7 +12169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "150R 8th"
 			(at 209.431 125.762 90)
 			(effects
 				(font
@@ -12402,7 +12402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "150R 8th"
 			(at 163.697 138.472 0)
 			(effects
 				(font

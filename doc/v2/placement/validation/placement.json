@@ -1,0 +1,12 @@
+{
+  "footprints": 296,
+  "moved_footprints": 58,
+  "paired_groups": 29,
+  "fixed_footprints": 238,
+  "errors": [],
+  "courtyard_intersections_involving_moved": [],
+  "translation_mm": [
+    98.9558,
+    0
+  ]
+}

@@ -1,0 +1,1228 @@
+{
+  "status": "placement_only_unrouted",
+  "source_pcb_sha256": "48d46a8d99863e8fdba1c4e63ac6de9a313d5219e8d5383cc7c1a7ae111a2ef2",
+  "removed_from_draft_only": {
+    "tracks_and_vias": 1383,
+    "zones": 10
+  },
+  "changes": [
+    {
+      "reference": "C13",
+      "pair": [
+        "C13",
+        "C47"
+      ],
+      "before_anchor_mm": [
+        101.0243,
+        63.0789
+      ],
+      "after_anchor_mm": [
+        97.3309,
+        68.568
+      ],
+      "relative_reference_mm": [
+        22.0,
+        7.5
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+    },
+    {
+      "reference": "C47",
+      "pair": [
+        "C13",
+        "C47"
+      ],
+      "before_anchor_mm": [
+        199.9797,
+        63.0789
+      ],
+      "after_anchor_mm": [
+        196.2867,
+        68.568
+      ],
+      "relative_reference_mm": [
+        22.0,
+        7.5
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+    },
+    {
+      "reference": "C70",
+      "pair": [
+        "C70",
+        "C74"
+      ],
+      "before_anchor_mm": [
+        99.7305,
+        78.2326
+      ],
+      "after_anchor_mm": [
+        106.0809,
+        81.068
+      ],
+      "relative_reference_mm": [
+        32.5,
+        17.5
+      ],
+      "angle": 90.0,
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+    },
+    {
+      "reference": "C74",
+      "pair": [
+        "C70",
+        "C74"
+      ],
+      "before_anchor_mm": [
+        199.5116,
+        78.5921
+      ],
+      "after_anchor_mm": [
+        205.0367,
+        81.068
+      ],
+      "relative_reference_mm": [
+        32.5,
+        17.5
+      ],
+      "angle": 90.0,
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+    },
+    {
+      "reference": "C71",
+      "pair": [
+        "C71",
+        "C75"
+      ],
+      "before_anchor_mm": [
+        86.4619,
+        78.4868
+      ],
+      "after_anchor_mm": [
+        95.0809,
+        81.068
+      ],
+      "relative_reference_mm": [
+        21.5,
+        17.5
+      ],
+      "angle": 90.0,
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+    },
+    {
+      "reference": "C75",
+      "pair": [
+        "C71",
+        "C75"
+      ],
+      "before_anchor_mm": [
+        186.2004,
+        77.2168
+      ],
+      "after_anchor_mm": [
+        194.0367,
+        81.068
+      ],
+      "relative_reference_mm": [
+        21.5,
+        17.5
+      ],
+      "angle": 90.0,
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+    },
+    {
+      "reference": "Q14",
+      "pair": [
+        "Q14",
+        "Q31"
+      ],
+      "before_anchor_mm": [
+        105.2694,
+        90.4847
+      ],
+      "after_anchor_mm": [
+        113.5809,
+        85.568
+      ],
+      "relative_reference_mm": [
+        40.0,
+        24.5
+      ],
+      "angle": 180.0,
+      "footprint": "Package_TO_SOT_THT:TO-126-3_Vertical"
+    },
+    {
+      "reference": "Q31",
+      "pair": [
+        "Q14",
+        "Q31"
+      ],
+      "before_anchor_mm": [
+        228.2232,
+        88.4945
+      ],
+      "after_anchor_mm": [
+        212.5367,
+        85.568
+      ],
+      "relative_reference_mm": [
+        40.0,
+        24.5
+      ],
+      "angle": 180.0,
+      "footprint": "Package_TO_SOT_THT:TO-126-3_Vertical"
+    },
+    {
+      "reference": "Q12",
+      "pair": [
+        "Q12",
+        "Q25"
+      ],
+      "before_anchor_mm": [
+        71.2091,
+        85.9982
+      ],
+      "after_anchor_mm": [
+        68.5809,
+        90.568
+      ],
+      "relative_reference_mm": [
+        -5.0,
+        29.5
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-126-3_Vertical"
+    },
+    {
+      "reference": "Q25",
+      "pair": [
+        "Q12",
+        "Q25"
+      ],
+      "before_anchor_mm": [
+        198.6704,
+        85.9982
+      ],
+      "after_anchor_mm": [
+        167.5367,
+        90.568
+      ],
+      "relative_reference_mm": [
+        -5.0,
+        29.5
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-126-3_Vertical"
+    },
+    {
+      "reference": "Q11",
+      "pair": [
+        "Q11",
+        "Q24"
+      ],
+      "before_anchor_mm": [
+        77.2406,
+        91.9871
+      ],
+      "after_anchor_mm": [
+        90.5809,
+        95.568
+      ],
+      "relative_reference_mm": [
+        17.0,
+        34.5
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-126-3_Vertical"
+    },
+    {
+      "reference": "Q24",
+      "pair": [
+        "Q11",
+        "Q24"
+      ],
+      "before_anchor_mm": [
+        198.6704,
+        91.5005
+      ],
+      "after_anchor_mm": [
+        189.5367,
+        95.568
+      ],
+      "relative_reference_mm": [
+        17.0,
+        34.5
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-126-3_Vertical"
+    },
+    {
+      "reference": "Q18",
+      "pair": [
+        "Q18",
+        "Q32"
+      ],
+      "before_anchor_mm": [
+        100.4285,
+        86.4635
+      ],
+      "after_anchor_mm": [
+        95.0809,
+        95.068
+      ],
+      "relative_reference_mm": [
+        21.5,
+        34.0
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "Q32",
+      "pair": [
+        "Q18",
+        "Q32"
+      ],
+      "before_anchor_mm": [
+        222.874,
+        83.966
+      ],
+      "after_anchor_mm": [
+        194.0367,
+        95.068
+      ],
+      "relative_reference_mm": [
+        21.5,
+        34.0
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "Q13",
+      "pair": [
+        "Q13",
+        "Q23"
+      ],
+      "before_anchor_mm": [
+        68.6211,
+        91.9652
+      ],
+      "after_anchor_mm": [
+        83.0809,
+        81.568
+      ],
+      "relative_reference_mm": [
+        9.5,
+        20.5
+      ],
+      "angle": 0.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "Q23",
+      "pair": [
+        "Q13",
+        "Q23"
+      ],
+      "before_anchor_mm": [
+        190.3476,
+        91.4792
+      ],
+      "after_anchor_mm": [
+        182.0367,
+        81.568
+      ],
+      "relative_reference_mm": [
+        9.5,
+        20.5
+      ],
+      "angle": 0.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "R19",
+      "pair": [
+        "R19",
+        "R54"
+      ],
+      "before_anchor_mm": [
+        65.2054,
+        84.9818
+      ],
+      "after_anchor_mm": [
+        82.0809,
+        86.068
+      ],
+      "relative_reference_mm": [
+        8.5,
+        25
+      ],
+      "angle": 180,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R54",
+      "pair": [
+        "R19",
+        "R54"
+      ],
+      "before_anchor_mm": [
+        182.1486,
+        83.4794
+      ],
+      "after_anchor_mm": [
+        181.0367,
+        86.068
+      ],
+      "relative_reference_mm": [
+        8.5,
+        25
+      ],
+      "angle": 180,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R18",
+      "pair": [
+        "R18",
+        "R55"
+      ],
+      "before_anchor_mm": [
+        65.2054,
+        87.9659
+      ],
+      "after_anchor_mm": [
+        82.0809,
+        92.068
+      ],
+      "relative_reference_mm": [
+        8.5,
+        31.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R55",
+      "pair": [
+        "R18",
+        "R55"
+      ],
+      "before_anchor_mm": [
+        182.1486,
+        86.4635
+      ],
+      "after_anchor_mm": [
+        181.0367,
+        92.068
+      ],
+      "relative_reference_mm": [
+        8.5,
+        31.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R21",
+      "pair": [
+        "R21",
+        "R51"
+      ],
+      "before_anchor_mm": [
+        55.0454,
+        81.977
+      ],
+      "after_anchor_mm": [
+        70.0809,
+        83.068
+      ],
+      "relative_reference_mm": [
+        -3.5,
+        22.0
+      ],
+      "angle": 0.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R51",
+      "pair": [
+        "R21",
+        "R51"
+      ],
+      "before_anchor_mm": [
+        182.2544,
+        79.5646
+      ],
+      "after_anchor_mm": [
+        169.0367,
+        83.068
+      ],
+      "relative_reference_mm": [
+        -3.5,
+        22.0
+      ],
+      "angle": 0.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R17",
+      "pair": [
+        "R17",
+        "R56"
+      ],
+      "before_anchor_mm": [
+        65.2054,
+        93.4683
+      ],
+      "after_anchor_mm": [
+        82.0809,
+        95.068
+      ],
+      "relative_reference_mm": [
+        8.5,
+        34.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R56",
+      "pair": [
+        "R17",
+        "R56"
+      ],
+      "before_anchor_mm": [
+        182.1486,
+        91.478
+      ],
+      "after_anchor_mm": [
+        181.0367,
+        95.068
+      ],
+      "relative_reference_mm": [
+        8.5,
+        34.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R16",
+      "pair": [
+        "R16",
+        "R57"
+      ],
+      "before_anchor_mm": [
+        56.432,
+        97.4665
+      ],
+      "after_anchor_mm": [
+        85.0809,
+        85.068
+      ],
+      "relative_reference_mm": [
+        11.5,
+        24.0
+      ],
+      "angle": -90.0,
+      "footprint": "640A:R_Axial_DIN0309_L9.0mm_D3.2mm_P11.81mm_Horizontal"
+    },
+    {
+      "reference": "R57",
+      "pair": [
+        "R16",
+        "R57"
+      ],
+      "before_anchor_mm": [
+        187.4279,
+        88.9699
+      ],
+      "after_anchor_mm": [
+        184.0367,
+        85.068
+      ],
+      "relative_reference_mm": [
+        11.5,
+        24.0
+      ],
+      "angle": -90.0,
+      "footprint": "640A:R_Axial_DIN0309_L9.0mm_D3.2mm_P11.81mm_Horizontal"
+    },
+    {
+      "reference": "C9",
+      "pair": [
+        "C9",
+        "C50"
+      ],
+      "before_anchor_mm": [
+        93.7842,
+        89.8463
+      ],
+      "after_anchor_mm": [
+        119.0809,
+        95.568
+      ],
+      "relative_reference_mm": [
+        45.5,
+        34.5
+      ],
+      "angle": -180.0,
+      "footprint": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+    },
+    {
+      "reference": "C50",
+      "pair": [
+        "C9",
+        "C50"
+      ],
+      "before_anchor_mm": [
+        215.6579,
+        94.2116
+      ],
+      "after_anchor_mm": [
+        218.0367,
+        95.568
+      ],
+      "relative_reference_mm": [
+        45.5,
+        34.5
+      ],
+      "angle": -180.0,
+      "footprint": "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+    },
+    {
+      "reference": "C46",
+      "pair": [
+        "C46",
+        "C48"
+      ],
+      "before_anchor_mm": [
+        102.3282,
+        58.6769
+      ],
+      "after_anchor_mm": [
+        103.5809,
+        58.068
+      ],
+      "relative_reference_mm": [
+        30.0,
+        -3.0
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
+    },
+    {
+      "reference": "C48",
+      "pair": [
+        "C46",
+        "C48"
+      ],
+      "before_anchor_mm": [
+        201.2948,
+        58.4865
+      ],
+      "after_anchor_mm": [
+        202.5367,
+        58.068
+      ],
+      "relative_reference_mm": [
+        30.0,
+        -3.0
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
+    },
+    {
+      "reference": "D2",
+      "pair": [
+        "D2",
+        "D8"
+      ],
+      "before_anchor_mm": [
+        90.4825,
+        67.6617
+      ],
+      "after_anchor_mm": [
+        71.5809,
+        79.568
+      ],
+      "relative_reference_mm": [
+        -2.0,
+        18.5
+      ],
+      "angle": 0.0,
+      "footprint": "640A:D_DO-41_SOD81_P8.89mm_Horizontal"
+    },
+    {
+      "reference": "D8",
+      "pair": [
+        "D2",
+        "D8"
+      ],
+      "before_anchor_mm": [
+        189.4169,
+        67.5236
+      ],
+      "after_anchor_mm": [
+        170.5367,
+        79.568
+      ],
+      "relative_reference_mm": [
+        -2.0,
+        18.5
+      ],
+      "angle": 0.0,
+      "footprint": "640A:D_DO-41_SOD81_P8.89mm_Horizontal"
+    },
+    {
+      "reference": "D4",
+      "pair": [
+        "D4",
+        "D10"
+      ],
+      "before_anchor_mm": [
+        104.3016,
+        58.782
+      ],
+      "after_anchor_mm": [
+        98.5809,
+        62.068
+      ],
+      "relative_reference_mm": [
+        25.0,
+        1.0
+      ],
+      "angle": -180.0,
+      "footprint": "640A:D_DO-41_SOD81_P8.89mm_Horizontal"
+    },
+    {
+      "reference": "D10",
+      "pair": [
+        "D4",
+        "D10"
+      ],
+      "before_anchor_mm": [
+        203.0249,
+        58.5281
+      ],
+      "after_anchor_mm": [
+        197.5367,
+        62.068
+      ],
+      "relative_reference_mm": [
+        25.0,
+        1.0
+      ],
+      "angle": -180.0,
+      "footprint": "640A:D_DO-41_SOD81_P8.89mm_Horizontal"
+    },
+    {
+      "reference": "TP2",
+      "pair": [
+        "TP2",
+        "TP5"
+      ],
+      "before_anchor_mm": [
+        101.471,
+        69.665
+      ],
+      "after_anchor_mm": [
+        90.0809,
+        58.568
+      ],
+      "relative_reference_mm": [
+        16.5,
+        -2.5
+      ],
+      "angle": -90.0,
+      "footprint": "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "TP5",
+      "pair": [
+        "TP2",
+        "TP5"
+      ],
+      "before_anchor_mm": [
+        200.371,
+        69.665
+      ],
+      "after_anchor_mm": [
+        189.0367,
+        58.568
+      ],
+      "relative_reference_mm": [
+        16.5,
+        -2.5
+      ],
+      "angle": -90.0,
+      "footprint": "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+    },
+    {
+      "reference": "Q35",
+      "pair": [
+        "Q35",
+        "Q36"
+      ],
+      "before_anchor_mm": [
+        90.9897,
+        72.0726
+      ],
+      "after_anchor_mm": [
+        86.5809,
+        72.568
+      ],
+      "relative_reference_mm": [
+        13.0,
+        11.5
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "Q36",
+      "pair": [
+        "Q35",
+        "Q36"
+      ],
+      "before_anchor_mm": [
+        189.4379,
+        71.5648
+      ],
+      "after_anchor_mm": [
+        185.5367,
+        72.568
+      ],
+      "relative_reference_mm": [
+        13.0,
+        11.5
+      ],
+      "angle": -90.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "Q19",
+      "pair": [
+        "Q19",
+        "Q22"
+      ],
+      "before_anchor_mm": [
+        109.5573,
+        72.0726
+      ],
+      "after_anchor_mm": [
+        122.0809,
+        85.068
+      ],
+      "relative_reference_mm": [
+        48.5,
+        24.0
+      ],
+      "angle": 180.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "Q22",
+      "pair": [
+        "Q19",
+        "Q22"
+      ],
+      "before_anchor_mm": [
+        208.0195,
+        71.5648
+      ],
+      "after_anchor_mm": [
+        221.0367,
+        85.068
+      ],
+      "relative_reference_mm": [
+        48.5,
+        24.0
+      ],
+      "angle": 180.0,
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    {
+      "reference": "R110",
+      "pair": [
+        "R110",
+        "R118"
+      ],
+      "before_anchor_mm": [
+        96.6732,
+        75.0781
+      ],
+      "after_anchor_mm": [
+        95.5809,
+        86.068
+      ],
+      "relative_reference_mm": [
+        22.0,
+        25.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R118",
+      "pair": [
+        "R110",
+        "R118"
+      ],
+      "before_anchor_mm": [
+        196.8354,
+        74.2739
+      ],
+      "after_anchor_mm": [
+        194.5367,
+        86.068
+      ],
+      "relative_reference_mm": [
+        22.0,
+        25.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "C69",
+      "pair": [
+        "C69",
+        "C73"
+      ],
+      "before_anchor_mm": [
+        95.3313,
+        77.4698
+      ],
+      "after_anchor_mm": [
+        95.5809,
+        89.068
+      ],
+      "relative_reference_mm": [
+        22.0,
+        28.0
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    {
+      "reference": "C73",
+      "pair": [
+        "C69",
+        "C73"
+      ],
+      "before_anchor_mm": [
+        195.6839,
+        76.7709
+      ],
+      "after_anchor_mm": [
+        194.5367,
+        89.068
+      ],
+      "relative_reference_mm": [
+        22.0,
+        28.0
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    {
+      "reference": "R108",
+      "pair": [
+        "R108",
+        "R66"
+      ],
+      "before_anchor_mm": [
+        96.8743,
+        80.0725
+      ],
+      "after_anchor_mm": [
+        95.5809,
+        92.068
+      ],
+      "relative_reference_mm": [
+        22.0,
+        31.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R66",
+      "pair": [
+        "R108",
+        "R66"
+      ],
+      "before_anchor_mm": [
+        196.7298,
+        79.6698
+      ],
+      "after_anchor_mm": [
+        194.5367,
+        92.068
+      ],
+      "relative_reference_mm": [
+        22.0,
+        31.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R109",
+      "pair": [
+        "R109",
+        "R117"
+      ],
+      "before_anchor_mm": [
+        110.5669,
+        75.0781
+      ],
+      "after_anchor_mm": [
+        105.5809,
+        86.068
+      ],
+      "relative_reference_mm": [
+        32.0,
+        25.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R117",
+      "pair": [
+        "R109",
+        "R117"
+      ],
+      "before_anchor_mm": [
+        209.8288,
+        74.7818
+      ],
+      "after_anchor_mm": [
+        204.5367,
+        86.068
+      ],
+      "relative_reference_mm": [
+        32.0,
+        25.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "C15",
+      "pair": [
+        "C15",
+        "C72"
+      ],
+      "before_anchor_mm": [
+        109.1085,
+        77.575
+      ],
+      "after_anchor_mm": [
+        105.5809,
+        89.068
+      ],
+      "relative_reference_mm": [
+        32.0,
+        28.0
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    {
+      "reference": "C72",
+      "pair": [
+        "C15",
+        "C72"
+      ],
+      "before_anchor_mm": [
+        208.7627,
+        77.2788
+      ],
+      "after_anchor_mm": [
+        204.5367,
+        89.068
+      ],
+      "relative_reference_mm": [
+        32.0,
+        28.0
+      ],
+      "angle": 180.0,
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    {
+      "reference": "R25",
+      "pair": [
+        "R25",
+        "R113"
+      ],
+      "before_anchor_mm": [
+        110.5669,
+        80.0725
+      ],
+      "after_anchor_mm": [
+        105.5809,
+        92.068
+      ],
+      "relative_reference_mm": [
+        32.0,
+        31.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R113",
+      "pair": [
+        "R25",
+        "R113"
+      ],
+      "before_anchor_mm": [
+        209.8288,
+        80.2842
+      ],
+      "after_anchor_mm": [
+        204.5367,
+        92.068
+      ],
+      "relative_reference_mm": [
+        32.0,
+        31.0
+      ],
+      "angle": 180.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R53",
+      "pair": [
+        "R53",
+        "R67"
+      ],
+      "before_anchor_mm": [
+        82.9693,
+        79.4808
+      ],
+      "after_anchor_mm": [
+        107.0809,
+        64.568
+      ],
+      "relative_reference_mm": [
+        33.5,
+        3.5
+      ],
+      "angle": 0.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R67",
+      "pair": [
+        "R53",
+        "R67"
+      ],
+      "before_anchor_mm": [
+        214.4098,
+        80.486
+      ],
+      "after_anchor_mm": [
+        206.0367,
+        64.568
+      ],
+      "relative_reference_mm": [
+        33.5,
+        3.5
+      ],
+      "angle": 0.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+    },
+    {
+      "reference": "R102",
+      "pair": [
+        "R102",
+        "R65"
+      ],
+      "before_anchor_mm": [
+        80.473,
+        82.2003
+      ],
+      "after_anchor_mm": [
+        101.5809,
+        71.568
+      ],
+      "relative_reference_mm": [
+        28.0,
+        10.5
+      ],
+      "angle": 90.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "R65",
+      "pair": [
+        "R102",
+        "R65"
+      ],
+      "before_anchor_mm": [
+        211.9122,
+        83.2057
+      ],
+      "after_anchor_mm": [
+        200.5367,
+        71.568
+      ],
+      "relative_reference_mm": [
+        28.0,
+        10.5
+      ],
+      "angle": 90.0,
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    {
+      "reference": "C77",
+      "pair": [
+        "C77",
+        "C78"
+      ],
+      "before_anchor_mm": [
+        82.9248,
+        82.9715
+      ],
+      "after_anchor_mm": [
+        104.5809,
+        64.568
+      ],
+      "relative_reference_mm": [
+        31.0,
+        3.5
+      ],
+      "angle": -90.0,
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    {
+      "reference": "C78",
+      "pair": [
+        "C77",
+        "C78"
+      ],
+      "before_anchor_mm": [
+        210.3861,
+        85.4684
+      ],
+      "after_anchor_mm": [
+        203.5367,
+        64.568
+      ],
+      "relative_reference_mm": [
+        31.0,
+        3.5
+      ],
+      "angle": -90.0,
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    }
+  ]
+}

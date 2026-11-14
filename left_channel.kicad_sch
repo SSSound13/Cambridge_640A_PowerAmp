@@ -12136,7 +12136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "150R 8th"
 			(at 145.936 137.201 0)
 			(effects
 				(font
