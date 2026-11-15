@@ -8585,7 +8585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -8663,7 +8663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640A:C_Radial_D5.0mm_P5.00mm_NP"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 271.78 127 0)
 			(effects
 				(font
@@ -8683,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bipolar electrolytic 10uF 16V NP, D5 x 11 mm, leads formed to the original 5 mm holes (was on a film footprint by mistake)"
+		(property "Description" ""
 			(at 271.78 127 0)
 			(effects
 				(font
