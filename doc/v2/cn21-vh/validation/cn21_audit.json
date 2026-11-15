@@ -5,9 +5,9 @@
   "pads_except_CN21_unchanged": true,
   "net_ties_unchanged": true,
   "existing_tracks_modified": 0,
-  "removed_dangling_pin3_tracks": 3,
-  "new_tracks": 11,
-  "new_vias": 2,
+  "removed_superseded_tracks": 18,
+  "new_tracks": 12,
+  "new_vias": 0,
   "new_track_width_mm": 1,
   "new_tracks_orthogonal_or_45_degrees": true,
   "digital_tracks_unchanged": true,
@@ -69,6 +69,6 @@
       ]
     }
   ],
-  "pcb_sha256": "83d1edfbdf545fefbab40e297c3a1ba20871916d4aede7c52dd42ec553dd3b51",
+  "pcb_sha256": "a571ef66278cd26ef23f2d8301dd0535026e74a4de1833d674cf39bc71e119ee",
   "errors": []
 }
