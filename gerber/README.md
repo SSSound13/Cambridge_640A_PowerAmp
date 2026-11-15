@@ -1,6 +1,6 @@
 # Gerber / drill export, 2026-11-07
 
-> Historical fabrication files for the already manufactured board. They do not match the current root PCB with CN21 VH. See [current source and checks](../doc/v2/CN21_VH.md).
+> Historical fabrication files for the already manufactured board. They do not match the current root PCB with CN21 VH. See [current source and checks](../doc/v2/NO_VIAS.md).
 
 Source: PCB in the same commit as this export, based on `dc34d68d511573bbf8a1af9a689956af030c424d` with the R12 silkscreen correction.
 PCB SHA256: `fab5ad2d169c11edd13225c05fcc267cca08748494c56a05c9273d19f9d117da`.
