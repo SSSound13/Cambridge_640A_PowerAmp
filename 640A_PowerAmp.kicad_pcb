@@ -134424,6 +134424,270 @@
 		(layer "Edge.Cuts")
 		(uuid "c981ba9d-00b3-41ee-8bf3-1d39226a1442")
 	)
+	(gr_text "CN20"
+		(at 157 152.8 0)
+		(layer "F.SilkS")
+		(uuid "713e43aa-db73-48d3-a81d-33e9f89bdfca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "1 Yellow"
+		(at 157 154.3 0)
+		(layer "F.SilkS")
+		(uuid "5fb95aed-38ed-439c-9b3d-1a7e92f2bd6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "2 Red"
+		(at 157 155.8 0)
+		(layer "F.SilkS")
+		(uuid "7b093e21-73ff-489d-be20-898632f29230")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "3 Orange"
+		(at 157 157.3 0)
+		(layer "F.SilkS")
+		(uuid "f5061ef1-2621-432e-b7d1-9d0f5510784b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "CN21"
+		(at 241 155.8 0)
+		(layer "F.SilkS")
+		(uuid "7aa3ec1c-c26d-441d-850c-0d0246054c90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "1 Green"
+		(at 241 157.3 0)
+		(layer "F.SilkS")
+		(uuid "cf07b0d1-ae00-4ff5-8679-6a2b47f02805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "2 Violet"
+		(at 241 158.8 0)
+		(layer "F.SilkS")
+		(uuid "06a34f48-fcb0-482b-b652-a16ba8aafd31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "3 Grey"
+		(at 241 160.3 0)
+		(layer "F.SilkS")
+		(uuid "4ab7c416-7a6b-45af-a840-0ee1d942cb08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "2 Black"
+		(at 140 90.536 0)
+		(layer "B.SilkS")
+		(uuid "f35503e2-fc32-45a4-9675-b6f9425a43ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "1 Red"
+		(at 140 94.496 0)
+		(layer "B.SilkS")
+		(uuid "88e55eae-be98-46e5-b26c-58310da9b4b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CN23"
+		(at 146 87 0)
+		(layer "B.SilkS")
+		(uuid "b2560b61-45ce-4c3d-8e9e-bc41e3a37884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "2 Black"
+		(at 162.4 90.536 0)
+		(layer "B.SilkS")
+		(uuid "b1acd276-7f5c-411b-b6bc-dcb2332584bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "1 Red"
+		(at 162.4 94.496 0)
+		(layer "B.SilkS")
+		(uuid "1ba8190c-b915-497b-acf7-a0bf1efb6354")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CN24"
+		(at 162.4 97.5 0)
+		(layer "B.SilkS")
+		(uuid "ff6d28d3-73f5-4dab-9bf1-fd0cfd890769")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CN20"
+		(at 165 152.8 0)
+		(layer "B.SilkS")
+		(uuid "f7de7d0e-0e52-4cab-8535-274942c47e8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "1 Yellow"
+		(at 165 154.3 0)
+		(layer "B.SilkS")
+		(uuid "00621a9f-f573-47d7-8f81-9fedf6093fa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "2 Red"
+		(at 165 155.8 0)
+		(layer "B.SilkS")
+		(uuid "e0291df3-bf05-438a-aef3-095e3c87c3ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "3 Orange"
+		(at 165 157.3 0)
+		(layer "B.SilkS")
+		(uuid "3a47ff54-2917-453a-a3b3-dfb3ecc4cbe3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CN21"
+		(at 246 156 0)
+		(layer "B.SilkS")
+		(uuid "ec6d0bf4-59b2-4746-89fd-e3a2d06a873c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "1 Green"
+		(at 246 158 0)
+		(layer "B.SilkS")
+		(uuid "5c601c1e-253c-4dd9-8ea2-38b1c4a7ce57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "2 Violet"
+		(at 246 159.5 0)
+		(layer "B.SilkS")
+		(uuid "0ae17c51-7f2e-44cd-bd88-93e2da19da07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "3 Grey"
+		(at 246 161 0)
+		(layer "B.SilkS")
+		(uuid "1976e58e-4ec9-4343-85e1-348012af574f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "https://github.com/SSSound13/Cambridge_640A_PowerAmp"
 		(at 167 119.7 0)
 		(layer "B.SilkS")

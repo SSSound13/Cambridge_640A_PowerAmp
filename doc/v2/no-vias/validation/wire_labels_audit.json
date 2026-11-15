@@ -1,0 +1,19 @@
+{
+  "baseline_commit": "220caad",
+  "added_text_count": 22,
+  "only_board_text_added": true,
+  "copper_components_and_existing_text_unchanged": true,
+  "text_size_mm": 1.0,
+  "stroke_mm": 0.15,
+  "front": [
+    "CN20",
+    "CN21"
+  ],
+  "back": [
+    "CN20",
+    "CN21",
+    "CN23",
+    "CN24"
+  ],
+  "pcb_sha256": "ce68c05fa9113f6c1e6b4bcfa69d407afce236bd59eecebedb2ee69bdec6ca71"
+}

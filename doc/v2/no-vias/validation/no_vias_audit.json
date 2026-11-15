@@ -241,6 +241,7 @@
       "difference_mm": -28.572
     }
   ],
-  "pcb_sha256": "f206758f8e5c18cc3aa460b45428a0bfe9b1e696595618b3b5fdee2b80b12b92",
-  "errors": []
+  "pcb_sha256": "ce68c05fa9113f6c1e6b4bcfa69d407afce236bd59eecebedb2ee69bdec6ca71",
+  "errors": [],
+  "subsequent_text_only_change": "wire_labels_audit.json"
 }
