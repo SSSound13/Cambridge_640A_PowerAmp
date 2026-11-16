@@ -1,0 +1,19 @@
+{
+  "published": "2026-11-16",
+  "source_commit": "d4881dc",
+  "pcb_sha256": "ce68c05fa9113f6c1e6b4bcfa69d407afce236bd59eecebedb2ee69bdec6ca71",
+  "view_export": "KiCad 10.0.8; existing verified exports of the same PCB; copper and silkscreen unchanged",
+  "bottom_view": "mirrored for viewing from below",
+  "files": {
+    "all_four_layers.pdf": "826d0f25a9cba4d986737588f6cf5a5befe79b393d7d7878e8617f5452d2955c",
+    "bottom.pdf": "dc7d7e59476cc4f9db5ee04376b82f2f70c6e2b49e8521fc403b00f06582b47c",
+    "bottom.svg": "317249a846e6d8440ecc1e15c02a708b8c59a20f52676545bcd1d0590629cbdd",
+    "inner1.pdf": "1d7bade77c71ecde1d0677518a16e437078689ddbb8e431dfc61c5f3848745aa",
+    "inner1.svg": "7cb83e2d5d935e6578855321a4fd0a27f94d0e31cbe43088395550a18f089d10",
+    "inner2.pdf": "619a5c54fbbb3829af5064f7a50e59e2e79964a22dac6cf95c44dd8b2b1faf27",
+    "inner2.svg": "1866dab311915ffc5e154106bba0e9b4798aca12d6c5556940156e580be408b8",
+    "top.pdf": "1fffd5ec449c93de4d726eeef31c7eacac2a02d6c6fd3c3d9df158c5df13801d",
+    "top.svg": "422df6c3fac6e7a4e2ec1848bbe16a6444361eda1a391e8db5d248864123dc1c",
+    "routing_commentary.pdf": "06f89fa65070e9a75520dfb0ba0ba7ba39200ef9588184da4a28ba776f0ee428"
+  }
+}
