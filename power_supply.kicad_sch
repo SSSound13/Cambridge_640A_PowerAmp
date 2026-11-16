@@ -2509,7 +2509,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "AUX SECONDARY\n1: GREEN\n2: BLUE (centre tap, 0V)\n3: PURPLE"
+	(text "AUX SECONDARY\n1: GREEN\n2: VIOLET (centre tap, 0V)\n3: GREY"
 		(exclude_from_sim no)
 		(at 88.9 203.962 0)
 		(effects
@@ -2531,7 +2531,7 @@
 		)
 		(uuid "8e1a1dfb-8c40-43ea-bc5c-a6d3ec2bb06d")
 	)
-	(text "RC snubbers R122**/C79**, R123**/C80** across each half of the main secondary:\nstart 10R + 100n, tune R on the real transformer (Quasimodo / Hagerman)."
+	(text "RC snubbers R122**/C79**, R123**/C80** across each half of the main secondary:\nstart 47R + 100n, tune R on the real transformer (Quasimodo / Hagerman)."
 		(exclude_from_sim no)
 		(at 238.76 55.88 0)
 		(effects
@@ -2542,7 +2542,7 @@
 		)
 		(uuid "8f969f95-41a3-4694-9924-f9d3550e9fff")
 	)
-	(text "MAIN SECONDARY (toroid)\n1: RED\n2: YELLOW\n3: ORANGE (centre tap, 0V)"
+	(text "MAIN SECONDARY (toroid)\n1: YELLOW\n2: RED\n3: ORANGE (centre tap, 0V)"
 		(exclude_from_sim no)
 		(at 299.72 109.982 0)
 		(effects
@@ -2564,7 +2564,7 @@
 		)
 		(uuid "bcc4405d-737a-4642-8ae0-c7fb69ec737b")
 	)
-	(text "Changes (marked **): R122**/C79**, R123**/C80** RC snubbers;\nD17**-D20** BY550-400 (was 1N5402).\nU8: stock 7805, no insulation kit; U9/U10: insulation kits. Use heatsink compound (service manual p25)."
+	(text "Changes (marked **): R122**/C79**, R123**/C80** RC snubbers;\nD17**-D20** BY550-400 (was 1N5402).\nU8: 7805. U8/U9/U10: insulating pads and mounting bushings; use heatsink compound."
 		(exclude_from_sim no)
 		(at 20.32 48.26 0)
 		(effects
@@ -4881,26 +4881,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8026566344"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "38343873-c729-464d-a47e-4020cfb285a8")
 		)
@@ -5075,26 +5055,6 @@
 			)
 		)
 		(property "MPN" "B32560J3104K000"
-			(at 259.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 259.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8002013680"
 			(at 259.08 71.12 0)
 			(effects
 				(font
@@ -5280,26 +5240,6 @@
 			)
 		)
 		(property "MPN" "BY550-400"
-			(at 207.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 207.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8026566344"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -5789,26 +5729,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 243.84 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "9000040018"
-			(at 243.84 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dcdc35f5-91b9-4b94-9346-bb0724b663a3")
 		)
@@ -6052,26 +5972,6 @@
 			)
 		)
 		(property "MPN" "B3P-VH"
-			(at 95.25 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 95.25 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "222965310"
 			(at 95.25 205.74 0)
 			(effects
 				(font
@@ -7178,26 +7078,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 243.84 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8002013680"
-			(at 243.84 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "180d826b-8638-418c-a775-d77d9b587f4f")
 		)
@@ -7370,26 +7250,6 @@
 			)
 		)
 		(property "MPN" "BY550-400"
-			(at 207.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 207.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8026566344"
 			(at 207.01 88.9 0)
 			(effects
 				(font
@@ -8806,26 +8666,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 293.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "222965310"
-			(at 293.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e7d773fa-f984-44e9-b4af-c5a64e15eb74")
 		)
@@ -8996,26 +8836,6 @@
 			)
 		)
 		(property "MPN" "MO-50 0.5W 47R 5%"
-			(at 247.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 247.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "9000040018"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -9265,26 +9085,6 @@
 			)
 		)
 		(property "MPN" "BY550-400"
-			(at 224.79 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 224.79 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8026566344"
 			(at 224.79 104.14 0)
 			(effects
 				(font

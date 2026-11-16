@@ -8439,26 +8439,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 327.66 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8002013680"
-			(at 327.66 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5f50a48f-3b18-4158-90a3-074a1a0ae83c")
 		)
@@ -8791,26 +8771,6 @@
 			)
 		)
 		(property "MPN" "MF-25 0.25W 100R 1%"
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "47324"
 			(at 40.64 30.48 0)
 			(effects
 				(font
@@ -9548,26 +9508,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 379.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "56245612"
-			(at 379.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d2130a77-d2bf-46a5-add9-0096e4ab3266")
 		)
@@ -9820,26 +9760,6 @@
 			)
 		)
 		(property "MPN" "FRN50J150R/S"
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8003870514"
 			(at 254 68.58 0)
 			(effects
 				(font
@@ -10347,26 +10267,6 @@
 			)
 		)
 		(property "MPN" "AC03000004708JAC00"
-			(at 327.66 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 327.66 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8017149996"
 			(at 327.66 143.51 0)
 			(effects
 				(font
@@ -10946,26 +10846,6 @@
 			)
 		)
 		(property "MPN" "ECE-A1AN221U"
-			(at 184.15 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 184.15 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8072492276"
 			(at 184.15 154.94 0)
 			(effects
 				(font
@@ -11863,26 +11743,6 @@
 			)
 		)
 		(property "MPN" "MKS2D042201N00KO00 (MKS2-2.2U/100-R)"
-			(at 82.55 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 82.55 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "9000788913"
 			(at 82.55 133.35 0)
 			(effects
 				(font
@@ -13797,26 +13657,6 @@
 			)
 		)
 		(property "MPN" "FRN50J150R/S"
-			(at 273.05 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 273.05 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "8003870514"
 			(at 273.05 215.9 0)
 			(effects
 				(font

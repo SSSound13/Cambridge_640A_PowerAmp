@@ -15607,7 +15607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11k 8th"
+		(property "Value" "11k 0.25W"
 			(at 76.082 52.082 0)
 			(effects
 				(font

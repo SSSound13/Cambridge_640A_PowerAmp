@@ -1,6 +1,0 @@
-{
-  "paired_connections": 25,
-  "expected_centerlines_checked": 50,
-  "centerline_tolerance_mm": 0.002,
-  "missing": []
-}

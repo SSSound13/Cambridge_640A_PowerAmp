@@ -249,32 +249,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee9ca9de-312d-4651-9e87-345cc43ef832")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "9000788913"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a4cd82a-7b9b-44c6-960d-97b660580bfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/77d1db1b-1bca-435d-95f0-6472fae9a8be/9a1acefb-8163-4726-84ac-32c697ab9ff2")
 		(sheetname "/Left Channel/")
@@ -8566,32 +8540,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6445384-8066-4a26-bdee-c051cf8f9c6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8003870514"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0460b12a-de8e-4c48-9642-5aa5c07e92a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/77d1db1b-1bca-435d-95f0-6472fae9a8be/dbe7b667-a736-4c4e-a231-aebcd0193728")
 		(sheetname "/Left Channel/")
@@ -14090,7 +14038,7 @@
 				)
 			)
 		)
-		(property "Value" "11k 8th"
+		(property "Value" "11k 0.25W"
 			(at 3.81 1.92 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14687,32 +14635,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7416993b-8e66-42a3-9401-f55cdc8598cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88632aaa-ce53-4e5e-964a-17e129a122e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "47324"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a140d03-071f-4b72-8a67-581eaec35353")
 			(effects
 				(font
 					(size 1 1)
@@ -44819,30 +44741,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68f2817d-b184-44f2-b1f4-1a46c4b98985")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "9000040018"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42043f40-a2da-459e-90bf-731b0981449c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/8c4ea856-eae2-4aea-bfe7-2cfb93153448/c91973be-8172-46ef-abd4-7519da08882e")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -47770,32 +47668,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "feecf384-c647-451d-acfe-92edb0ec26a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8002013680"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38c47e63-9677-4c8c-9f63-5cbe646c5530")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/8c4ea856-eae2-4aea-bfe7-2cfb93153448/75fce443-9b59-448e-9351-a383f02b7316")
 		(sheetname "/Power Supply/")
@@ -48722,32 +48594,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44e0c0a8-d108-4cc0-a5db-77195453bfb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "47324"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aafa8e93-2697-4f82-b844-f11e0324a01a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/28233c03-83f5-4c25-876e-7529369fa39f/3a7eeed0-db1a-4341-afab-0edfde921b2f")
 		(sheetname "/Right Channel/")
@@ -49111,32 +48957,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5a8a198-ea1b-4e71-8846-ef86f145e465")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de73c68a-bca4-4e8b-bd3f-32dcd007ea87")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "56245612"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "126b973f-226e-40fa-bf2c-0fe0c5812427")
 			(effects
 				(font
 					(size 1 1)
@@ -49828,32 +49648,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5834106c-ead2-4b8d-a8bb-22fbd91fa121")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f841eba-1953-4a50-8dda-955b69912eb1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8026566344"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2354a55d-2c9f-46be-b7c5-55caeb86fc61")
 			(effects
 				(font
 					(size 1 1)
@@ -55648,32 +55442,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de7b38f3-f18e-4987-8df7-60e9d86c5f4e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8003870514"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "428ae460-2dd6-462f-af78-b4173d661397")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/77d1db1b-1bca-435d-95f0-6472fae9a8be/40fd17e8-36a6-4a39-be93-5037300fa606")
 		(sheetname "/Left Channel/")
@@ -57675,32 +57443,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f4070ed-29a5-4070-b651-5f38ae51af9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "403e9794-ec5f-476a-a296-abcbb756b157")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8003870514"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8a6d21d-3ba4-4cff-b452-a3a1b6297ee5")
 			(effects
 				(font
 					(size 1 1)
@@ -60222,32 +59964,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73ad3b16-cf3c-4eff-952f-0e53f7f30271")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8026566344"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8b6e8fa-d7c6-4c8c-93c9-0888db62a1d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/8c4ea856-eae2-4aea-bfe7-2cfb93153448/18a90bfe-d0fe-483c-bf83-278936d8e3b4")
 		(sheetname "/Power Supply/")
@@ -60969,32 +60685,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8aae7379-cc11-444e-8997-754d1a8eb641")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37716097-3ffb-4fe4-9384-6433b730678e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "9000788913"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05e27aaf-7944-430a-afe4-218bc8e60e10")
 			(effects
 				(font
 					(size 1 1)
@@ -65496,30 +65186,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9634e550-a0bd-4fec-9929-102dbc757ecd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "9000040018"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d931dfd-6242-43f4-98b4-5fdd2093b25e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/8c4ea856-eae2-4aea-bfe7-2cfb93153448/38768ed5-536e-47ca-89d2-9dbd33b94cd4")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -65905,32 +65571,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8680825a-3746-43e4-970f-19277d4b3416")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a041e17b-05bd-437c-b8b2-9a65e83dba54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8003870514"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23ceb4b3-4a72-4138-a91b-3c05a551efc7")
 			(effects
 				(font
 					(size 1 1)
@@ -72761,32 +72401,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20994286-f230-4305-b603-21da8256967e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8072492276"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a0de6bb-fa08-47ab-9087-5fd40cdb9a14")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/77d1db1b-1bca-435d-95f0-6472fae9a8be/0e85711b-d1d5-4290-9836-489ee1172699")
 		(sheetname "/Left Channel/")
@@ -78942,32 +78556,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a2a7354-1718-49b5-b9cd-dc0816c63efd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8002013680"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e2b5297-3e8a-418f-886b-20821bdd7131")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/8c4ea856-eae2-4aea-bfe7-2cfb93153448/13367f86-3171-4b0c-b5b0-3c1998027096")
 		(sheetname "/Power Supply/")
@@ -79553,32 +79141,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1af1b99e-20c8-48cf-b4ee-8a37ade1e5f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24f26e92-b317-4adf-a583-f78343a4b40f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8026566344"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43834d19-4a2e-4168-8e6e-11201d3e0908")
 			(effects
 				(font
 					(size 1 1)
@@ -84888,32 +84450,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1dfb5e7e-de79-4804-aef3-72a98d1520da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df3e29bd-42b0-48ca-9e90-29a95664bbd2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8002013680"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac59d0d9-2bc1-4110-ae19-a4aa6459577f")
 			(effects
 				(font
 					(size 1 1)
@@ -94255,32 +93791,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcf47a03-09a9-458c-a172-abd811a8b7e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "222965310"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4175e2f4-466b-4863-b710-e14b67dde692")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8c4ea856-eae2-4aea-bfe7-2cfb93153448/c71acc94-6e83-4fb0-9529-ea1bce4242cb")
 		(sheetname "/Power Supply/")
@@ -103239,32 +102749,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71e90e92-df1b-4e61-9727-b8f64fbd1501")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "222965310"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f060229d-494e-4f36-b7a9-ea60719bc0d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8c4ea856-eae2-4aea-bfe7-2cfb93153448/3f37524d-7e6a-4ded-a1ed-4f4a5d1e9b3f")
 		(sheetname "/Power Supply/")
@@ -106788,32 +106272,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c32e52a-361e-4f3c-ace0-b61092e2d3dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7dafafee-1bdb-4690-9445-1b15a1cda4af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8026566344"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a60e3128-7e64-4894-9e5b-9f405f14f105")
 			(effects
 				(font
 					(size 1 1)
@@ -112215,32 +111673,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8379ef6a-8bb5-48d9-a65a-115eb51456b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8002013680"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "baaf4777-e368-4aae-9aab-04521545d412")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/77d1db1b-1bca-435d-95f0-6472fae9a8be/804ab850-eb26-4706-b239-fbd9171b82f9")
 		(sheetname "/Left Channel/")
@@ -113078,32 +112510,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ce55dfe6-467a-408b-8648-37e780ec3eb6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0cb48115-0a3b-46f2-8682-ca864f63e8cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8072492276"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15cd095c-82c0-45a4-bc55-69d1c4de7b50")
 			(effects
 				(font
 					(size 1 1)
@@ -114245,32 +113651,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "494ef3de-2c0c-4cc0-8d63-4a79c8b2b06a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c87b05c6-102c-4e26-b0ac-03929245fa2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8017149996"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d18c1029-c1e8-4387-ac99-e5382b16c52c")
 			(effects
 				(font
 					(size 1 1)
@@ -115753,32 +115133,6 @@
 				)
 			)
 		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c8b18d2-4363-4cca-a11f-2f8f3806fbbf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "56245612"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdd90c10-a6bc-41cf-9d75-906445813daa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/77d1db1b-1bca-435d-95f0-6472fae9a8be/8afebf18-4605-4364-b736-d83064b192c5")
 		(sheetname "/Left Channel/")
@@ -116591,32 +115945,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "397b8961-19f2-488e-aa6e-90b80c9fdc85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier" "ЧИП и ДИП"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88e39f19-e00d-45a0-a115-461b7ef33571")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Supplier PN" "8017149996"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87e9896b-bc2f-4dd7-a602-e3e581401051")
 			(effects
 				(font
 					(size 1 1)
@@ -134712,7 +134040,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "v2 fix draft"
+	(gr_text "Revision 2"
 		(at 168.18 123.9 0)
 		(layer "B.SilkS")
 		(uuid "3b2c66c5-5425-5464-8bd4-8158e7d1ed5a")
@@ -134724,7 +134052,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "2026-11-06"
+	(gr_text "2026-11-16"
 		(at 168.18 125.9 0)
 		(layer "B.SilkS")
 		(uuid "39aaf7f1-c45a-5eec-84f7-df369b9a4c20")

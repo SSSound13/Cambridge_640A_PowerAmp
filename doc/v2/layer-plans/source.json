@@ -1,19 +1,18 @@
 {
   "published": "2026-11-16",
-  "source_commit": "d4881dc",
-  "pcb_sha256": "ce68c05fa9113f6c1e6b4bcfa69d407afce236bd59eecebedb2ee69bdec6ca71",
-  "view_export": "KiCad 10.0.8; existing verified exports of the same PCB; copper and silkscreen unchanged",
+  "pcb_sha256": "51df31890b00e22fb43f9d16581166f363889a45a50af2e36c3e6d4545bbe497",
+  "export": "KiCad 10.0.8",
   "bottom_view": "mirrored for viewing from below",
   "files": {
-    "all_four_layers.pdf": "826d0f25a9cba4d986737588f6cf5a5befe79b393d7d7878e8617f5452d2955c",
-    "bottom.pdf": "dc7d7e59476cc4f9db5ee04376b82f2f70c6e2b49e8521fc403b00f06582b47c",
-    "bottom.svg": "317249a846e6d8440ecc1e15c02a708b8c59a20f52676545bcd1d0590629cbdd",
-    "inner1.pdf": "1d7bade77c71ecde1d0677518a16e437078689ddbb8e431dfc61c5f3848745aa",
-    "inner1.svg": "7cb83e2d5d935e6578855321a4fd0a27f94d0e31cbe43088395550a18f089d10",
-    "inner2.pdf": "619a5c54fbbb3829af5064f7a50e59e2e79964a22dac6cf95c44dd8b2b1faf27",
-    "inner2.svg": "1866dab311915ffc5e154106bba0e9b4798aca12d6c5556940156e580be408b8",
-    "top.pdf": "1fffd5ec449c93de4d726eeef31c7eacac2a02d6c6fd3c3d9df158c5df13801d",
-    "top.svg": "422df6c3fac6e7a4e2ec1848bbe16a6444361eda1a391e8db5d248864123dc1c",
-    "routing_commentary.pdf": "06f89fa65070e9a75520dfb0ba0ba7ba39200ef9588184da4a28ba776f0ee428"
+    "all_four_layers.pdf": "a82d1300c1a857e7f7bf16d3d9bfe7ba8c149b400cc49134d46c919c5ef5f269",
+    "bottom.pdf": "1b07aaf4433619b360ba059c568bdc6d739cc86c6f2809dcf352027aba0baaa6",
+    "bottom.svg": "c5040c8638b3c75c279b4042aa3391e30c67ac81c8b0f7431ff8f73582f2748d",
+    "inner1.pdf": "4ac5631053d147a5844d4c7d2330320d22e628fc285ed0985fdd91fb4be95cf2",
+    "inner1.svg": "839e3828082c5d62d26a2a5dc2a922cfd9ca58a8d3d4ffe207c7cfd63b0ee186",
+    "inner2.pdf": "e2dcc6dce99564e9dcc8385adfeb321b7ce67ce5040cb9541045bb6d827f5e16",
+    "inner2.svg": "ac9528d3616bdb701d09c7a65f6e9fb01cacd1a6d478d222013072a8644fdc60",
+    "routing_commentary.pdf": "b770c953a595ab8f7bb04aea2fd768a00b16b27bdcc2e18c694ebd3d05f12343",
+    "top.pdf": "9bebc212e85b8df7a882fd6c129a27932a80b6b03e577d40b511e886fba63828",
+    "top.svg": "18200134a281e80adfb50470cb55d2c302abea20bbe4b89d2a120319dce87929"
   }
 }
