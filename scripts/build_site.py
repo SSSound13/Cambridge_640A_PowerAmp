@@ -39,8 +39,8 @@ def build():
    return attr+'="'+html.escape(url,quote=True)+'"'
   rendered=re.sub(r'(href|src)="([^"]+)"',rewrite,rendered)
   rendered=re.sub(r'<table>(.*?)</table>',r'<div class="table-wrap" tabindex="0"><table>\1</table></div>',rendered,flags=re.S)
-  labels=['Overview','Assembly','Fabrication','Parts list','Wiring','First power-up'] if en else ['Обзор проекта','Сборка платы','Производство','Перечень деталей','Подключение','Первое включение']
-  routes=['README','doc/assembly-notes/README','production/README','BOM','doc/v2/WIRING','doc/v2/FIRST_POWER_UP_V2']
+  labels=['Fabrication','Parts list','Assembly','Wiring','First power-up'] if en else ['Производство','Перечень деталей','Сборка платы','Подключение','Первое включение']
+  routes=['production/README','BOM','doc/assembly-notes/README','doc/v2/WIRING','doc/v2/FIRST_POWER_UP_V2']
   nav=''.join(f'<a href="{link(p+(".en" if en else "")+".md")}"'+(' aria-current="page"' if rel==p+('.en' if en else '')+'.md' else '')+f'>{label}</a>' for p,label in zip(routes,labels))
   headings=re.findall(r'<h2 id="([^"]+)">(.*?)</h2>',rendered,re.S)
   toc='<details class="toc"><summary>'+('On this page' if en else 'На этой странице')+'</summary><ul>'+''.join('<li><a href="#'+i+'">'+t+'</a></li>' for i,t in headings)+'</ul></details>' if headings else ''
