@@ -1,0 +1,51 @@
+{
+  "source_pcb": "640A_PowerAmp.kicad_pcb",
+  "pcb_sha256": "51df31890b00e22fb43f9d16581166f363889a45a50af2e36c3e6d4545bbe497",
+  "kicad_version": "10.0.7",
+  "stackup": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "board_mm": [
+    198.9259,
+    129.9597
+  ],
+  "thickness_mm": 1.6,
+  "copper_um": [
+    70,
+    35,
+    35,
+    70
+  ],
+  "origin": "absolute; identical for Gerber and Excellon; no mirroring",
+  "pth_holes": 648,
+  "npth_holes": 8,
+  "vias": 0,
+  "active_drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "files": {
+    "drill/640A_PowerAmp-NPTH-drl_map.pdf": "92bc2289008354015b3e94022d41e5ea1d56af326cfd4631ee6a6df288a55900",
+    "drill/640A_PowerAmp-NPTH.drl": "a4381971d246817d118e0127fc8917b6a2bfb711b052013e46e244397e5e1af2",
+    "drill/640A_PowerAmp-PTH-drl_map.pdf": "e4e5e7164dde4bbadace919dad23ec0082b8793a3bb8d9b7a68421f7db58a72f",
+    "drill/640A_PowerAmp-PTH.drl": "0e693b9e43f75f60c092db6fd9ed327dc56f61c4a373afd0f3ced06513362fb0",
+    "drill/drill-report.txt": "9a10d20f02cb8e5a5d10ac83282c9ae40d5f1f115afe5e60c20c20eca919bb09",
+    "gerbers/640A_PowerAmp-B_Cu.gbl": "56caac69174c9eae4dd8f4380cd78853797b1b9cb92fbc33efaedb05b8b9d1a2",
+    "gerbers/640A_PowerAmp-B_Mask.gbs": "c4cb8a5134f5bded99d7d2eb37115633d3feec3eb5e1998bf3ca5b36f000039b",
+    "gerbers/640A_PowerAmp-B_Silkscreen.gbo": "b75c6bd70c2476a8c1ed9126da361f398c7180c330544406c57fe3be632d4fc9",
+    "gerbers/640A_PowerAmp-Edge_Cuts.gm1": "b0c70b83e54dec30350e5a1f1dd61b6d4d1fc445d665c588b4b2b575705b9376",
+    "gerbers/640A_PowerAmp-F_Cu.gtl": "e21c6eec543582034e078d0de52861774f88b6116b2e74891e3bec48f4ff1627",
+    "gerbers/640A_PowerAmp-F_Mask.gts": "4ad7c5ecfe80469e64d112ef843d666cf71111272ae03e00bc4572d4b348c5b5",
+    "gerbers/640A_PowerAmp-F_Silkscreen.gto": "113c5cc1d573ca6fd7411a530e774ac152b1602271741f6fedae4560abea81d8",
+    "gerbers/640A_PowerAmp-In1_Cu.g1": "73333e39d6581d44e830a687447a8e656052895df38a274c1e4431559b781272",
+    "gerbers/640A_PowerAmp-In2_Cu.g2": "6684669477e729e2fd0cf048e5f819c1cf41a0b5e78ba0edd98ab7a36d20acd2",
+    "gerbers/640A_PowerAmp-job.gbrjob": "0cfe919fb0a9bdf96a7d37d8443d3fd77d055cfeecd90b63eabd83b9efd0e969",
+    "validation/drc.json": "6a7c931950a408760cbc1ccb6bb57f8886f6cd7cdff8182238137e28aeb4dace",
+    "validation/drc_with_exclusions.json": "5906731b6fb5ceb12dd4365431064b38cac1c1128d32f9f581d57471db520942",
+    "FABRICATION_NOTES.txt": "23b3b1b3d344c5db8cf264ab4113ea9987167271f25d1d146f08f9bef0e31972",
+    "README.md": "3e3f7ea4cadba69a164e98d31510c5efba386d2a04ad25321e9bc06f5f1f5a72",
+    "README.en.md": "a6ca6a7fdb7d782d54bdbeae2fb87c8c93971ecdeb029f0a65d65323dbaababa"
+  }
+}

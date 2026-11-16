@@ -2,3 +2,6 @@
 * text=auto
 doc/v2/C22_C42_CAD/*.step binary
 doc/v2/C22_C42_CAD/*.dxf binary
+*.pdf binary
+*.png binary
+*.zip binary

@@ -1,0 +1,18 @@
+CAMBRIDGE AZUR 640A V1 — FABRICATION / ИЗГОТОВЛЕНИЕ
+
+Source / Исходник: 640A_PowerAmp.kicad_pcb; SHA-256 in manifest.json.
+4 copper layers / 4 слоя: F.Cu, In1.Cu, In2.Cu, B.Cu (top to bottom).
+FR4, board thickness / толщина платы: 1.6 mm.
+Design copper / медь по проекту: 70 / 35 / 35 / 70 um.
+Confirm finished copper thickness with manufacturer / согласовать готовую толщину меди.
+Outline / контур: Edge.Cuts, bounding size 198.9259 x 129.9597 mm.
+Gerber X2, mm, absolute coordinates. No mirroring / не зеркалировать.
+Excellon drill, mm, decimal, absolute origin (same as Gerber).
+PTH: 648 plated holes / металлизированных отверстий.
+NPTH: 8 non-plated holes / неметаллизированных отверстий.
+Separate vias / отдельных переходных отверстий: 0.
+Solder mask and silkscreen both sides / маска и шелкография с двух сторон.
+Silkscreen is clipped against solder mask openings / шелкография вычтена по маске.
+Surface finish and mask colour are not specified by source PCB / покрытие и цвет маски выбирать при заказе.
+Use supplied outline; do not add scaling or mirror transformations.
+Использовать приложенный контур; масштабирование и зеркалирование не применять.

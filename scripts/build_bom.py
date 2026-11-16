@@ -8,6 +8,8 @@ ROOT=Path(__file__).resolve().parents[1]
 rows=list(csv.DictReader((ROOT/'BOM.csv').open(encoding='utf-8-sig'),delimiter=';'));fields=list(rows[0])
 intro='''# BOM — Cambridge 640A, последняя ревизия
 
+[English](BOM.en.md)
+
 [**Скачать Excel (.xlsx)**](https://github.com/SSSound13/Cambridge_640A_PowerAmp/raw/refs/heads/main/BOM.xlsx) · [Скачать CSV](BOM.csv)
 
 Одна таблица для всей платы и ответных частей разъёмов. Резисторы сгруппированы по мощности; внутри каждой группы номиналы идут по возрастанию. Одинаковые детали с разными посадками или статусом добавления показаны отдельными строками.

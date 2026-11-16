@@ -1,0 +1,98 @@
+:root{--paper:#f7f6f2;--surface:#fff;--ink:#182a35;--muted:#62717b;--line:#dce1df;--accent:#a34c2d;--nav:#142a35;--width:1180px;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:34px}
+body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:#17647b;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent)}
+a:focus-visible,summary:focus-visible{outline:3px solid #d8934a;outline-offset:4px}
+.skip{position:absolute;top:-60px;left:20px;z-index:10;background:white;padding:8px}
+.skip:focus{top:8px}
+.rail{position:fixed;inset:0 auto 0 0;width:248px;background:var(--nav);color:#fff;padding:35px 26px;display:flex;flex-direction:column;z-index:4;overflow:auto}
+.brand{color:#fff;text-decoration:none;display:block;line-height:1.2}
+.brand span{font-size:12px;letter-spacing:.2em;display:block;color:#a7c1ca}
+.brand strong{font-size:47px;letter-spacing:-.06em;font-weight:650}
+.brand small{display:block;margin-top:8px;color:#c1cfd4;font-size:12px;letter-spacing:.05em}
+.edition{font:11px/1.6 ui-monospace,monospace;color:#9eb9c3;border-bottom:1px solid #40515a;padding:23px 0 25px}
+.main-nav{display:grid;gap:5px;margin:28px -10px}
+.main-nav a{color:#c8d5da;font-size:14px;text-decoration:none;padding:10px;border-radius:4px}
+.main-nav a:hover,.main-nav a[aria-current=page]{background:#29434e;color:white}
+.main-nav a[aria-current=page]{box-shadow:inset 2px 0 #d99760}
+.languages{display:flex;gap:9px;align-items:center;margin-top:auto;padding-top:28px;font:12px ui-monospace,monospace}
+.languages a{color:#bfcfd5;text-decoration:none;border:1px solid #526873;border-radius:4px;padding:5px 11px}
+.languages a[aria-current=page]{color:var(--nav);background:#f7f6f2;border-color:#f7f6f2}
+.repo{font-size:12px;color:#a7c1ca;margin-top:18px;word-break:break-word}
+.page{margin-left:248px;min-width:0}
+.topline{max-width:var(--width);margin:auto;padding:26px 52px 17px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font:11px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.topline a{font:inherit}
+.article{max-width:var(--width);margin:auto;padding:42px 52px 70px;overflow-wrap:anywhere}
+.article h1{font-size:clamp(30px,3.5vw,51px);font-weight:650;line-height:1.13;letter-spacing:-.045em;margin:0 0 24px;max-width:850px}
+.article h2{font-size:27px;line-height:1.3;letter-spacing:-.025em;padding-top:30px;border-top:1px solid var(--line);margin:44px 0 20px}
+.article h3{font-size:20px;line-height:1.35;margin:31px 0 15px;letter-spacing:-.015em}
+.article p{max-width:950px;margin:16px 0}
+.article strong{font-weight:650}
+.article ul,.article ol{padding-left:24px}
+.article li{padding:5px 0}
+.article li p{margin:4px 0}
+.article img{display:block;max-width:100%;height:auto;background:white;border:1px solid var(--line);border-radius:5px;margin:25px auto}
+.article a:has(>img){display:block}
+.table-wrap{max-width:100%;overflow-x:auto;margin:26px 0;background:var(--surface);border:1px solid var(--line);border-radius:5px}
+.table-wrap table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5}
+.table-wrap th{text-align:left;font-weight:650;background:#edf1ef;border-bottom:1px solid #cdd7d6;padding:14px;vertical-align:bottom}
+.table-wrap td{padding:13px 14px;border-bottom:1px solid #e5e9e7;min-width:100px;vertical-align:top}
+.table-wrap tbody tr:last-child td{border-bottom:0}
+.table-wrap tr:hover td{background:#fafaf7}
+.article code{font:12px ui-monospace,monospace;padding:2px 5px;background:#e9eeeb;border-radius:3px}
+.article pre{overflow:auto;background:#e9eeeb;padding:20px;border-radius:5px}
+.toc{border:1px solid var(--line);border-radius:5px;background:#f1f2ed;padding:12px 18px;margin:27px 0 36px;font-size:13px}
+.toc summary{cursor:pointer;font-weight:650}
+.toc ul{columns:2;column-gap:25px;padding-left:18px}
+.toc li{break-inside:avoid;padding:3px 0}
+.toc a{text-decoration:none}
+.metricbar{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin:32px 0}
+.metric{background:#f1f2ed;padding:16px}
+.metric strong{display:block;font:24px/1.3 ui-monospace,monospace;letter-spacing:-.05em}
+.metric span{font-size:11px;line-height:1.3;color:var(--muted)}
+.download-strip{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 32px}
+.download-strip a{font-size:13px;font-weight:600;border:1px solid #bfcfce;border-radius:4px;text-decoration:none;padding:10px 15px;background:white}
+.download-strip a:first-child{background:var(--accent);border-color:var(--accent);color:white}
+.footer{max-width:var(--width);margin:auto;border-top:1px solid var(--line);padding:25px 52px 40px;color:var(--muted);font-size:12px}
+.mobile-nav{display:none}
+footer a{color:inherit}
+figure{margin:20px 0}
+@media(min-width:1600px){:root{--width:1280px}
+.article{padding-left:75px;padding-right:75px}
+}
+@media(max-width:1050px){.rail{width:210px;padding:28px 22px}
+.page{margin-left:210px}
+.article{padding:32px 28px 50px}
+.topline,.footer{padding-left:28px;padding-right:28px}
+.brand strong{font-size:42px}
+.article h1{font-size:37px}
+.metric{padding:12px}
+.metricbar{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:720px){.rail{position:relative;width:auto;padding:20px 22px;display:grid;grid-template-columns:1fr auto;gap:12px;overflow:visible}
+.brand strong{font-size:32px}
+.brand span{font-size:9px}
+.brand small,.edition,.rail>.main-nav,.repo{display:none}
+.languages{margin:0;padding:0;align-self:center}
+.page{margin:0}
+.topline{padding:17px 22px;font-size:10px}
+.article{padding:29px 20px 45px;font-size:15px}
+.article h1{font-size:31px}
+.article h2{font-size:24px;margin-top:35px}
+.article h3{font-size:19px}
+.mobile-nav{display:block;grid-column:1/-1;font-size:13px;border-top:1px solid #40515a;padding-top:12px}
+.mobile-nav summary{cursor:pointer}
+.mobile-nav .main-nav{margin:10px 0 0;grid-template-columns:1fr 1fr;gap:3px}
+.main-nav a{padding:8px}
+.toc ul{columns:1}
+.footer{padding:24px 20px}
+.download-strip{display:grid;grid-template-columns:1fr}
+.metricbar{margin:25px 0}
+.table-wrap td,.table-wrap th{padding:10px;min-width:115px}
+.topline>span{max-width:70%}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
+}
+
