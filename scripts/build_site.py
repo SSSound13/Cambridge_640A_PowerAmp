@@ -45,11 +45,9 @@ def build():
   headings=re.findall(r'<h2 id="([^"]+)">(.*?)</h2>',rendered,re.S)
   toc='<details class="toc"><summary>'+('On this page' if en else 'На этой странице')+'</summary><ul>'+''.join('<li><a href="#'+i+'">'+t+'</a></li>' for i,t in headings)+'</ul></details>' if headings else ''
   home=rel in ['README.md','README.en.md']
-  metrics=''
   if home:
-   metrics='<div class="metricbar">'+''.join(f'<div class="metric"><strong>{v}</strong><span>{t}</span></div>' for v,t in zip(['4','274','1.6 mm','SAP15'],['copper layers','fitted components','board thickness','original output modules'] if en else ['слоя меди','устанавливаемые детали','толщина платы','штатные выходные модули']))+'</div>'
    downloads='<div class="download-strip"><a href="'+BASE+'/production/Cambridge_640A_PowerAmp_production.zip">'+('Download Gerber + drill ZIP' if en else 'Скачать Gerber + сверловку')+'</a><a href="'+link('doc/assembly-notes/README'+('.en' if en else '')+'.md')+'">'+('Assembly documents' if en else 'Документы по сборке')+'</a><a href="'+REPO+'">GitHub ↗</a></div>'
-   at=rendered.find('</h1>')+5;rendered=rendered[:at]+metrics+downloads+toc+rendered[at:]
+   at=rendered.find('</h1>')+5;rendered=rendered[:at]+downloads+toc+rendered[at:]
   else:
    at=rendered.find('</h1>')+5;rendered=rendered[:at]+toc+rendered[at:]
   language=f'<div class="languages"><a href="{rus}" lang="ru" hreflang="ru"'+(' aria-current="page"' if not en else '')+'>RU</a><a href="'+eng+'" lang="en" hreflang="en"'+(' aria-current="page"' if en else '')+'>EN</a></div>'
