@@ -4,7 +4,7 @@
   "export": "KiCad 10.0.8",
   "bottom_view": "mirrored for viewing from below",
   "files": {
-    "all_four_layers.pdf": "a82d1300c1a857e7f7bf16d3d9bfe7ba8c149b400cc49134d46c919c5ef5f269",
+    "all_four_layers.pdf": "0521f003c9ca3021efcf1408e8455396cc419133cb7ca5a052d9256c40d49cf8",
     "bottom.pdf": "1b07aaf4433619b360ba059c568bdc6d739cc86c6f2809dcf352027aba0baaa6",
     "bottom.svg": "c5040c8638b3c75c279b4042aa3391e30c67ac81c8b0f7431ff8f73582f2748d",
     "inner1.pdf": "4ac5631053d147a5844d4c7d2330320d22e628fc285ed0985fdd91fb4be95cf2",
@@ -12,7 +12,15 @@
     "inner2.pdf": "e2dcc6dce99564e9dcc8385adfeb321b7ce67ce5040cb9541045bb6d827f5e16",
     "inner2.svg": "ac9528d3616bdb701d09c7a65f6e9fb01cacd1a6d478d222013072a8644fdc60",
     "routing_commentary.pdf": "b770c953a595ab8f7bb04aea2fd768a00b16b27bdcc2e18c694ebd3d05f12343",
-    "top.pdf": "9bebc212e85b8df7a882fd6c129a27932a80b6b03e577d40b511e886fba63828",
-    "top.svg": "18200134a281e80adfb50470cb55d2c302abea20bbe4b89d2a120319dce87929"
-  }
+    "top.pdf": "495c680ff28c6b93fced4766ebf991fde3cc9dfe468e579551d9e742114f5341",
+    "top.svg": "1bc34ab964eee4112e4081819cdc54f1191220feb760117dc94288dd1d9df4db",
+    "components.svg": "1680987324da5f61bfe708989135271b60e887a73c33d19a4c0e3d736458940c",
+    "components.png": "e0522002a2f80da8735a2de60d14e597123e177dadc6a1fdd8262d08c483b092",
+    "components.pdf": "784b19e5fe448c6684cdc7737f962d7badbf980e67d099959eebf14950c1cfdd"
+  },
+  "views": {
+    "components": "Silkscreen and board outline only; no copper",
+    "top": "F.Cu and board outline only; no component outlines or designators"
+  },
+  "view_processing": "Separated existing KiCad 10 SVG layer colours; PDFs and component PNG rendered with Inkscape"
 }
