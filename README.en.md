@@ -1,19 +1,21 @@
 # Cambridge Audio Azur 640A — replacement main board
 
+> **Board under testing.**
+
 [Русский](README.md) · **English** · [Project website](https://SSSound13.github.io/Cambridge_640A_PowerAmp/en/)
 
 Current revision for the **Cambridge 640A V1**, based on factory schematic AP12707/6 and PCB AP12708/6a. The amplifier topology and Sanken SAP15 output modules are retained.
 
 ## Status
 
-[DRC](production/validation/drc.json): 0 active violations, 0 unconnected items and 0 schematic parity issues. [Accepted courtyard exclusions](production/validation/drc_with_exclusions.json) and project rule settings are retained. The BOM covers 283 positions: 274 fitted parts, 2 DNP parts and 7 pads that require no purchased component.
+[Current DRC](doc/v2/routing-review/final-drc.json): zero copper violations, unconnected items and schematic mismatches. Existing silkscreen and D2/R107 courtyard findings remain. [Routing review](doc/v2/ROUTING_TOPOLOGY_REVIEW.en.md). Fabrication files and assembly maps belong to the earlier revision.
 
 ## Project files
 
 - [Parts list](BOM.en.md) · [Excel, Russian](BOM.xlsx) · [CSV, Russian](BOM.csv).
-- [KiCad project ZIP](doc/v2/no-vias/Cambridge_640A_no_vias.zip) · [KiCad project](640A_PowerAmp.kicad_pro). KiCad 10 or newer is required.
+- [KiCad project ZIP](doc/v2/routing-review/Cambridge640A_routing_review.zip) · [KiCad project](640A_PowerAmp.kicad_pro). KiCad 10 or newer is required.
 - [Fabrication ZIP — Gerber and drill files](production/Cambridge_640A_PowerAmp_production.zip) · [Fabrication specifications](production/README.en.md).
-- [Four copper layers and routing principles](#all-four-copper-layers) · [Combined PDF](doc/v2/layer-plans/all_four_layers.pdf).
+- [Four copper layers and routing principles](#all-four-copper-layers) · [Combined PDF](doc/v2/routing-review/routing-review.pdf).
 - [Wiring](doc/v2/WIRING.en.md).
 - [First power-up and bias adjustment](doc/v2/FIRST_POWER_UP_V2.en.md) · [Russian PDF](doc/v2/FIRST_POWER_UP_V2.pdf).
 - [Factory service manual AP14676/1, English](doc/Cambridge_Azur_640A_V1_Service_Manual_AP14676-1.pdf).
@@ -28,11 +30,11 @@ Current revision for the **Cambridge 640A V1**, based on factory schematic AP127
 - [Harness assembly and board wiring — Russian PDF](doc/640A_PowerAmp_v2_wiring.pdf).
 - [Current connector pin map — PDF](doc/assembly-notes/640A_power_connector_wire_colors.pdf) · [PNG](doc/assembly-notes/640A_power_connector_wire_colors.png).
 
-All assembly maps, sequence charts and wiring documents have been regenerated from the current PCB and BOM. Component outlines and pad locations are shown without copper routing. Coordinates, rotations and pin numbers come from the board. The sequence covers all 274 fitted positions in 13 stages.
+The assembly maps and instructions below belong to the earlier revision; the current board is available in the KiCad ZIP above.
 
 ## Component placement
 
-View from the component side, with the SAP15 output modules at the top. Reference designators correspond to the [BOM](BOM.en.md). This drawing shows component outlines and references without tracks or copper zones.
+View from the component side, with the SAP15 output modules at the top. Reference designators correspond to the [BOM](BOM.en.md). This earlier-revision drawing shows component outlines and references without tracks or copper zones; use the KiCad project for the current placement.
 
 [![Current component placement](doc/v2/layer-plans/components.png)](doc/v2/layer-plans/components.svg)
 
@@ -40,7 +42,7 @@ View from the component side, with the SAP15 output modules at the top. Referenc
 
 ## All four copper layers
 
-Routing views show copper, pads, holes and the board outline without component outlines or references. Open each image to inspect the vector drawing. The bottom view is mirrored relative to the top views, as seen from the solder side.
+Routing views show copper, pads, holes and the board outline without component outlines or references. Open each image to inspect the vector drawing. All four layers are viewed from the top, without mirroring.
 
 ### 1. Top layer — F.Cu
 
@@ -48,9 +50,9 @@ Local stage connections and some output and power connections. Component referen
 
 Matching channel stages use matching local geometry. Signal and power tracks have different widths. Placement and routing are considered together: a short connection is useful when the return-current path also remains clear.
 
-[PDF](doc/v2/layer-plans/top.pdf)
+[PDF](doc/v2/routing-review/F_Cu.pdf)
 
-[![Top copper F.Cu](doc/v2/layer-plans/top.svg)](doc/v2/layer-plans/top.svg)
+[![Top copper F.Cu](doc/v2/routing-review/layers/640A_PowerAmp-F_Cu.svg)](doc/v2/routing-review/layers/640A_PowerAmp-F_Cu.svg)
 
 ### 2. First inner layer — In1.Cu
 
@@ -60,9 +62,9 @@ Power is fed through wide copper sections while maintaining zone connectivity. T
 
 Compared with the original single-sided board, part of the power distribution moves from tracks and wires to inner copper. This gives more control over current paths and shared narrow sections. A numerical reduction in resistance or voltage drop has not been measured for this revision.
 
-[PDF](doc/v2/layer-plans/inner1.pdf)
+[PDF](doc/v2/routing-review/In1_Cu.pdf)
 
-[![Inner copper In1.Cu](doc/v2/layer-plans/inner1.svg)](doc/v2/layer-plans/inner1.svg)
+[![Inner copper In1.Cu](doc/v2/routing-review/layers/640A_PowerAmp-In1_Cu.svg)](doc/v2/routing-review/layers/640A_PowerAmp-In1_Cu.svg)
 
 ### 3. Second inner layer — In2.Cu
 
@@ -72,29 +74,29 @@ Power currents should not return through incidental sections of signal ground. *
 
 The original amplifier also organizes ground returns through wires. This design implements the arrangement in board geometry, improving reproducibility and reducing dependence on individual wire routing. Hum and channel interaction have not yet been compared by measurement.
 
-[PDF](doc/v2/layer-plans/inner2.pdf)
+[PDF](doc/v2/routing-review/In2_Cu.pdf)
 
-[![Inner copper In2.Cu](doc/v2/layer-plans/inner2.svg)](doc/v2/layer-plans/inner2.svg)
+[![Inner copper In2.Cu](doc/v2/routing-review/layers/640A_PowerAmp-In2_Cu.svg)](doc/v2/routing-review/layers/640A_PowerAmp-In2_Cu.svg)
 
 ### 4. Bottom layer — B.Cu
 
-**View from below, mirrored relative to the top drawings.** A substantial part of the signal, output and auxiliary interconnections is routed here. Wire colours are also marked on the physical bottom silkscreen at the connectors.
+**Viewed from the top, like the other layer drawings.** A substantial part of the signal, output and auxiliary interconnections is routed here. Wire colours are also marked on the physical bottom silkscreen at the connectors.
 
 The bottom copper works with the other layers to avoid long detours. Layer changes use the existing plated component holes. **There are no separate vias** in the current PCB. This describes the replacement board; it does not establish an advantage over the original single-sided board by itself.
 
-[PDF](doc/v2/layer-plans/bottom.pdf)
+[PDF](doc/v2/routing-review/B_Cu.pdf)
 
-[![Bottom copper B.Cu](doc/v2/layer-plans/bottom.svg)](doc/v2/layer-plans/bottom.svg)
+[![Bottom copper B.Cu](doc/v2/routing-review/layers/640A_PowerAmp-B_Cu.svg)](doc/v2/routing-review/layers/640A_PowerAmp-B_Cu.svg)
 
-[All layers in one PDF](doc/v2/layer-plans/all_four_layers.pdf) · [Annotated routing plans, Russian PDF](doc/v2/layer-plans/routing_commentary.pdf)
+[All layers in one PDF](doc/v2/routing-review/routing-review.pdf) · [Annotated routing plans, Russian PDF](doc/v2/routing-review/topology-review.pdf)
 
 ## Routing rules
 
-- **Corresponding channel stages use matching routes.** Geometry, layer and width were checked for 33 component pairs and 50 matching connections. The complete board is not mirror-symmetric: power, protection and external connections share some geometry and differ elsewhere.
-- **Width follows net function.** Minimums: ordinary signals 0.5 mm; Supply class 0.8 mm; auxiliary winding 1 mm; main power, output and transformer connections 2 mm. Width increases where needed. Track-width rules do not alone establish the current rating of a complete path through pads and thermal spokes.
+- **Corresponding channel stages use matching routes.** All 21 whole-net pairs retain exactly matching geometry, layers and widths after translation. Shared supplies, protection and external connections have their own geometry. [All-layer topology review](doc/v2/ROUTING_TOPOLOGY_REVIEW.en.md).
+- **Width follows current and copper layer.** Selected widths: 0.5 / 0.8 / 1 / 2 / 3.5 mm. Output tracks use 2 mm on 70 µm outer copper; main-secondary tracks use 3.5 mm outer copper. One channel at 100 W / 4 Ω draws 5 A RMS and 7.07 A peak. [Current calculations, width rationale and limitations](doc/v2/ROUTING_CURRENT_REVIEW.en.md).
 - **Short paths with few bends.** Important areas were reviewed and revised manually after autorouting. New segments use straight directions and 45° corners; avoiding vias should not require excessive detours.
 - **Check the complete current path.** Include the outgoing connection, return, zone connectivity, pad necks and ground meeting point.
-- **Check all four layers together.** Native DRC and schematic parity pass, with 73 previously accepted courtyard exclusions and the existing project settings.
+- **Check all four layers together.** The current PCB has zero copper violations, unconnected items or schematic mismatches. Existing silkscreen findings and the D2/R107 courtyard overlap remain; full DRC is not clean. File checks do not replace prototype testing.
 
 ## Construction and servicing
 

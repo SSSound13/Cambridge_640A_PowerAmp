@@ -1,0 +1,9 @@
+{
+  "reference_commit": "8b50969",
+  "reference_basis": "CHANGELOG 2026-10-03 before ordering and fabrication archive in the same commit",
+  "reference_sha256": "01870755aae06d27030582d2da2413bdc5f3a30dbed3983caa417416d2b0dd5f",
+  "reference_track_segments": 1368,
+  "maximum_growth_percent": 3,
+  "maximum_track_segments": 1409,
+  "reference_vias": 21
+}

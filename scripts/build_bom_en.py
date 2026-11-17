@@ -3,6 +3,8 @@ from pathlib import Path
 import csv,re
 ROOT=Path(__file__).resolve().parents[1]
 NOTES={
+'Вне платы; силовые жгуты AWG16 (около 1,25 мм²). Номинал JST VH 10 А указан для AWG16; контакт SVH-41T.':'Off-board; power harnesses AWG16 (about 1.25 mm²). JST rates VH at 10 A with AWG16; use SVH-41T contacts.',
+'Вне платы; вспомогательная обмотка, провод AWG18 (около 0,83 мм²), контакт SVH-21T.':'Off-board; auxiliary winding, AWG18 wire (about 0.83 mm²), SVH-21T contacts.',
 '1%, металлоплёночный.':'1%, metal film.',
 '1%, металлоплёночный; 1/4 Вт по заводскому BOM.':'1%, metal film; 1/4 W per factory BOM.',
 '1%, металлоплёночный; заводской BOM, стр. 23':'1%, metal film; factory BOM, page 23.',

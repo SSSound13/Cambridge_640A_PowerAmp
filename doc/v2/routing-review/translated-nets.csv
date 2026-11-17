@@ -1,0 +1,22 @@
+﻿left_net,right_net,dx_mm,dy_mm,segments,exact_translation,was_identical_before
+RICLIP,LICLIP,133.5,0.0,9,True,False
+signal1,signal2,133.5,0.0,16,True,False
+Net-(C5-Pad2),Net-(C34-Pad2),133.5,0.0,8,True,False
+Net-(U1--),Net-(U6--),133.5,0.0,9,True,False
+Net-(U1-+),Net-(U6-+),133.5,0.0,8,True,False
+Net-(C17-Pad1),Net-(C41-Pad1),133.5,0.0,2,True,False
+Net-(C18-Pad2),Net-(C39-Pad2),133.5,0.0,8,True,False
+Net-(CN2-Pin_1),Net-(CN11-Pin_1),133.5,0.0,7,True,False
+Net-(C22-Pad2),Net-(C42-Pad2),133.5,0.0,4,True,False
+Net-(Q7-E),Net-(Q29-E),133.5,0.0,1,True,False
+Net-(Q10-B),Net-(Q26-B),133.5,0.0,8,True,False
+Net-(Q8-E),Net-(Q28-E),133.5,0.0,1,True,False
+Net-(Q9-E),Net-(Q27-E),133.5,0.0,3,True,False
+Net-(Q10-E),Net-(Q26-E),133.5,0.0,4,True,False
+Net-(Q15-C),Net-(Q30-C),133.5,0.0,3,True,False
+Net-(Q35-E),Net-(Q36-E),98.9558,0.0,12,True,False
+Net-(C70-Pad1),Net-(C74-Pad1),98.9558,0.0,2,True,False
+Net-(C71-Pad1),Net-(C75-Pad1),98.9558,0.0,3,True,False
+/Left Channel/BIAS_HI_L,/Right Channel/BIAS_HI_R,98.9558,0.0,7,True,False
+/Left Channel/BIAS_LO_L,/Right Channel/BIAS_LO_R,98.9558,0.0,4,True,False
+Net-(C77-Pad2),Net-(C78-Pad2),99.7058,0.0,2,True,False

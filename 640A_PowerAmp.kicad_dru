@@ -15,4 +15,14 @@
   (constraint track_width (min 2mm)))
 (rule "Transformer track width"
   (condition "A.NetClass == 'Transformer'")
-  (constraint track_width (min 2mm)))
+  (constraint track_width (min 3.5mm)))
+
+(rule "Canonical track widths"
+  (condition "A.Type == 'Track' && A.Width != 0.5mm && A.Width != 0.8mm && A.Width != 1mm && A.Width != 2mm && A.Width != 3.5mm")
+  (constraint disallow track))
+(rule "Output current uses 70um outer copper"
+  (condition "A.NetClass == 'Output' && (A.Layer == 'In1.Cu' || A.Layer == 'In2.Cu')")
+  (constraint disallow track))
+(rule "Transformer current uses 70um outer copper"
+  (condition "A.NetClass == 'Transformer' && (A.Layer == 'In1.Cu' || A.Layer == 'In2.Cu')")
+  (constraint disallow track))

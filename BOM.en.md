@@ -99,7 +99,8 @@ R88 is 1/4 W; R53/R64/R67/R103 are 1/8 W per the factory BOM, page 23. R68/R116 
 | Other | Pads without parts | 6 | TP1, TP2, TP3, TP4, TP5, TP6 | RE1, RO, RE2 / LE1, LO, LE2 |  | pad Ø2 mm |  | + | Pad without purchased part; bias-adjustment test point. |
 | Other | Pads without parts | 1 | J4 | CHASSIS |  | pad 3×3 mm |  |  | Pad without purchased part; chassis wire to mounting post through the PGND/chassis network. |
 | Mating connector parts | Harness | 2 | for CN20, CN21 | JST VHR-3N |  | JST VH, pitch 3.96 mm | JST VHR-3N |  | Off-board; quantity counted separately from PCB positions. |
-| Mating connector parts | Harness | 10 | for CN20, CN21, CN23, CN24 | JST SVH-21T-P1.1 |  | JST VH, pitch 3.96 mm | JST SVH-21T-P1.1 |  | Off-board; quantity counted separately from PCB positions. |
+| Mating connector parts | Harness | 7 | for CN20, CN23, CN24 | JST SVH-41T-P1.1 |  | JST VH, pitch 3.96 mm | JST SVH-41T-P1.1 |  | Off-board; power harnesses AWG16 (about 1.25 mm²). JST rates VH at 10 A with AWG16; use SVH-41T contacts. |
+| Mating connector parts | Harness | 3 | for CN21 | JST SVH-21T-P1.1 |  | JST VH, pitch 3.96 mm | JST SVH-21T-P1.1 |  | Off-board; auxiliary winding, AWG18 wire (about 0.83 mm²), SVH-21T contacts. |
 | Mating connector parts | Harness | 2 | for CN23, CN24 | JST VHR-2N |  | JST VH, pitch 3.96 mm | JST VHR-2N |  | Off-board; quantity counted separately from PCB positions. |
 
 ## Assembly

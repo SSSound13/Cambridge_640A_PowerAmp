@@ -1,0 +1,23 @@
+{
+  "model": "2D sheet-resistance finite-volume, PGND In2 only, 35um copper, no parallel outer copper counted",
+  "grid_mm": 0.125,
+  "cells": 193371,
+  "source": "CN20.3",
+  "sinks": [
+    "C25",
+    "C23",
+    "C21",
+    "C30",
+    "C26",
+    "C63",
+    "C62",
+    "C29"
+  ],
+  "assumed_RMS_A": 10,
+  "equivalent_R_mohm": 0.6570242912856222,
+  "voltage_drop_mV": 6.570242912856222,
+  "plane_loss_W": 0.06570242912858154,
+  "copper_resistivity_ohm_mm": 1.724e-05,
+  "temperature_C": 20,
+  "limitation": "DC resistance/current-sharing approximation; no thermal or rectifier-transient simulation"
+}
