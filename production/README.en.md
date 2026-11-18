@@ -2,7 +2,7 @@
 
 [Русский](README.md) · [Download fabrication ZIP](Cambridge_640A_PowerAmp_production.zip) · [Checksums](SHA256SUMS.txt)
 
-Gerber X2 and Excellon files are exported from the current `640A_PowerAmp.kicad_pcb` using KiCad 10. Export does not modify the source board. Its SHA-256 is recorded in the [manifest](manifest.json).
+This Gerber X2 and Excellon archive belongs to an earlier board revision. Its source PCB was exported using KiCad 10. Export does not modify the source board. Its SHA-256 is recorded in the [manifest](manifest.json).
 
 | Order parameter | Value |
 |---|---|

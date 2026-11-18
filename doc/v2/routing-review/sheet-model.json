@@ -1,0 +1,68 @@
+[
+  {
+    "net": "+45V",
+    "layer": "In1.Cu",
+    "sources": [
+      "D17",
+      "D20"
+    ],
+    "sinks": [
+      "C23",
+      "C25",
+      "C26",
+      "C29"
+    ],
+    "grid_mm": 0.2,
+    "copper_um": 35,
+    "R_mohm": 5.307240462248703,
+    "assumed_RMS_A": 10,
+    "loss_W": 0.5307240462248702,
+    "drop_mV": 53.07240462248702,
+    "limitations": "DC sheet model, source pads tied together, capacitor sink pads tied together; excludes parallel outer copper; 10 A RMS sensitivity case, not measured rectifier RMS or thermal validation"
+  },
+  {
+    "net": "-45V",
+    "layer": "In1.Cu",
+    "sources": [
+      "D18",
+      "D19"
+    ],
+    "sinks": [
+      "C21",
+      "C30",
+      "C62",
+      "C63"
+    ],
+    "grid_mm": 0.2,
+    "copper_um": 35,
+    "R_mohm": 0.5559850871712212,
+    "assumed_RMS_A": 10,
+    "loss_W": 0.055598508717122117,
+    "drop_mV": 5.559850871712211,
+    "limitations": "DC sheet model, source pads tied together, capacitor sink pads tied together; excludes parallel outer copper; 10 A RMS sensitivity case, not measured rectifier RMS or thermal validation"
+  },
+  {
+    "net": "PGND",
+    "layer": "In2.Cu",
+    "sources": [
+      "CN20"
+    ],
+    "sinks": [
+      "C21",
+      "C23",
+      "C25",
+      "C26",
+      "C29",
+      "C30",
+      "C62",
+      "C63"
+    ],
+    "grid_mm": 0.2,
+    "copper_um": 35,
+    "R_mohm": 0.6649898494457104,
+    "assumed_RMS_A": 10,
+    "loss_W": 0.06649898494457103,
+    "drop_mV": 6.649898494457103,
+    "limitations": "DC sheet model, source pads tied together, capacitor sink pads tied together; excludes parallel outer copper; 10 A RMS sensitivity case, not measured rectifier RMS or thermal validation"
+  }
+]

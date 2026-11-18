@@ -58,7 +58,7 @@ Matching channel stages use matching local geometry. Signal and power tracks hav
 
 Primarily **+45 V and −45 V** power distribution through copper zones, with some individual tracks. This is not an uninterrupted power plane.
 
-Power is fed through wide copper sections while maintaining zone connectivity. The +45 V feeds from the capacitor bank to U3/U5 are **3.5 mm and 2 mm** wide. The difference follows from the common bank location and surrounding nets; these are shared power feeds rather than matching local signal routes.
+Power is fed through wide copper sections while maintaining zone connectivity. Each rail connects four reservoir capacitors to its two rectifier diodes on In1.Cu. Outer tracks carry the supply to the channels.
 
 Compared with the original single-sided board, part of the power distribution moves from tracks and wires to inner copper. This gives more control over current paths and shared narrow sections. A numerical reduction in resistance or voltage drop has not been measured for this revision.
 
@@ -68,7 +68,7 @@ Compared with the original single-sided board, part of the power distribution mo
 
 ### 3. Second inner layer — In2.Cu
 
-Primarily **PGND**, carrying rectifier, reservoir capacitor, output-stage and loudspeaker return currents. The filled PGND zone forms one connected region. Individual tracks and the cutouts around them remain visible.
+Primarily **PGND**, carrying rectifier, reservoir capacitor, output-stage and loudspeaker return currents. The main PGND connects all eight reservoir capacitors to CN20.3. The C79/C80 region connects to the main ground via F.Cu. Individual tracks and the cutouts around them remain visible.
 
 Power currents should not return through incidental sections of signal ground. **PGND, GND, digital and AUX0V** are separated by function and meet through **NT1–NT3** near the capacitor-bank common point.
 
@@ -93,7 +93,7 @@ The bottom copper works with the other layers to avoid long detours. Layer chang
 ## Routing rules
 
 - **Corresponding channel stages use matching routes.** All 21 whole-net pairs retain exactly matching geometry, layers and widths after translation. Shared supplies, protection and external connections have their own geometry. [All-layer topology review](doc/v2/ROUTING_TOPOLOGY_REVIEW.en.md).
-- **Width follows current and copper layer.** Selected widths: 0.5 / 0.8 / 1 / 2 / 3.5 mm. Output tracks use 2 mm on 70 µm outer copper; main-secondary tracks use 3.5 mm outer copper. One channel at 100 W / 4 Ω draws 5 A RMS and 7.07 A peak. [Current calculations, width rationale and limitations](doc/v2/ROUTING_CURRENT_REVIEW.en.md).
+- **Width follows current and copper layer.** Selected widths: 0.5 / 0.8 / 1 / 2 / 3.5 mm. Output current paths use 2 mm on 70 µm outer copper. Measurement branches to TP use 0.5 mm. Main-secondary tracks use 3.5 mm outer copper. One channel at 100 W / 4 Ω draws 5 A RMS and 7.07 A peak. [Current calculations, width rationale and limitations](doc/v2/ROUTING_CURRENT_REVIEW.en.md).
 - **Short paths with few bends.** Important areas were reviewed and revised manually after autorouting. New segments use straight directions and 45° corners; avoiding vias should not require excessive detours.
 - **Check the complete current path.** Include the outgoing connection, return, zone connectivity, pad necks and ground meeting point.
 - **Check all four layers together.** The current PCB has zero copper violations, unconnected items or schematic mismatches. Existing silkscreen findings and the D2/R107 courtyard overlap remain; full DRC is not clean. File checks do not replace prototype testing.

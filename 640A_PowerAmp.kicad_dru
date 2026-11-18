@@ -26,3 +26,27 @@
 (rule "Transformer current uses 70um outer copper"
   (condition "A.NetClass == 'Transformer' && (A.Layer == 'In1.Cu' || A.Layer == 'In2.Cu')")
   (constraint disallow track))
+
+(rule "TP1 measurement branch width"
+  (condition "A.Type == 'Track' && A.NetName == 'RE1' && A.memberOfGroup('TP1 measurement branch')")
+  (constraint track_width (min 0.5mm)))
+
+(rule "TP2 measurement branch width"
+  (condition "A.Type == 'Track' && A.NetName == 'RO' && A.memberOfGroup('TP2 measurement branch')")
+  (constraint track_width (min 0.5mm)))
+
+(rule "TP3 measurement branch width"
+  (condition "A.Type == 'Track' && A.NetName == 'RE2' && A.memberOfGroup('TP3 measurement branch')")
+  (constraint track_width (min 0.5mm)))
+
+(rule "TP4 measurement branch width"
+  (condition "A.Type == 'Track' && A.NetName == 'LE1' && A.memberOfGroup('TP4 measurement branch')")
+  (constraint track_width (min 0.5mm)))
+
+(rule "TP5 measurement branch width"
+  (condition "A.Type == 'Track' && A.NetName == 'LO' && A.memberOfGroup('TP5 measurement branch')")
+  (constraint track_width (min 0.5mm)))
+
+(rule "TP6 measurement branch width"
+  (condition "A.Type == 'Track' && A.NetName == 'LE2' && A.memberOfGroup('TP6 measurement branch')")
+  (constraint track_width (min 0.5mm)))

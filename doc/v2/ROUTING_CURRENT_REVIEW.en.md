@@ -31,7 +31,7 @@ Each rail has four 2200 µF reservoir capacitors, 8800 µF total. Their charging
 
 Screening uses I = k × ΔT^0.44 × A^0.725, A in square mils, k = 0.048 outer / 0.024 inner. This IPC-2221-style empirical estimate is neither a guaranteed rating nor a completed IPC-2152 assessment. At ΔT = 10 °C, 2 / 3.5 mm outer traces screen at 6.53 / 9.80 A. Surrounding copper, enclosure, heatsink, neighbouring heat sources and actual copper thickness affect temperature.
 
-Previously, LO carried the full 5 A through 2 mm inner-layer traces, whose 20 °C-rise screening value is only 2.68 A at 35 µm. All RO, LO, RE1, RE2, LE1 and LE2 tracks now use 2 mm outer copper. Main-secondary tracks use 3.5 mm outer copper. KiCad rules prohibit inner-layer tracks for these classes and reject widths outside the five selected values.
+Previously, LO carried the full 5 A through 2 mm inner-layer traces, whose 20 °C-rise screening value is only 2.68 A at 35 µm. The load paths in RO, LO, RE1, RE2, LE1 and LE2 use 2 mm outer copper. The separately grouped TP measurement branches use 0.5 mm. Main-secondary tracks use 3.5 mm outer copper. KiCad rules prohibit inner-layer tracks for these classes and reject widths outside the five selected values.
 
 Shared power paths can change from 3.5 mm to a 2 mm lower-current branch at a junction. That is a deliberate current-based change, not an arbitrary width step along a series connection. C21–R41 and C30–R96 now use uniform 2 mm branches. Planes are assessed from their actual geometry and current path, not a netclass trace-width setting.
 
@@ -44,15 +44,15 @@ Shared power paths can change from 3.5 mm to a 2 mm lower-current branch at a ju
 
 ## Return plane, necks and connectors
 
-A two-dimensional sheet-resistance model uses the actual filled central In2.Cu PGND polygon, including holes, with 35 µm copper at 20 °C. It connects CN20.3 to the eight reservoir ground pads. Grid steps of 0.25 / 0.125 mm give 0.670 / 0.657 mΩ, approximately 2% apart. At an assumed 10 A RMS this is 6.6–6.7 mV and 0.066–0.067 W, excluding parallel outer copper. This is resistance of the selected path, not a full thermal simulation or a measured charging-current value.
+The 35 µm inner-layer sheet model at a 0.2 mm grid gives 5.31 mΩ for +45 V, 0.556 mΩ for −45 V and 0.665 mΩ for the central PGND. At an assumed 10 A RMS the corresponding copper losses are 0.531 W, 0.056 W and 0.066 W. The calculation combines the rectifier pads and the capacitor pads within each rail and excludes parallel outer copper. Charging pulses and temperature require prototype measurements. [Model data](routing-review/sheet-model.json)
 
-Thermal spokes are 1 mm wide across a 0.5 mm gap, with at least two spokes. Two ideal 1 × 0.035 mm spokes, each 0.5 mm long, have about 0.123 mΩ combined resistance and 0.012 W loss at 10 A. This checks short-neck ohmic loss, not pad temperature. Hole plating thickness needs fabricator confirmation. One-pad +45 V SAP tongues were removed. SAP supplies use 2 mm tracks on 70 µm outer copper, with a calculated half-wave current of 3.54 A RMS. The functional In1.Cu +45 V regions connect C25.1–D20.1 and C26.1–D17.1.
+Thermal spokes are 1 mm wide across a 0.5 mm gap, with at least two spokes. Two ideal 1 × 0.035 mm spokes, each 0.5 mm long, have about 0.123 mΩ combined resistance and 0.012 W loss at 10 A. This checks short-neck ohmic loss, not pad temperature. Hole plating thickness needs fabricator confirmation. One-pad +45 V SAP tongues were removed. SAP supplies use 2 mm tracks on 70 µm outer copper, with a calculated half-wave current of 3.54 A RMS. Each In1.Cu rail joins all four capacitors to both rectifier diodes of that rail.
 
 JST specifies 10 A for the standard VH header with AWG16 wire. SVH-21T-P1.1 accepts only AWG22–18, so the previous crimp BOM did not substantiate a 10 A harness. The BOM now specifies seven SVH-41T-P1.1 contacts with AWG16 (about 1.25 mm²) for CN20/CN23/CN24, and three SVH-21T-P1.1 with AWG18 for CN21. Housings and PCB headers are unchanged. Connector rating does not validate unknown inrush or charging RMS; CN20 and crimp temperature need prototype checks.
 
 ## File verification
 
-All 296 footprint blocks, including Q20/SAP, and all 656 pads are unchanged. The 21 translated whole-net pairs match exactly, with 121 segments per side. The current PCB has 1391 segments, zero vias and 7801.54 mm total track length. The pre-order reference has 1368 segments: the 1.68% increase meets the 3% limit of 1409. See the topology review for contact corrections and counting methodology.
+All 296 footprint blocks, including Q20/SAP, and 656 pads are preserved. All 21 translated whole-net pairs match. The current PCB has 1365 track segments, zero vias and 7436.54 mm total track length. The manufactured reference has 1368 segments. [Topology review](ROUTING_TOPOLOGY_REVIEW.en.md)
 
 KiCad 10.0.7 DRC with all track errors and schematic parity reports zero copper violations, zero unconnected items and zero schematic mismatches. Existing findings remain: 199 silk_overlap, 44 silk_over_copper and one D2/R107 courtyard overlap. Severities and exclusions were not relaxed. A separate check including existing exclusions also lists 23 excluded courtyard overlaps. Full DRC is not clean; manufacturing outputs were not regenerated by this review.
 
