@@ -12,6 +12,7 @@
 
 ## Файлы проекта
 
+- [Переходная плата моторизованного ALPS RK27](hardware/alps-rk27-adapter/README.md) — отдельный проект KiCad с 3D-моделью; предварительная механика, ожидает привязки к ремонтной плате регулятора.
 - [Перечень деталей — одна таблица BOM](BOM.md) · [скачать Excel](https://github.com/SSSound13/Cambridge_640A_PowerAmp/raw/refs/heads/main/BOM.xlsx).
 - [Проект KiCad ZIP](doc/v2/routing-review/Cambridge640A_routing_review.zip) · [открыть KiCad-проект](640A_PowerAmp.kicad_pro). Нужен KiCad 10 или новее.
 - [Gerber и сверловка — ZIP для производства](production/Cambridge_640A_PowerAmp_production.zip) · [Параметры изготовления](production/README.md).

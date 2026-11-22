@@ -1,0 +1,13 @@
+{
+  "source": "User-supplied LIB_RK27112MC01P.zip / SamacSys 1.1 (2017-07-22)",
+  "source_sha256": "bd069983eb1bee3f6f9ec505c9820ecd2ad9577a47012ec3ba68862f31dd16aa",
+  "three_d_available": false,
+  "audio_drill_mm": 1.2,
+  "audio_pad_diameter_mm": 1.8,
+  "audio_column_pitch_mm": 5,
+  "audio_row_pitch_mm": 10,
+  "pads_7_8": "Mechanical tabs, NOT motor terminals",
+  "mechanical_drill_mm": 2.86,
+  "mechanical_pad_diameter_mm": 4.2,
+  "license": "Circuit board designs unrestricted; library component redistribution prohibited outside own company. Vendor library is locally installed and excluded from Git."
+}

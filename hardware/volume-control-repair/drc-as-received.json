@@ -1,0 +1,249 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-22T17:56:28",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Cambridge640A_R3_AS_RECEIVED.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/AGND] on B.Cu, length 12,7500 mm",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 44.25
+                    },
+                    "uuid": "efbc037a-778a-45ee-8c66-b8a2a73be007"
+                },
+                {
+                    "description": "Pad 2 [/AGND] of R1 on F.Cu",
+                    "pos": {
+                        "x": 64.4125,
+                        "y": 60.0
+                    },
+                    "uuid": "90e84735-61ba-4db7-aad4-fab83d9b2079"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 60.7,
+                        "y": 115.0
+                    },
+                    "uuid": "7a87762b-bd61-4d73-86c3-1861216210f5"
+                },
+                {
+                    "description": "PCB text 'R2 ENGINEERING PREVIEW' on F.Silkscreen",
+                    "pos": {
+                        "x": 66.9,
+                        "y": 83.0
+                    },
+                    "uuid": "632e81ec-b720-4a6a-93f9-aac0a261d8b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 69.0,
+                        "y": 60.0
+                    },
+                    "uuid": "3889e907-5547-4e03-b47f-c06478a8c565"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint VR4",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 50.0
+                    },
+                    "uuid": "397d3c5f-3324-4ed4-913a-aba8a63f81e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 52.6038
+                    },
+                    "uuid": "4ab35b71-3c44-4749-b175-45a1a2bd5d48"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 59.9902
+                    },
+                    "uuid": "8223aebd-6a5e-42e4-b20a-b793c4b49bc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 76.62774
+                    },
+                    "uuid": "85e7a024-dcb6-4356-adb5-44128a6160b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 111.29908
+                    },
+                    "uuid": "9a18c4bf-2b57-4adf-92f5-3c168ff1b5c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 93.68835
+                    },
+                    "uuid": "bb83bf34-2b69-48cf-a051-312898cb6aec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint VR1",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 98.7
+                    },
+                    "uuid": "cda6e560-e06a-4ac6-852e-6f93477c6453"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 51.5
+                    },
+                    "uuid": "e105c264-01d9-4c7d-9e07-3b2c87c5695b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 60.0
+                    },
+                    "uuid": "f9a613ce-efe3-4aaf-8270-ceb2ff376f33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 72.5,
+                        "y": 101.0
+                    },
+                    "uuid": "fac1e03f-b702-41a8-93f3-89a9622f2d3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

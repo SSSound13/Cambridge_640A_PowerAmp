@@ -1,0 +1,132 @@
+{
+  "meshes": [
+    {
+      "volume_mm3": 793.8,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 17040.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 383.759,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 383.759,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 383.761,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 15305.361,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 8449.874,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 829.793,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 966.24,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 351.293,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 369.799,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 56.458,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 14.114,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 7.8,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 7.8,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    },
+    {
+      "volume_mm3": 2.0,
+      "closed_edges": true,
+      "outward_winding": true
+    }
+  ],
+  "shaft_axis": [
+    0,
+    1,
+    0
+  ],
+  "motor_axis": [
+    0,
+    1,
+    0
+  ],
+  "axis_height_mm": 12.5,
+  "motor_lateral_offset_mm": 10.5,
+  "limitations": "Simplified envelope, not vendor CAD; dimensions not a substitute for actual part fit."
+}
