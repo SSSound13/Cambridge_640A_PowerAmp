@@ -17,5 +17,13 @@
   "status": "Artwork-derived nominal geometry applied to R4; source drilling diameter is not dimensioned.",
   "corrected_setback_mm": 3.5,
   "balance_part": "PY005 / MN20k",
-  "nominal_volume_balance_axis_spacing_mm": 48.7
+  "nominal_volume_balance_axis_spacing_mm": 48.7,
+  "balance_side_edge_pdf_y": 92.76601,
+  "balance_centre_pdf_y": 114.00675,
+  "estimated_balance_side_setback_mm": 13.50191188836401,
+  "corrected_balance_side_setback_mm": 13.5,
+  "corrected_corner_mm": [
+    60,
+    36.5
+  ]
 }

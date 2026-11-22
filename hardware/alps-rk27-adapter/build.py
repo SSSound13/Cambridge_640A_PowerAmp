@@ -127,7 +127,7 @@ def place(ref,fp,x,d,value):
  f.Reference().SetVisible(False);f.Value().SetVisible(False);b.Add(f);fps[ref]=f
  return f
 for ref,sym,fp,x,y,ns,value in items:
- xx,dd={'RV1':(0,45.5),'MP1':(2,66.2),'MP2':(19,66.2),'J1':(-20,15),'J2':(-19,62),'H1':(-21,43.5),'H2':(27,6.2),'H3':(-21,74),'H4':(27,74)}[ref]
+ xx,dd={'RV1':(0,45.5),'MP1':(2,66.2),'MP2':(19,66.2),'J1':(-20,15),'J2':(-19,62),'H1':(-21,6.2),'H2':(27,6.2),'H3':(-21,43.5),'H4':(27,43.5)}[ref]
  f=place(ref,fp,xx,dd,value)
  for a in f.Pads():
   if a.GetNumber() and ns[int(a.GetNumber())-1] in nets:a.SetNet(nets[ns[int(a.GetNumber())-1]])
@@ -141,7 +141,7 @@ textboard('FRONT DATUM: MANUAL 3.5',3,76, .85)
 textboard('J1',-17,12,1)
 for i in range(6):textboard(str(i+1),-23,15+i*2.54,.8)
 textboard('J2 MOTOR',-18,57, .9)
-for i,(x,d) in enumerate([(-21,43.5),(27,6.2),(-21,74),(27,74)]):
+for i,(x,d) in enumerate([(-21,6.2),(27,6.2),(-21,43.5),(27,43.5)]):
  textboard('H'+str(i+1),x,d+(5 if d<20 else -5),.8)
  # Explicit copper/track/via keepout diameter 7 mm on BOTH copper layers.
  z=p.ZONE(b);z.SetIsRuleArea(True);z.SetLayerSet(p.LSET.AllCuMask());z.SetDoNotAllowTracks(True);z.SetDoNotAllowVias(True);z.SetDoNotAllowZoneFills(True);z.SetDoNotAllowPads(False);z.SetDoNotAllowFootprints(False)

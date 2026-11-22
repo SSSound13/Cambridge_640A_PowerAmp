@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-11-22T18:00:16",
+    "date": "2026-11-22T21:21:44",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -36,20 +36,20 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [/AGND] on B.Cu, length 43,5000 mm",
+                    "description": "PTH pad 2 [/VOL_L] of J_ALPS",
                     "pos": {
-                        "x": 61.5,
-                        "y": 57.0
+                        "x": 76.04,
+                        "y": 78.7
                     },
-                    "uuid": "9823abfd-cfe8-4c8e-b6e8-469fab9bd975"
+                    "uuid": "b814cfef-c1c7-48ed-b1b4-d38581510613"
                 },
                 {
-                    "description": "Pad 2 [/AGND] of R1 on F.Cu",
+                    "description": "Track [/VOL_L] on F.Cu, length 0,9192 mm",
                     "pos": {
-                        "x": 64.4125,
-                        "y": 60.0
+                        "x": 60.85,
+                        "y": 83.05
                     },
-                    "uuid": "90e84735-61ba-4db7-aad4-fab83d9b2079"
+                    "uuid": "3987bc19-31a5-4627-87bc-09f6acfe93ef"
                 }
             ],
             "severity": "error",
@@ -59,13 +59,28 @@
             "description": "Missing connection between items",
             "items": [
                 {
+                    "description": "Track [/AGND] on B.Cu, length 16,8000 mm",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 83.7
+                    },
+                    "uuid": "2e82b9a9-19cc-4e11-82f1-a225b28e03df"
+                },
+                {
                     "description": "PTH pad 1 [/AGND] of J_ALPS",
                     "pos": {
                         "x": 73.5,
                         "y": 78.7
                     },
-                    "uuid": "cfc1cd26-3b43-4ace-80e4-25eb0e63c54c"
-                },
+                    "uuid": "5b8d33e7-34c3-4ca7-ac78-70cf3f9cb4e4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
                 {
                     "description": "Pad 2 [/AGND] of R1 on F.Cu",
                     "pos": {
@@ -73,6 +88,14 @@
                         "y": 60.0
                     },
                     "uuid": "90e84735-61ba-4db7-aad4-fab83d9b2079"
+                },
+                {
+                    "description": "Track [/AGND] on B.Cu, length 14,7000 mm",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 57.0
+                    },
+                    "uuid": "677b4022-90c7-4b73-ba2e-9d9c8e3b55e1"
                 }
             ],
             "severity": "error",
@@ -87,7 +110,7 @@
                         "x": 81.12,
                         "y": 78.7
                     },
-                    "uuid": "58b2ce89-eaa0-4525-a20c-90c81575b6fd"
+                    "uuid": "1a61c1fb-30a5-4216-baba-8df8dc958dee"
                 },
                 {
                     "description": "PTH pad 1 [/AGND] of J_ALPS",
@@ -95,7 +118,7 @@
                         "x": 73.5,
                         "y": 78.7
                     },
-                    "uuid": "cfc1cd26-3b43-4ace-80e4-25eb0e63c54c"
+                    "uuid": "5b8d33e7-34c3-4ca7-ac78-70cf3f9cb4e4"
                 }
             ],
             "severity": "error",
@@ -105,35 +128,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "PTH pad 2 [/VOL_L] of J_ALPS",
+                    "description": "Track [/VOL_R] on B.Cu, length 4,2426 mm",
                     "pos": {
-                        "x": 76.04,
-                        "y": 78.7
+                        "x": 69.0,
+                        "y": 82.4
                     },
-                    "uuid": "9bf65166-8c3e-4046-b73b-a3620515f692"
-                },
-                {
-                    "description": "Track [/VOL_L] on F.Cu, length 1,0875 mm",
-                    "pos": {
-                        "x": 61.5,
-                        "y": 60.0
-                    },
-                    "uuid": "6836a95d-55a5-4da8-9547-4b4c876ee35f"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Track [/VOL_R] on B.Cu, length 0,5000 mm",
-                    "pos": {
-                        "x": 68.25,
-                        "y": 98.0
-                    },
-                    "uuid": "0a46e91e-1064-4bae-b51c-740be4e65d11"
+                    "uuid": "3d581363-63cc-4429-8e18-5629a374751a"
                 },
                 {
                     "description": "PTH pad 5 [/VOL_R] of J_ALPS",
@@ -141,7 +141,7 @@
                         "x": 83.66,
                         "y": 78.7
                     },
-                    "uuid": "d0ce975e-0c3f-4bff-b85d-4e73ffe3d64a"
+                    "uuid": "86ef7aca-1db8-463f-b174-ed5c1f8e8740"
                 }
             ],
             "severity": "error",
@@ -164,7 +164,7 @@
                         "x": 86.2,
                         "y": 78.7
                     },
-                    "uuid": "48a2665d-b631-4f16-b6ae-9a106db32324"
+                    "uuid": "65e99d2a-d0f5-4a13-aa16-c25aa360dce5"
                 }
             ],
             "severity": "error",
@@ -181,7 +181,7 @@
                         "x": 60.0,
                         "y": 129.699999
                     },
-                    "uuid": "53a8fe4f-a2d1-4c6e-84cf-5bfb87f77582"
+                    "uuid": "3f64ec84-7b1e-4cdc-8cf8-33b120b00734"
                 },
                 {
                     "description": "PCB text 'R2 ENGINEERING PREVIEW' on F.Silkscreen",

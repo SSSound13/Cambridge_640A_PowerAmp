@@ -15,11 +15,13 @@ b=p.LoadBoard(str(src))
 # The existing RM16 and balance pad centres already match the manual nominal grid.
 # Keep their nets and holes; the manual does not dimension the drills.
 b.RemoveAllItemsOnLayer(p.Edge_Cuts)
-outline=[(60,42),(91,42),(91,73.7),(136.5,73.7),(136.5,129.7),(60,129.7)]
+# Manual top corner: (114.00675 - 92.76601) * .635661 = 13.50 mm
+# from balance centre. Rear edge stops 4 mm beyond the second screw row.
+outline=[(60,36.5),(91,36.5),(91,73.7),(106,73.7),(106,129.7),(60,129.7)]
 for a,c in zip(outline,outline[1:]+outline[:1]):
  e=p.PCB_SHAPE();e.SetShape(p.SHAPE_T_SEGMENT);e.SetStart(mm(*a));e.SetEnd(mm(*c));e.SetWidth(p.FromMM(.05));e.SetLayer(p.Edge_Cuts);b.Add(e)
 holes=[]
-for n,(x,y) in enumerate([(102,77.7),(64.7,125.7),(132.5,77.7),(132.5,125.7)],1):
+for n,(x,y) in enumerate([(64.7,77.7),(64.7,125.7),(102,77.7),(102,125.7)],1):
  f=p.FootprintLoad(str(FP/'MountingHole.pretty'),'MountingHole_3.2mm_M3');f.SetFPID(p.LIB_ID('MountingHole','MountingHole_3.2mm_M3'));f.SetReference('H_ALPS'+str(n));f.SetPosition(mm(x,y));b.Add(f)
  f.Reference().SetVisible(False);f.Value().SetVisible(False)
  z=p.ZONE(b);z.SetIsRuleArea(True);z.SetLayerSet(p.LSET.AllCuMask());z.SetDoNotAllowTracks(True);z.SetDoNotAllowVias(True);z.SetDoNotAllowZoneFills(True);z.SetDoNotAllowPads(False);z.SetDoNotAllowFootprints(False)
@@ -27,18 +29,33 @@ for n,(x,y) in enumerate([(102,77.7),(64.7,125.7),(132.5,77.7),(132.5,125.7)],1)
  for k in range(64):
   v=mm(x+3.5*math.cos(k*math.tau/64),y+3.5*math.sin(k*math.tau/64));poly.Append(v.x,v.y)
  b.Add(z);holes.append({'reference':'H'+str(n),'main_x_mm':x,'main_y_mm':y,'adapter_x_mm':y-13.7,'adapter_y_mm':198.5-x,'diameter_mm':3.2})
+# Reroute the three existing through-runs around the front-left mounting hole.
+# Preserve their endpoints, layer, width and net; no electrical topology changes.
+replacements=[]
+for tr in list(b.GetTracks()):
+ a=(p.ToMM(tr.GetStart().x),p.ToMM(tr.GetStart().y));c=(p.ToMM(tr.GetEnd().x),p.ToMM(tr.GetEnd().y))
+ if a==(61.5,57.0) and c==(61.5,100.5) or a==(61.5,59.0) and c==(61.5,96.7):
+  replacements.append((tr,[a,(61.5,71.7),(60.85,72.35),(60.85,83.05),(61.5,83.7),c]))
+ elif a==(66.0,47.5) and c==(66.0,96.2):
+  replacements.append((tr,[a,(66,70),(69,73),(69,82.4),(66,85.4),c]))
+assert len(replacements)==3
+for old,pts in replacements:
+ for a,c in zip(pts,pts[1:]):
+  t=p.PCB_TRACK(b);t.SetStart(mm(*a));t.SetEnd(mm(*c));t.SetWidth(old.GetWidth());t.SetLayer(old.GetLayer());t.SetNet(old.GetNet());b.Add(t)
+ b.Remove(old)
 # Landing pad row is a standard footprint. Electrical repair routing is separate work.
 f=p.FootprintLoad(str(FP/'Connector_PinHeader_2.54mm.pretty'),'PinHeader_1x06_P2.54mm_Vertical');f.SetFPID(p.LIB_ID('Connector_PinHeader_2.54mm','PinHeader_1x06_P2.54mm_Vertical'));f.SetReference('J_ALPS');f.SetValue('ALPS landing pads - routing pending');f.SetOrientationDegrees(90);f.SetPosition(mm(73.5,78.7));f.Models().clear();b.Add(f)
 f.Reference().SetVisible(False);f.Value().SetVisible(False)
 for pad in f.Pads():
  name=['/AGND','/VOL_L','/IN_L','/AGND','/VOL_R','/IN_R'][int(pad.GetNumber())-1]
  pad.SetNet(b.FindNet(name))
-text=p.PCB_TEXT(b);text.SetText('R3 + ALPS / MECHANICAL DRAFT\nJ_ALPS: ROUTING PENDING');text.SetPosition(mm(112,120));text.SetTextSize(mm(1,1));text.SetLayer(p.F_SilkS);b.Add(text)
+text=p.PCB_TEXT(b);text.SetText('R3 + ALPS / MECHANICAL DRAFT\nJ_ALPS: ROUTING PENDING');text.SetPosition(mm(83,120));text.SetTextSize(mm(1,1));text.SetLayer(p.F_SilkS);b.Add(text)
 for d in b.GetDrawings():
  if isinstance(d,p.PCB_TEXT) and d.GetText()=='L IN': d.SetPosition(mm(87,81.5))
 dest=LOW/'Cambridge640A_R4_ALPS_MECHANICAL.kicad_pcb';p.SaveBoard(str(dest),b)
 # Preserve received 0.6 mm thickness: it is a repair overlay, not a full parent PCB.
 report={'source_thickness_mm':p.ToMM(b.GetDesignSettings().GetBoardThickness()),'front_edge_x_mm':60,'front_row_x_mm':63.5,'front_setback_mm':3.5,'old_pad_centres_unchanged':True,'old_drills_unchanged_mm':1.3,'old_pad_size_unchanged_mm':2.8,'volume_balance_axis_spacing_mm':48.7,'holes':holes,'landing_pins_unrouted':True,'height_between_top_surfaces_mm':8.5,'clear_gap_mm':6.9,'basis':'Nominal dimensions rounded from manual vector artwork; no dimensioned factory drilling drawing available.'}
+report.update(balance_corner_mm=[60,36.5],balance_axis_to_side_edge_mm=13.5,lower_rear_edge_x_mm=106,adapter_overhang_mm=30.5,rerouted_existing_nets=['/AGND','/VOL_L','/VOL_R'])
 (I/'two_board_alignment.json').write_text(json.dumps(report,indent=2))
 # Transform lower geometry into adapter XY. Export with origin at adapter shaft.
 for item in list(b.GetFootprints())+list(b.GetTracks())+list(b.GetDrawings())+list(b.Zones()):

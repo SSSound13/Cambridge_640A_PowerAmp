@@ -2,10 +2,10 @@
   "mounting_holes": [
     {
       "reference": "H1",
-      "main_x_mm": 102,
+      "main_x_mm": 64.7,
       "main_y_mm": 77.7,
       "adapter_x_mm": 64.0,
-      "adapter_y_mm": 96.5,
+      "adapter_y_mm": 133.8,
       "diameter_mm": 3.2
     },
     {
@@ -18,18 +18,18 @@
     },
     {
       "reference": "H3",
-      "main_x_mm": 132.5,
+      "main_x_mm": 102,
       "main_y_mm": 77.7,
       "adapter_x_mm": 64.0,
-      "adapter_y_mm": 66.0,
+      "adapter_y_mm": 96.5,
       "diameter_mm": 3.2
     },
     {
       "reference": "H4",
-      "main_x_mm": 132.5,
+      "main_x_mm": 102,
       "main_y_mm": 125.7,
       "adapter_x_mm": 112.0,
-      "adapter_y_mm": 66.0,
+      "adapter_y_mm": 96.5,
       "diameter_mm": 3.2
     }
   ],
@@ -67,6 +67,10 @@
     }
   ],
   "main_board_modified": true,
-  "reason": "Lower R4 expanded with user authorization; all four mounting holes inside both boards",
-  "datum_status": "Corrected to nominal 3.5 mm setback measured from manual artwork"
+  "reason": "Compact lower R4 ends at X106; upper board overhangs 30.5 mm; front-left tracks detoured",
+  "datum_status": "Corrected to nominal 3.5 mm setback measured from manual artwork",
+  "balance_corner_mm": [
+    60,
+    36.5
+  ]
 }
