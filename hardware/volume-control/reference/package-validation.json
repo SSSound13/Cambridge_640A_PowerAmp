@@ -1,0 +1,11 @@
+{
+  "copper_and_pads_unchanged": true,
+  "geometry_fingerprint": "8536398813e33d510f8e1a9af2c12a52ddd2e3ed1e17d9853beb198696512ca4",
+  "model_files": [
+    "ALPS_RK27112MC_envelope.wrl",
+    "assembly-hardware.wrl",
+    "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.step",
+    "lower-board.wrl",
+    "PinHeader_1x06_P2.54mm_Vertical.step"
+  ]
+}
