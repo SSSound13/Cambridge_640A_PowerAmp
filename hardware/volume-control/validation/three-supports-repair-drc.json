@@ -1,0 +1,745 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-22T22:18:49",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Repair_Reference.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/TO_BUF_R] of J3",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 61.315669
+                    },
+                    "uuid": "e74a7d9f-6fd9-4e20-8083-d4f9a8131a9c"
+                },
+                {
+                    "description": "Track [/TO_BUF_R] on F.Cu, length 21,0875 mm",
+                    "pos": {
+                        "x": 69.9125,
+                        "y": 60.0
+                    },
+                    "uuid": "f146f595-6167-436d-9108-fe7134ae94b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/VOL_L] of J_ALPS",
+                    "pos": {
+                        "x": 76.04,
+                        "y": 78.7
+                    },
+                    "uuid": "b814cfef-c1c7-48ed-b1b4-d38581510613"
+                },
+                {
+                    "description": "Track [/VOL_L] on F.Cu, length 0,9192 mm",
+                    "pos": {
+                        "x": 60.85,
+                        "y": 83.05
+                    },
+                    "uuid": "3987bc19-31a5-4627-87bc-09f6acfe93ef"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/AGND] on B.Cu, length 14,7000 mm",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 57.0
+                    },
+                    "uuid": "677b4022-90c7-4b73-ba2e-9d9c8e3b55e1"
+                },
+                {
+                    "description": "Pad 2 [/AGND] of R1 on F.Cu",
+                    "pos": {
+                        "x": 64.4125,
+                        "y": 60.0
+                    },
+                    "uuid": "90e84735-61ba-4db7-aad4-fab83d9b2079"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/AGND] of J5",
+                    "pos": {
+                        "x": 65.998582,
+                        "y": 109.5
+                    },
+                    "uuid": "f1f52061-026b-438e-9d49-ad070a07aebf"
+                },
+                {
+                    "description": "Track [/AGND] on F.Cu, length 5,0000 mm",
+                    "pos": {
+                        "x": 68.5,
+                        "y": 103.75
+                    },
+                    "uuid": "22358ce2-06a2-4290-a5d0-eb4dbed7b879"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/AGND] of J_ALPS",
+                    "pos": {
+                        "x": 73.5,
+                        "y": 78.7
+                    },
+                    "uuid": "5b8d33e7-34c3-4ca7-ac78-70cf3f9cb4e4"
+                },
+                {
+                    "description": "PTH pad 4 [/AGND] of J_ALPS",
+                    "pos": {
+                        "x": 81.12,
+                        "y": 78.7
+                    },
+                    "uuid": "1a61c1fb-30a5-4216-baba-8df8dc958dee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/AGND] of J_ALPS",
+                    "pos": {
+                        "x": 73.5,
+                        "y": 78.7
+                    },
+                    "uuid": "5b8d33e7-34c3-4ca7-ac78-70cf3f9cb4e4"
+                },
+                {
+                    "description": "Track [/AGND] on B.Cu, length 16,8000 mm",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 83.7
+                    },
+                    "uuid": "2e82b9a9-19cc-4e11-82f1-a225b28e03df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/AGND] of J6",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 48.411463
+                    },
+                    "uuid": "2c7bb0b3-3693-43e6-a96f-627b944b9a78"
+                },
+                {
+                    "description": "Track [/AGND] on B.Cu, length 2,8284 mm",
+                    "pos": {
+                        "x": 68.5,
+                        "y": 45.0
+                    },
+                    "uuid": "1fc6a1bd-141b-4f5b-9576-6fb46ab7f45e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/VOL_R] on B.Cu, length 4,2426 mm",
+                    "pos": {
+                        "x": 69.0,
+                        "y": 82.4
+                    },
+                    "uuid": "3d581363-63cc-4429-8e18-5629a374751a"
+                },
+                {
+                    "description": "PTH pad 5 [/VOL_R] of J_ALPS",
+                    "pos": {
+                        "x": 83.66,
+                        "y": 78.7
+                    },
+                    "uuid": "86ef7aca-1db8-463f-b174-ed5c1f8e8740"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/IN_L] of J2",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 86.236944
+                    },
+                    "uuid": "0c28388e-4059-4174-8175-bfb5f2eb182e"
+                },
+                {
+                    "description": "Track [/IN_L] on F.Cu, length 0,1807 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 76.62774
+                    },
+                    "uuid": "6658b0c9-50e5-47eb-84b9-10666d0f7007"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/IN_R] on F.Cu, length 22,5000 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 93.75
+                    },
+                    "uuid": "e6508166-8ed2-4290-a56d-b6330b64a332"
+                },
+                {
+                    "description": "PTH pad 6 [/IN_R] of J_ALPS",
+                    "pos": {
+                        "x": 86.2,
+                        "y": 78.7
+                    },
+                    "uuid": "65e99d2a-d0f5-4a13-aa16-c25aa360dce5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/IN_R] of J1",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 101.70494
+                    },
+                    "uuid": "08c931e7-178d-4fdf-aaaa-4716a2691aa4"
+                },
+                {
+                    "description": "Track [/IN_R] on F.Cu, length 22,5000 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 93.75
+                    },
+                    "uuid": "e6508166-8ed2-4290-a56d-b6330b64a332"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 36.5
+                    },
+                    "uuid": "2c71e41c-67cd-4265-802e-66c3d972c397"
+                },
+                {
+                    "description": "Track [/TO_BUF_R] on F.Cu, length 21,0875 mm",
+                    "pos": {
+                        "x": 69.9125,
+                        "y": 60.0
+                    },
+                    "uuid": "f146f595-6167-436d-9108-fe7134ae94b1"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 109.5
+                    },
+                    "uuid": "0c20f445-628a-4e97-80bf-8baf6650841f"
+                },
+                {
+                    "description": "Track [/AGND] on F.Cu, length 12,3200 mm",
+                    "pos": {
+                        "x": 82.12408,
+                        "y": 111.29908
+                    },
+                    "uuid": "e04cb573-4005-456e-a611-71bbb58c69aa"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 36.5
+                    },
+                    "uuid": "2c71e41c-67cd-4265-802e-66c3d972c397"
+                },
+                {
+                    "description": "Track [/TO_BUF_L] on F.Cu, length 17,9125 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 52.5
+                    },
+                    "uuid": "55cc522b-1aa1-4cd5-a6ac-6d675766f7cb"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 36.5
+                    },
+                    "uuid": "2c71e41c-67cd-4265-802e-66c3d972c397"
+                },
+                {
+                    "description": "Track [/IN_L] on F.Cu, length 0,1807 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 76.62774
+                    },
+                    "uuid": "6658b0c9-50e5-47eb-84b9-10666d0f7007"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 36.5
+                    },
+                    "uuid": "2c71e41c-67cd-4265-802e-66c3d972c397"
+                },
+                {
+                    "description": "Track [/IN_L] on F.Cu, length 10,1723 mm",
+                    "pos": {
+                        "x": 90.87226,
+                        "y": 76.5
+                    },
+                    "uuid": "e73c53bc-f6e6-417f-a05e-80d77334fd61"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0,5000 mm; actual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 36.5
+                    },
+                    "uuid": "2c71e41c-67cd-4265-802e-66c3d972c397"
+                },
+                {
+                    "description": "Track [/IN_R] on F.Cu, length 22,5000 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 93.75
+                    },
+                    "uuid": "e6508166-8ed2-4290-a56d-b6330b64a332"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/TO_BUF_R] on F.Cu, length 21,0875 mm",
+                    "pos": {
+                        "x": 69.9125,
+                        "y": 60.0
+                    },
+                    "uuid": "f146f595-6167-436d-9108-fe7134ae94b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/AGND] on F.Cu, length 8,8759 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 111.29908
+                    },
+                    "uuid": "77ca5876-7281-41b2-b46f-e9f01aaf8289"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/IN_L] on F.Cu, length 0,1807 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 76.62774
+                    },
+                    "uuid": "6658b0c9-50e5-47eb-84b9-10666d0f7007"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/IN_R] on F.Cu, length 22,5000 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 93.75
+                    },
+                    "uuid": "e6508166-8ed2-4290-a56d-b6330b64a332"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 109.5
+                    },
+                    "uuid": "46e2edff-6722-44eb-bf60-544bd37423e4"
+                },
+                {
+                    "description": "PCB text 'R2 ENGINEERING PREVIEW' on F.Silkscreen",
+                    "pos": {
+                        "x": 66.9,
+                        "y": 83.0
+                    },
+                    "uuid": "632e81ec-b720-4a6a-93f9-aac0a261d8b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 69.0,
+                        "y": 60.0
+                    },
+                    "uuid": "3889e907-5547-4e03-b47f-c06478a8c565"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint VR4",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 50.0
+                    },
+                    "uuid": "397d3c5f-3324-4ed4-913a-aba8a63f81e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 53.606969
+                    },
+                    "uuid": "4ab35b71-3c44-4749-b175-45a1a2bd5d48"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 48.411463
+                    },
+                    "uuid": "60858855-9b48-47ea-8a0b-9a63c48b3df1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 61.315669
+                    },
+                    "uuid": "8223aebd-6a5e-42e4-b20a-b793c4b49bc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 86.236944
+                    },
+                    "uuid": "85e7a024-dcb6-4356-adb5-44128a6160b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 65.998582,
+                        "y": 109.5
+                    },
+                    "uuid": "9a18c4bf-2b57-4adf-92f5-3c168ff1b5c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 101.70494
+                    },
+                    "uuid": "bb83bf34-2b69-48cf-a051-312898cb6aec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint VR1",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 98.7
+                    },
+                    "uuid": "cda6e560-e06a-4ac6-852e-6f93477c6453"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 51.5
+                    },
+                    "uuid": "e105c264-01d9-4c7d-9e07-3b2c87c5695b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 60.0
+                    },
+                    "uuid": "f9a613ce-efe3-4aaf-8270-ceb2ff376f33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 72.5,
+                        "y": 101.0
+                    },
+                    "uuid": "fac1e03f-b702-41a8-93f3-89a9622f2d3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'REPAIR / ROUTING PENDING' on F.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 105.0
+                    },
+                    "uuid": "4257c68e-da0b-49c4-8139-8c232cf2ef71"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'J6 AGND' on F.Silkscreen",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 46.7
+                    },
+                    "uuid": "c8b566dc-a23e-49b1-b0d1-668517cba2f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text 'J5' on F.Silkscreen",
+                    "pos": {
+                        "x": 69.998582,
+                        "y": 108.0
+                    },
+                    "uuid": "1bd7e267-81c8-4ce5-83b9-4f145accd60c"
+                },
+                {
+                    "description": "PCB text 'AGND' on F.Silkscreen",
+                    "pos": {
+                        "x": 69.998582,
+                        "y": 108.0
+                    },
+                    "uuid": "c74c7554-11b1-44e5-a573-8a26750ecd17"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

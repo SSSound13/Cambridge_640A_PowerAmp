@@ -72,5 +72,6 @@
   "balance_corner_mm": [
     60,
     36.5
-  ]
+  ],
+  "revision_notice": "Historical derivation; current geometry is defined by three-supports.json and edge-solder-alignment.json. Do not regenerate geometry from this report."
 }

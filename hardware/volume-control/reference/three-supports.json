@@ -1,0 +1,109 @@
+{
+  "supports": {
+    "H1": [
+      67.5,
+      77.7
+    ],
+    "H3": [
+      102.0,
+      77.7
+    ],
+    "H2": [
+      63.75,
+      114.0
+    ]
+  },
+  "adapter_rear_D_mm": 69.7,
+  "motor_rear_envelope_D_mm": 66.7,
+  "rear_margin_mm": 3,
+  "adapter_size_mm": [
+    50.7,
+    68.2
+  ],
+  "adapter_outline_mm": [
+    [
+      60,
+      138.5
+    ],
+    [
+      110.7,
+      138.5
+    ],
+    [
+      110.7,
+      70.3
+    ],
+    [
+      80,
+      70.3
+    ],
+    [
+      60,
+      90
+    ]
+  ],
+  "adapter_projection_mm": [
+    [
+      60.0,
+      73.7
+    ],
+    [
+      60.0,
+      124.4
+    ],
+    [
+      128.2,
+      124.4
+    ],
+    [
+      128.2,
+      93.7
+    ],
+    [
+      108.5,
+      73.7
+    ]
+  ],
+  "motor_connector_xy_mm": [
+    103,
+    113
+  ],
+  "gearbox_right_X_mm": 22.7,
+  "right_margin_mm": 3,
+  "tracks_unchanged": false,
+  "factory_copper_under_repair_removed_by_user": true,
+  "status": "User-authorized bounded routing attempt; see routing-attempt.json",
+  "repair_outline_mm": [
+    [
+      60.0,
+      36.5
+    ],
+    [
+      60.0,
+      109.5
+    ],
+    [
+      91.0,
+      36.5
+    ],
+    [
+      91.0,
+      109.5
+    ]
+  ],
+  "repair_size_mm": [
+    31,
+    73
+  ],
+  "repair_end_y_mm": 109.5,
+  "mounting_ownership": {
+    "H1": "repair over main",
+    "H2": "main only",
+    "H3": "main only"
+  },
+  "main_to_adapter_top_mm": 8.5,
+  "repair_top_above_main_mm": 0.6,
+  "clear_gap_above_repair_mm": 6.3,
+  "pending_routing": "See routing-attempt.json for remaining disconnected groups. Old routing was explicitly removed and replaced.",
+  "sync_preserves_existing_tracks": true
+}

@@ -86,7 +86,7 @@ components=[]
 for i,p in enumerate(parts,1):
  aa=[f"{a['ref']}.{a['pad']}" for a in anchors if p.intersects(Point(a['xy']).buffer(1.3))]
  components.append({'id':f'C{i:03}','exterior':list(p.exterior.coords),'holes':[list(h.coords) for h in p.interiors],'anchors':aa})
-holes=[('H1',64.7,77.7),('H2',64.7,125.7),('H3',102,77.7),('H4',102,125.7)]
+holes=[(k,*v) for k,v in json.loads((OUT/'three-supports.json').read_text())['supports'].items()]
 checks=[]
 for ref,x,y in holes:
  disk=Point(x,y).buffer(1.6,quad_segs=64);head=Point(x,y).buffer(3.5,quad_segs=64)
@@ -95,8 +95,9 @@ for ref,x,y in holes:
 data={'source_pdf':PDF.name,'source_sha256':hashlib.sha256(PDF.read_bytes()).hexdigest(),'page':11,'transform':{'sx':float(sx),'ox':float(ox),'sy':float(sy),'oy':float(oy)},'alignment_max_error_mm':max(errors),'alignment_rms_mm':float(np.sqrt(np.mean(np.square(errors)))),'source_draw_operations':drawn,'copper_components':components,'factory_outline':outline,'anchors':anchors,'drill_checks':checks,'scope':'Complete factory underside artwork. Drawn primitives only; no inferred nets or production routing.','uncertainty':'Manual illustration, not original Gerber. Curve sampling and 0.004 mm polygon simplification; no guarantee of actual copper tolerances. Anchor connectivity is geometric and can be incomplete where the artwork has gaps.'}
 (OUT/'factory-copper.json').write_text(json.dumps(data,separators=(',',':')))
 for h in checks:
- h['inside_factory_board_at_axis']=h['ref']!='H2'
- if h['ref']=='H2':h['note']='Factory notch: no original board under axis; repair board covers axis.'
+ h['inside_factory_board_at_axis']=True
+ h['factory_copper_under_repair_removed']=(h['ref']=='H1')
+
 (OUT/'factory-copper.json').write_text(json.dumps(data,separators=(',',':')))
 summary={k:v for k,v in data.items() if k not in ('copper_components','factory_outline')};summary['component_count']=len(parts)
 (OUT/'factory-audit.json').write_text(json.dumps(summary,indent=2))
@@ -107,8 +108,8 @@ for name,bounds in [('factory-full',(50,25,315,300)),('factory-review',(54,30,90
  x,y,w,h=bounds;s=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x} {y} {w} {h}" width="1200" height="{int(1200*h/w)}"><rect x="{x}" y="{y}" width="{w}" height="{h}" fill="white"/>'
  for p in parts:s+=f'<path d="{svg_path(p)}" fill="#718390" fill-rule="evenodd"/>'
  for pts in outline:s+='<polyline points="'+' '.join(f'{x},{y}' for x,y in pts)+'" fill="none" stroke="#c89600" stroke-width=".18"/>'
- s+='<path d="M60 36.5H91V73.7H106V129.7H60Z" fill="none" stroke="#237a4c" stroke-width=".4"/>'
- s+='<rect x="60" y="73.7" width="76.5" height="56" fill="none" stroke="#185fc2" stroke-width=".4" stroke-dasharray="1.5 1"/>'
+ s+='<path d="M60 36.5H91V109.5H60Z" fill="none" stroke="#237a4c" stroke-width=".4"/>'
+ projection=json.loads((OUT/'three-supports.json').read_text())['adapter_projection_mm'];s+='<polygon points="'+' '.join(f'{x},{y}' for x,y in projection)+'" fill="none" stroke="#185fc2" stroke-width=".4"/>'
  for h in checks:
   x,y=h['xy'];col='#bf251f' if h['components'] else '#238148';s+=f'<circle cx="{x}" cy="{y}" r="1.6" fill="none" stroke="{col}" stroke-width=".4"/><circle cx="{x}" cy="{y}" r="3.5" fill="none" stroke="{col}" stroke-width=".15" stroke-dasharray=".7 .5"/><text x="{x+2}" y="{y-2}" fill="{col}" font-family="sans-serif" font-size="2.5">{h["ref"]}</text>'
  s+='</svg>';(OUT/(name+'.svg')).write_text(s)

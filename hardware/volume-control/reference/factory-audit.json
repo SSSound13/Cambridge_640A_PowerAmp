@@ -113,35 +113,28 @@
     {
       "ref": "H1",
       "xy": [
-        64.7,
+        67.5,
         77.7
       ],
       "drill_diameter_mm": 3.2,
-      "copper_intersection_mm2": 2.3813,
-      "distance_drill_to_copper_mm": 0.0,
-      "copper_within_7mm_keepout": true,
-      "components": [
-        "C008"
-      ],
-      "known_pad_anchors": [
-        "VR1.6"
-      ],
-      "inside_factory_board_at_axis": true
+      "inside_factory_board_at_axis": true,
+      "factory_copper_under_repair_removed": true,
+      "note": "Moved to permit two 1 mm front-edge traces; original copper here is removed under repair overlay."
     },
     {
       "ref": "H2",
       "xy": [
-        64.7,
-        125.7
+        63.75,
+        114
       ],
       "drill_diameter_mm": 3.2,
-      "copper_intersection_mm2": 0.0,
-      "distance_drill_to_copper_mm": 5.2843,
+      "copper_intersection_mm2": 0,
+      "distance_drill_to_copper_mm": 2.5385,
       "copper_within_7mm_keepout": false,
       "components": [],
       "known_pad_anchors": [],
-      "inside_factory_board_at_axis": false,
-      "note": "Inside manual notch (x<69.984, y117.876..137.605): no factory board under this mounting axis. Repair PCB itself covers this axis."
+      "inside_factory_board_at_axis": true,
+      "factory_copper_under_repair_removed": false
     },
     {
       "ref": "H3",
@@ -155,26 +148,12 @@
       "copper_within_7mm_keepout": true,
       "components": [],
       "known_pad_anchors": [],
-      "inside_factory_board_at_axis": true
-    },
-    {
-      "ref": "H4",
-      "xy": [
-        102,
-        125.7
-      ],
-      "drill_diameter_mm": 3.2,
-      "copper_intersection_mm2": 1.659,
-      "distance_drill_to_copper_mm": 0.0,
-      "copper_within_7mm_keepout": true,
-      "components": [
-        "C065"
-      ],
-      "known_pad_anchors": [],
-      "inside_factory_board_at_axis": true
+      "inside_factory_board_at_axis": true,
+      "factory_copper_under_repair_removed": false
     }
   ],
   "scope": "Complete factory underside artwork. Drawn primitives only; no inferred nets or production routing.",
   "uncertainty": "Manual illustration, not original Gerber. Curve sampling and 0.004 mm polygon simplification; no guarantee of actual copper tolerances. Anchor connectivity is geometric and can be incomplete where the artwork has gaps.",
-  "component_count": 128
+  "component_count": 128,
+  "manufacturing_assumption": "Only original copper inside X60..91 Y36.5..109.5 is removed. H2 and H3 are drilled directly in retained factory board."
 }

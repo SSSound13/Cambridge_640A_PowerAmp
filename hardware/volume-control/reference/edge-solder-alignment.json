@@ -1,0 +1,106 @@
+{
+  "manual_pages": [
+    8,
+    10,
+    11
+  ],
+  "method": "Centre of factory copper intersection with actual repair board edge. Coordinates approximate artwork registration; verify physical board with 1:1 template.",
+  "contacts": [
+    {
+      "reference": "J1",
+      "xy_mm": [
+        91,
+        101.70494
+      ],
+      "net": "/IN_R",
+      "factory_component": "C018",
+      "source": "VR1.3",
+      "on_repair_edge": true,
+      "on_expected_factory_copper": true
+    },
+    {
+      "reference": "J2",
+      "xy_mm": [
+        91,
+        86.236944
+      ],
+      "net": "/IN_L",
+      "factory_component": "C030",
+      "source": "VR1.6 via original top-side jumper",
+      "on_repair_edge": true,
+      "on_expected_factory_copper": true
+    },
+    {
+      "reference": "J3",
+      "xy_mm": [
+        91,
+        61.315669
+      ],
+      "net": "/TO_BUF_R",
+      "factory_component": "C026",
+      "source": "VR4.5 via original top-side jumper",
+      "on_repair_edge": true,
+      "on_expected_factory_copper": true
+    },
+    {
+      "reference": "J4",
+      "xy_mm": [
+        91,
+        53.606969
+      ],
+      "net": "/TO_BUF_L",
+      "factory_component": "C017",
+      "source": "VR4.2",
+      "on_repair_edge": true,
+      "on_expected_factory_copper": true
+    },
+    {
+      "reference": "J5",
+      "xy_mm": [
+        65.998582,
+        109.5
+      ],
+      "net": "/AGND",
+      "factory_component": "C005",
+      "source": "VR1.1 / VR1.4 ground",
+      "on_repair_edge": true,
+      "on_expected_factory_copper": true
+    },
+    {
+      "reference": "J6",
+      "xy_mm": [
+        91,
+        48.411463
+      ],
+      "net": "/AGND",
+      "factory_component": "C003",
+      "source": "VR4.3 / VR4.4 ground",
+      "on_repair_edge": true,
+      "on_expected_factory_copper": true
+    }
+  ],
+  "jumpers_from_page10_mm": [
+    [
+      [
+        74.843696,
+        60.013984
+      ],
+      [
+        64.685184,
+        60.013984
+      ]
+    ],
+    [
+      [
+        75.606496,
+        76.647963
+      ],
+      [
+        65.447405,
+        76.647963
+      ]
+    ]
+  ],
+  "routing": "Existing tracks untouched; relocated edge contacts need electrical routing review.",
+  "verified_geometry": true
+}
