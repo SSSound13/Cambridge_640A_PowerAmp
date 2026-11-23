@@ -1,5 +1,7 @@
 # Volume control project
 
+Latest adapter contour revision: front-right rectangular step; corner (104.176108,138.5) projects to repair corner (60,117.876108). Step returns to old right edge at Y130; removed rectangle width 6.523892, depth 8.5 mm. Preserve latest user repair edits and both boards' routing. three-supports.json records the new seven-vertex outline and projection.
+
 Latest resistor package revision: R1/R2 are through-hole metal-film 24.9k 1/8W, standard KiCad DIN0204 horizontal pitch 7.62 mm (user confirmed), drill 0.7 mm. R3/R4 remain standard SMD 1206 0R. Keep local routing changes for those new pads and assembly resistor models; latest DRC is tht-resistors-drc.json. Body envelope 3.6x1.6 mm still needs physical verification.
 
 The user explicitly authorized trial routing after geometry changes and required removal of all old tracks. Width is 1.00 mm, no neckdowns. Prefer at most three straight segments per pad-to-pad branch; permit four only as fallback. Leave connections unrouted if no such path is found. Do not silently relax these limits. ROUTING_RULES.md describes proposed supporting clearances and remaining decisions.

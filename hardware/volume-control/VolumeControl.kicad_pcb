@@ -87,6 +87,68 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "01fe6e72-3410-4157-8686-76b3589d59fb")
+		(at 46.6375 135 90)
+		(property "Reference" "ASSEMBLY_R1"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dfad6e15-a8e8-4965-af05-5a19fa8e632e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b38689a-564e-418c-9333-cef0149af8dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f98fee65-fd5a-4f94-b342-d316ae289ddf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86cca678-aecf-423a-864c-e7063002e4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
+			(offset
+				(xyz 0 0 -7.9)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "SamacSys:RK27112MC"
 		(layer "F.Cu")
 		(uuid "047ddac3-7378-45c0-a13b-b837d5e8f350")
@@ -844,13 +906,13 @@
 	)
 	(footprint ""
 		(layer "F.Cu")
-		(uuid "44f16d00-5ade-477d-835b-88586a491c0d")
-		(at 47.55 114.25 90)
-		(property "Reference" "ASSEMBLY_R4"
+		(uuid "2b728739-3588-41e8-bf9c-0376f42d5217")
+		(at 39.8 114.1625 90)
+		(property "Reference" "ASSEMBLY_R3"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "93c30579-b163-4860-8816-13cb8905222d")
+			(uuid "dd862da9-5e50-4673-b4ac-3ab947b8c60f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +923,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd6ab299-ba18-4601-9d1a-aa8c96510932")
+			(uuid "5c46e02d-60a0-466d-9ec5-8ee3c7344eab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +934,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a339ed78-c502-4017-a021-6d22403126a0")
+			(uuid "62ec6c2e-3dca-4d2b-89fa-0faaf25b4c1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +945,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c601ef2-e93b-4c7d-81db-ba1123d5482f")
+			(uuid "a1171dc5-2c9f-4dcd-9c7a-0188460ea570")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +956,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/models/R_1206_3216Metric.step"
 			(offset
-				(xyz 0 0 -8.2)
+				(xyz 0 0 -7.9)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1264,13 +1326,13 @@
 	)
 	(footprint ""
 		(layer "F.Cu")
-		(uuid "8e857161-61e7-4ce7-9a44-9f1cb0192369")
-		(at 39.8 114.1625 90)
-		(property "Reference" "ASSEMBLY_R3"
+		(uuid "517f2558-3648-4eea-8a2b-a61f2b1c3e13")
+		(at 25.3 135 90)
+		(property "Reference" "ASSEMBLY_R2"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3aa61da0-ce70-40ee-9c27-7da78bf983b2")
+			(uuid "ffea309e-ec97-4e37-a872-d8ace60271ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1343,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b5fc0bb-4746-4623-ab4f-0cc3229c5c3d")
+			(uuid "883512d8-8410-4902-8cc8-a4a05eba5fad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1354,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88df3a6f-530d-4dc5-9608-03eec6f4d4e3")
+			(uuid "c59adbed-689b-4392-b10b-b5b8ca44c678")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1365,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "601272f9-5d06-430e-b0ad-84140df9e77d")
+			(uuid "f7a68fe5-9894-4046-abb4-0fe0a3a88aa1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,9 +1374,82 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/R_1206_3216Metric.step"
+		(model "${KIPRJMOD}/models/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
+			(offset
+				(xyz 0 0 -7.9)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "70e703b4-0968-4cfb-8bcc-82d4c3e95ee6")
+		(at 85 140)
+		(property "Reference" "ASSEMBLY_ONLY"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38a11744-d520-4f64-b383-48978c742d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be97867a-a1a4-412d-af6b-f5ed42ffc53e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed19c8b0-44be-4075-8b90-81fa765f8a62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9c6d58f-25fb-4b08-a99d-3276ccdb1f1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/lower-board.wrl"
 			(offset
 				(xyz 0 0 -8.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/models/assembly-hardware.wrl"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1427,6 +1562,68 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "9ec62aaf-89b5-4602-be86-199a96930f17")
+		(at 36.3 135 90)
+		(property "Reference" "ASSEMBLY_VR4"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "48257a5c-ee4d-4283-b0f2-29fcea5fb2dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85bebf42-6ed0-49b9-8438-781e35fe9ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab5c5468-539e-4c13-8774-15362b00dcf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9264fadc-7668-4336-be34-34541757b5e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/ALPS_RK16312-L20.step"
+			(offset
+				(xyz 0.246 0 4.5875)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "a2a19261-4770-4f4b-a6d6-8c63a64a47ee")
@@ -1533,79 +1730,6 @@
 			(uuid "d16aec43-aacc-4176-b447-43630203c807")
 		)
 		(embedded_fonts no)
-	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "a9f9cdcf-e511-47e7-b28d-e9b57494d87a")
-		(at 85 140)
-		(property "Reference" "ASSEMBLY_ONLY"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8771e713-a357-4d48-9fe8-319c80adec38")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ddb7c735-e3c7-4ed3-8411-d9e51bd69cbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2481bff5-45a4-4d51-9653-1394d532a503")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "761a8cd2-cd23-4ff1-bae6-35e6cb8791c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/lower-board.wrl"
-			(offset
-				(xyz 0 0 -8.2)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/models/assembly-hardware.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
@@ -1823,13 +1947,13 @@
 	)
 	(footprint ""
 		(layer "F.Cu")
-		(uuid "d96c3b9d-6cba-42ad-b979-3f5c69f1ac96")
-		(at 25.3 135 90)
-		(property "Reference" "ASSEMBLY_R2"
+		(uuid "e7fedcba-912b-4a71-a1ee-04c5eb391713")
+		(at 47.55 114.25 90)
+		(property "Reference" "ASSEMBLY_R4"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8ee49d82-b380-4dee-b767-baa204caebbc")
+			(uuid "75eb0e80-3063-4926-b696-6b631df373f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1964,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4798866-d378-404d-b6e4-9ef1bd60d207")
+			(uuid "bdb67491-b3a9-4f9e-a095-fec0725b120c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1975,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "406f43cf-7f9f-4891-85c0-1885e018873d")
+			(uuid "435486f2-5437-43f4-b2ec-45ae1c1ab287")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1986,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c4aae36-19c4-44a6-858f-576dfe8eb9bb")
+			(uuid "0c22a092-fe46-4f9a-adba-da5a91b47b31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,71 +1995,9 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
+		(model "${KIPRJMOD}/models/R_1206_3216Metric.step"
 			(offset
-				(xyz 0 0 -8.2)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "f2b85519-2f89-493f-bf60-79b22c3d0bc8")
-		(at 46.6375 135 90)
-		(property "Reference" "ASSEMBLY_R1"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ded8f46f-3707-48d6-8763-948d4425ca0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7cbf4f94-f167-4dde-92f7-fb559b863aae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdb0470d-eaad-48b5-af49-4d8c99c82a5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70818df1-6f20-4250-8bfd-0e2d63800dc8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
-			(offset
-				(xyz 0 0 -8.2)
+				(xyz 0 0 -7.9)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1953,17 +2015,17 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fa6a6020-9fa5-4872-be59-95f03e7f05b6")
+		(uuid "1d9d98f7-9cf0-4b49-bffa-590d92dc611a")
 	)
 	(gr_line
 		(start 60 138.5)
-		(end 110.7 138.5)
+		(end 104.176108 138.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "c7bc6124-dee9-4408-a6d1-b3b4cf596dd5")
+		(uuid "5b8c1fd9-92e3-4910-9037-f30baeff9364")
 	)
 	(gr_line
 		(start 80 70.3)
@@ -1973,7 +2035,27 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "445b0954-fd56-4fdd-8585-c0c33be91acb")
+		(uuid "4760fc8c-06fd-42e0-8768-2f6c8f71ca1f")
+	)
+	(gr_line
+		(start 104.176108 130)
+		(end 110.7 130)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6ac4c520-3559-474d-83f4-a73b9784f922")
+	)
+	(gr_line
+		(start 104.176108 138.5)
+		(end 104.176108 130)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00c2d706-4c16-4d28-8e6f-af32367de3b8")
 	)
 	(gr_line
 		(start 110.7 70.3)
@@ -1983,17 +2065,17 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "81a25dfe-44a5-422b-a2b8-d53ab5a41717")
+		(uuid "18bd97db-976e-4c1f-8c36-3a7da2d8569d")
 	)
 	(gr_line
-		(start 110.7 138.5)
+		(start 110.7 130)
 		(end 110.7 70.3)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "385bcb7a-b56e-4ff9-81a6-219182bf50da")
+		(uuid "33dd60be-8865-447e-a739-08d525778745")
 	)
 	(gr_text "MOTOR\n-  +"
 		(at 104 118 0)

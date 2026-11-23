@@ -26,8 +26,16 @@
       138.5
     ],
     [
-      110.7,
+      104.176108,
       138.5
+    ],
+    [
+      104.176108,
+      130
+    ],
+    [
+      110.7,
+      130
     ],
     [
       110.7,
@@ -49,6 +57,14 @@
     ],
     [
       60.0,
+      117.876108
+    ],
+    [
+      68.5,
+      117.876108
+    ],
+    [
+      68.5,
       124.4
     ],
     [
@@ -109,5 +125,19 @@
   "screw_shank_mm": 2.7,
   "screw_head_mm": 4.5,
   "mounting_drill_mm": 3,
-  "copper_keepout_diameter_mm": 5.5
+  "copper_keepout_diameter_mm": 5.5,
+  "front_right_step": {
+    "aligned_repair_corner_mm": [
+      60,
+      117.876108
+    ],
+    "adapter_corner_mm": [
+      104.176108,
+      138.5
+    ],
+    "removed_width_mm": 6.523892000000004,
+    "removed_depth_mm": 8.5,
+    "depth_choice": "8.5 mm chosen to extend behind H2; user approved rectangular step; exact depth not specified",
+    "tracks_unchanged": true
+  }
 }

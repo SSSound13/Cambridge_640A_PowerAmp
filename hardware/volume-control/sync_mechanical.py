@@ -21,11 +21,18 @@ assert set(holes)=={'H1','H2','H3'}
 for item in list(lower.GetFootprints())+list(lower.GetTracks())+list(lower.GetDrawings())+list(lower.Zones()):
  item.Rotate(mm(0,0),p.EDA_ANGLE(90,p.DEGREES_T));item.Move(mm(-13.7,198.5))
 for f in lower.GetFootprints():
- if f.GetReference() in ['R1','R2','R3','R4']:
-  # Keep the current resistor bodies visible in the assembly.
+ if f.GetReference() in ['R1','R2','R3','R4','VR4']:
+  # Preserve each source model's alignment when moving it to the lower PCB level.
   visual=p.FOOTPRINT(upper);visual.SetReference('ASSEMBLY_'+f.GetReference());visual.SetPosition(f.GetPosition());visual.SetOrientation(f.GetOrientation());visual.Reference().SetVisible(False);visual.Value().SetVisible(False)
   for source in f.Models():
-   model=p.FP_3DMODEL();model.m_Filename=source.m_Filename;model.m_Offset.z=-8.2;visual.Add3DModel(model)
+   model=p.FP_3DMODEL();model.m_Filename=source.m_Filename
+   for axis in ['x','y','z']:
+    setattr(model.m_Offset,axis,getattr(source.m_Offset,axis))
+    setattr(model.m_Rotation,axis,getattr(source.m_Rotation,axis))
+    setattr(model.m_Scale,axis,getattr(source.m_Scale,axis))
+   # lower-board.wrl is centred about Z=0: its top is +thickness/2.
+   model.m_Offset.z+=-8.2+p.ToMM(lower.GetDesignSettings().GetBoardThickness())/2
+   visual.Add3DModel(model)
   upper.Add(visual)
  f.Models().clear()
 with tempfile.TemporaryDirectory(prefix='volume-control-') as tmp:
