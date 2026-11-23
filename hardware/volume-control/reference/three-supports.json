@@ -72,7 +72,7 @@
   "right_margin_mm": 3,
   "tracks_unchanged": false,
   "factory_copper_under_repair_removed_by_user": true,
-  "status": "User-authorized bounded routing attempt; see routing-attempt.json",
+  "status": "User manual routing; upper copper layers exchanged without rerouting",
   "repair_outline_mm": [
     [
       60.0,
@@ -104,6 +104,10 @@
   "main_to_adapter_top_mm": 8.5,
   "repair_top_above_main_mm": 0.6,
   "clear_gap_above_repair_mm": 6.3,
-  "pending_routing": "See routing-attempt.json for remaining disconnected groups. Old routing was explicitly removed and replaced.",
-  "sync_preserves_existing_tracks": true
+  "pending_routing": "See current user-revision DRC; earlier routing-attempt report is historical.",
+  "sync_preserves_existing_tracks": true,
+  "screw_shank_mm": 2.7,
+  "screw_head_mm": 4.5,
+  "mounting_drill_mm": 3,
+  "copper_keepout_diameter_mm": 5.5
 }

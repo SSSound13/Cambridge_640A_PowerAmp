@@ -116,10 +116,11 @@
         67.5,
         77.7
       ],
-      "drill_diameter_mm": 3.2,
+      "drill_diameter_mm": 3,
       "inside_factory_board_at_axis": true,
       "factory_copper_under_repair_removed": true,
-      "note": "Moved to permit two 1 mm front-edge traces; original copper here is removed under repair overlay."
+      "note": "Moved to permit two 1 mm front-edge traces; original copper here is removed under repair overlay.",
+      "screw_head_mm": 4.5
     },
     {
       "ref": "H2",
@@ -127,14 +128,12 @@
         63.75,
         114
       ],
-      "drill_diameter_mm": 3.2,
-      "copper_intersection_mm2": 0,
-      "distance_drill_to_copper_mm": 2.5385,
-      "copper_within_7mm_keepout": false,
+      "drill_diameter_mm": 3,
       "components": [],
       "known_pad_anchors": [],
       "inside_factory_board_at_axis": true,
-      "factory_copper_under_repair_removed": false
+      "factory_copper_under_repair_removed": false,
+      "screw_head_mm": 4.5
     },
     {
       "ref": "H3",
@@ -142,14 +141,12 @@
         102,
         77.7
       ],
-      "drill_diameter_mm": 3.2,
-      "copper_intersection_mm2": 0.0,
-      "distance_drill_to_copper_mm": 1.8913,
-      "copper_within_7mm_keepout": true,
+      "drill_diameter_mm": 3,
       "components": [],
       "known_pad_anchors": [],
       "inside_factory_board_at_axis": true,
-      "factory_copper_under_repair_removed": false
+      "factory_copper_under_repair_removed": false,
+      "screw_head_mm": 4.5
     }
   ],
   "scope": "Complete factory underside artwork. Drawn primitives only; no inferred nets or production routing.",

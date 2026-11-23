@@ -32,7 +32,7 @@ pts=json.loads((R/'reference/three-supports.json').read_text())['adapter_project
 for a,z in zip(pts,pts[1:]):line(a,z,p.User_3,.3)
 for h in data['drill_checks']:
  x,y=h['xy']
- for radius in (1.6,3.5):
+ for radius in (1.5,2.25,2.75):
   d=p.PCB_SHAPE(b);d.SetShape(p.SHAPE_T_CIRCLE);d.SetCenter(mm((x,y)));d.SetEnd(mm((x+radius,y)));d.SetWidth(p.FromMM(.15));d.SetLayer(p.User_3);b.Add(d)
  label(h['ref']+(' / FACTORY Cu REMOVED' if h['ref']=='H1' else ' / DRILL MAIN PCB ONLY'),(x+5,y-4),p.User_2,.8)
 for a in data['anchors']:label(a['ref']+'.'+str(a['pad']),(a['xy'][0]+1.5,a['xy'][1]),p.User_2,.6)

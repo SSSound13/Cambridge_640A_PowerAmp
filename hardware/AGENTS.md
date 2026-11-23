@@ -7,3 +7,5 @@ Preserve approved geometry and six factory-aligned edge contacts. Three supports
 VolumeControl is an assembly visualization; ALPS_Adapter and Repair_Reference are editable boards. Regenerate assembly explicitly using sync_mechanical.py after changes. It preserves current tracks. verify_project.py checks geometry, widths and route segment counts. Existing routing attempt is incomplete, not manufacturing-ready.
 
 H1 was subsequently moved toward the header: upper (64,131), lower (67.5,77.7) mm. Keep the resulting two-track corridor at the front edge; see H1-routing-corridor.json. Six-pin header remains fixed.
+
+Latest user revision (2026-11-23): preserve user-completed manual routing. Upper F.Cu/B.Cu were exchanged exactly; do not reroute or enforce old segment counts. Lower has an intentional-to-preserve 0.2 mm segment and a dangling-track warning to review, not silently fix. Screws measured 2.7 mm shank / 4.5 mm head; standard MountingHole_3mm clearance holes, 5.5 mm copper keepout diameter. ASSEMBLY_NOTES.md records confirmed resistor variants and future-tuning note. sync_mechanical.py now rebuilds assembly without editing source boards.
