@@ -36,7 +36,7 @@ for i in range(6):
  vrml+=f'Transform {{ translation {x/2.54} {d/2.54} {-3.85/2.54} children [ Shape {{ appearance Appearance {{ material Material {{ diffuseColor .75 .6 .2 }} }} geometry Box {{ size {.64/2.54} {.64/2.54} {14.5/2.54} }} }} ] }}\n'
 for ref,(x0,y0) in holes.items():
  x=y0-98.7;d=x0-58.5
- pts=[((x+3*math.cos(k*math.tau/32))/2.54,(d+3*math.sin(k*math.tau/32))/2.54,z/2.54) for z in ((-7.9 if ref=='H1' else -8.5),-1.6) for k in range(32)]
+ pts=[((x+3*math.cos(k*math.tau/32))/2.54,(d+3*math.sin(k*math.tau/32))/2.54,z/2.54) for z in ((-7.9 if report['mounting_ownership'][ref]=='repair over main' else -8.5),-1.6) for k in range(32)]
  faces=[tuple(range(31,-1,-1)),tuple(range(32,64))]+[(k,(k+1)%32,(k+1)%32+32,k+32) for k in range(32)]
  coords=', '.join(' '.join(str(v) for v in pt) for pt in pts);indices=', '.join(' '.join(str(v) for v in f)+' -1' for f in faces)
  vrml+=f'Shape {{ appearance Appearance {{ material Material {{ diffuseColor .65 .65 .7 transparency .35 }} }} geometry IndexedFaceSet {{ solid TRUE coord Coordinate {{ point [ {coords} ] }} coordIndex [ {indices} ] }} }}\n'

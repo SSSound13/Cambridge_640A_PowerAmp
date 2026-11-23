@@ -75,30 +75,30 @@
   "status": "User manual routing; upper copper layers exchanged without rerouting",
   "repair_outline_mm": [
     [
-      60.0,
+      60,
       36.5
     ],
     [
-      60.0,
-      109.5
-    ],
-    [
-      91.0,
+      91,
       36.5
     ],
     [
-      91.0,
-      109.5
+      91,
+      117.876108
+    ],
+    [
+      60,
+      117.876108
     ]
   ],
   "repair_size_mm": [
     31,
-    73
+    81.376108
   ],
-  "repair_end_y_mm": 109.5,
+  "repair_end_y_mm": 117.876108,
   "mounting_ownership": {
     "H1": "repair over main",
-    "H2": "main only",
+    "H2": "repair over main",
     "H3": "main only"
   },
   "main_to_adapter_top_mm": 8.5,

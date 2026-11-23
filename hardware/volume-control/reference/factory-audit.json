@@ -132,7 +132,7 @@
       "components": [],
       "known_pad_anchors": [],
       "inside_factory_board_at_axis": true,
-      "factory_copper_under_repair_removed": false,
+      "factory_copper_under_repair_removed": true,
       "screw_head_mm": 4.5
     },
     {
@@ -152,5 +152,5 @@
   "scope": "Complete factory underside artwork. Drawn primitives only; no inferred nets or production routing.",
   "uncertainty": "Manual illustration, not original Gerber. Curve sampling and 0.004 mm polygon simplification; no guarantee of actual copper tolerances. Anchor connectivity is geometric and can be incomplete where the artwork has gaps.",
   "component_count": 128,
-  "manufacturing_assumption": "Only original copper inside X60..91 Y36.5..109.5 is removed. H2 and H3 are drilled directly in retained factory board."
+  "manufacturing_assumption": "Original copper inside X60..91 Y36.5..117.876108 is removed. H1/H2 through repair and main; H3 main only."
 }

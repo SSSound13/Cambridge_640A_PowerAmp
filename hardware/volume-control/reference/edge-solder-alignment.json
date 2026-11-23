@@ -57,24 +57,12 @@
     {
       "reference": "J5",
       "xy_mm": [
-        65.998582,
-        109.5
+        72.080899,
+        117.876108
       ],
       "net": "/AGND",
       "factory_component": "C005",
       "source": "VR1.1 / VR1.4 ground",
-      "on_repair_edge": true,
-      "on_expected_factory_copper": true
-    },
-    {
-      "reference": "J6",
-      "xy_mm": [
-        91,
-        48.411463
-      ],
-      "net": "/AGND",
-      "factory_component": "C003",
-      "source": "VR4.3 / VR4.4 ground",
       "on_repair_edge": true,
       "on_expected_factory_copper": true
     }
@@ -101,6 +89,6 @@
       ]
     ]
   ],
-  "routing": "Existing tracks untouched; relocated edge contacts need electrical routing review.",
+  "routing": "User routing preserved; J5 extended with two 1 mm F.Cu segments to new factory-aligned edge. J6 removed by user.",
   "verified_geometry": true
 }
