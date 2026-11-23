@@ -1,4 +1,4 @@
-"""Sync mounting axes from Repair_Reference, trim adapter and rebuild assembly.
+"""Rebuild assembly from saved editable boards without modifying the sources.
 KiCad Python; no routing. Run KiCad CLI with normal user access.
 """
 from pathlib import Path

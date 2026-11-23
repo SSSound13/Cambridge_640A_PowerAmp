@@ -140,7 +140,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at -3.4 0 0)
+			(at -0.25 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "12b27c22-a5b4-4a95-a019-035d6bc044ab")
 			(effects
@@ -424,72 +424,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "f68b5fe0-fa9e-4f79-bba5-a8b6cbf57238")
-		)
-		(fp_text user "6"
-			(at 1.9 -5 0)
-			(layer "F.SilkS")
-			(uuid "d912109a-73a2-4521-a642-32120de687b2")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "5"
-			(at 1.9 0 0)
-			(layer "F.SilkS")
-			(uuid "9bad6292-8e5e-44aa-a861-ec802f02f163")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "4"
-			(at 1.9 5 0)
-			(layer "F.SilkS")
-			(uuid "76fe944a-53a7-4566-983e-e8489d8a98bd")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "3"
-			(at 6.9 -5 0)
-			(layer "F.SilkS")
-			(uuid "5448e0bc-f2f6-43b5-926d-85be13baf502")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "2"
-			(at 6.9 0 0)
-			(layer "F.SilkS")
-			(uuid "48a13cee-b164-46fa-8015-f3b897c45d8e")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at 6.9 5 0)
-			(layer "F.SilkS")
-			(uuid "92e66fbc-cc02-42b3-bdde-0c17b36454d3")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
 		)
 		(fp_text user "CONTACTS ONLY"
 			(at 2.5 8 0)
@@ -1669,65 +1603,10 @@
 			(layer "F.CrtYd")
 			(uuid "f65a0431-eda2-435e-b5ef-dc5500bc83c1")
 		)
-		(fp_text user "6"
-			(at 1.9 -5 0)
-			(layer "F.SilkS")
-			(uuid "4b0c5e3a-f53a-4a23-85ad-66cae05f89d2")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "5"
-			(at 1.9 0 0)
-			(layer "F.SilkS")
-			(uuid "6595bce9-f3c0-4248-acef-a5ac90c3b4db")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(fp_text user "4"
 			(at 1.9 5 0)
 			(layer "F.SilkS")
 			(uuid "011aa4c1-6e1a-43c8-b864-aad84e39e0e6")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "3"
-			(at 6.9 -5 0)
-			(layer "F.SilkS")
-			(uuid "f6649d77-cb83-4078-b420-33042115d391")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "2"
-			(at 6.9 0 0)
-			(layer "F.SilkS")
-			(uuid "a884bb73-d606-4f19-b630-12f5ac8eb4aa")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at 6.9 5 0)
-			(layer "F.SilkS")
-			(uuid "c16efa04-5528-47b9-ae29-b184406afa45")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1809,7 +1688,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -3.4 0 0)
+			(at -0.0875 -1.75 180)
 			(layer "F.SilkS")
 			(uuid "d1ee593e-469c-49bc-88ad-11a2931f72a9")
 			(effects
@@ -2005,7 +1884,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 3.5 0)
+			(at 0.25 2.25 0)
 			(layer "F.SilkS")
 			(uuid "79c33323-80a7-420d-a963-7d80188c9cbd")
 			(effects
@@ -2201,7 +2080,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 3.5 0)
+			(at 0 2.25 180)
 			(layer "F.SilkS")
 			(uuid "8ace5bcb-8263-454b-957a-e3318a7c3d7e")
 			(effects
@@ -5351,18 +5230,20 @@
 		(layer "User.4")
 		(uuid "274faac5-6268-406b-9c7c-8d2f29eaf53f")
 	)
-	(gr_text "CHECK PART FIT BEFORE FAB"
-		(at 81 105 0)
+	(gr_text "BAL 20K:  R1,R2 = DNP;  R3,R4 = 0R (FACTORY)\nBAL 100K: R1,R2 = 24K9; R3,R4 = 0R\n			R3,R4: RESERVE FOR TUNING"
+		(at 67.5 39.25 0)
 		(layer "F.SilkS")
-		(uuid "4257c68e-da0b-49c4-8139-8c232cf2ef71")
+		(uuid "aab3d7ef-2094-4668-864a-7d158258193d")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.85 0.6)
+				(thickness 0.125)
 			)
+			(justify left)
 		)
 	)
-	(gr_text "J6 AGND"
-		(at 86 46.7 0)
+	(gr_text "AGND"
+		(at 86.75 47 0)
 		(layer "F.SilkS")
 		(uuid "c8b566dc-a23e-49b1-b0d1-668517cba2f3")
 		(effects
@@ -5372,65 +5253,10 @@
 			)
 		)
 	)
-	(gr_text "BAL MN 20K / 100K"
-		(at 66.9 43 0)
-		(layer "F.SilkS")
-		(uuid "37c6045d-8a56-44a8-9b16-bf196f2d1c53")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "0.6mm / CAST"
-		(at 66.9 87.2 0)
-		(layer "F.SilkS")
-		(uuid "a219e781-403b-4be2-922d-9f37f2ef9f19")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "VOL 20K LOG"
-		(at 66.9 106.1 0)
-		(layer "F.SilkS")
-		(uuid "713b24ef-1edb-4469-8149-5039c815e70d")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
 	(gr_text "AGND"
 		(at 69.998582 108 0)
 		(layer "F.SilkS")
 		(uuid "c74c7554-11b1-44e5-a573-8a26750ecd17")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "J5"
-		(at 69.998582 108 0)
-		(layer "F.SilkS")
-		(uuid "1bd7e267-81c8-4ce5-83b9-4f145accd60c")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "J4"
-		(at 87 52.106969 0)
-		(layer "F.SilkS")
-		(uuid "f30b4104-2686-463e-8686-1bf3dec9b277")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -5449,32 +5275,10 @@
 			)
 		)
 	)
-	(gr_text "J3"
-		(at 87 59.815669 0)
-		(layer "F.SilkS")
-		(uuid "0caf803b-e131-416c-9a5a-49c0746a569d")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
 	(gr_text "R OUT"
 		(at 87 62.815669 0)
 		(layer "F.SilkS")
 		(uuid "22186178-d3a9-4265-b9f3-31bd6b43a5a6")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "J2"
-		(at 87 84.736944 0)
-		(layer "F.SilkS")
-		(uuid "a1d9c865-1be6-417e-9560-5f2a13ce9b11")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -5493,17 +5297,6 @@
 			)
 		)
 	)
-	(gr_text "J1"
-		(at 87 100.20494 0)
-		(layer "F.SilkS")
-		(uuid "6b626ddd-4c31-443c-816a-b4e18f60428f")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
 	(gr_text "R IN"
 		(at 87 103.20494 0)
 		(layer "F.SilkS")
@@ -5515,91 +5308,25 @@
 			)
 		)
 	)
-	(gr_text "R3/R4: SERIES TUNING"
-		(at 77 72 0)
+	(gr_text "BAL MN 20K / 100K"
+		(at 71.5 50.5 270)
 		(layer "F.SilkS")
-		(uuid "578bf7dc-6f42-4c9d-b1d7-1df438327d2d")
+		(uuid "37c6045d-8a56-44a8-9b16-bf196f2d1c53")
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "RESERVE; DEFAULT 0R"
-		(at 77 73.5 0)
-		(layer "F.SilkS")
-		(uuid "15c3dfdc-f5a6-481f-a18c-f406da5f18eb")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "R2 ENGINEERING PREVIEW"
-		(at 66.9 83 0)
-		(layer "F.SilkS")
-		(uuid "632e81ec-b720-4a6a-93f9-aac0a261d8b6")
-		(effects
-			(font
-				(size 0.85 0.85)
 				(thickness 0.12)
 			)
 		)
 	)
-	(gr_text "640A V1"
-		(at 66.9 85.1 0)
+	(gr_text "VOL 20K LOG"
+		(at 71.75 98.25 270)
 		(layer "F.SilkS")
-		(uuid "d01be3d3-c6f5-4b5f-9cce-71711757b72f")
+		(uuid "713b24ef-1edb-4469-8149-5039c815e70d")
 		(effects
 			(font
-				(size 0.85 0.85)
+				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "BAL 100K: R1,R2 = 24K9"
-		(at 77 65 0)
-		(layer "F.SilkS")
-		(uuid "aab3d7ef-2094-4668-864a-7d158258193d")
-		(effects
-			(font
-				(size 0.85 0.85)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "BAL 20K: R1,R2 = DNP"
-		(at 77 66.599999 0)
-		(layer "F.SilkS")
-		(uuid "0b8c6bdd-2656-4a68-b180-e06774c60704")
-		(effects
-			(font
-				(size 0.85 0.85)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "R3,R4 = 0R (BOTH)"
-		(at 77 68.2 0)
-		(layer "F.SilkS")
-		(uuid "b08960bd-b7a3-4236-8009-fbcc37ae01ee")
-		(effects
-			(font
-				(size 0.85 0.85)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "DNP = DO NOT FIT"
-		(at 77 69.8 0)
-		(layer "F.SilkS")
-		(uuid "46fbafd2-c128-4324-8ccd-912448fd8d57")
-		(effects
-			(font
-				(size 0.85 0.85)
-				(thickness 0.15)
 			)
 		)
 	)
