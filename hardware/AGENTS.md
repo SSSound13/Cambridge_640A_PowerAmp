@@ -1,5 +1,7 @@
 # Volume control project
 
+Latest resistor package revision: R1/R2 are through-hole metal-film 24.9k 1/8W, standard KiCad DIN0204 horizontal pitch 7.62 mm (user confirmed), drill 0.7 mm. R3/R4 remain standard SMD 1206 0R. Keep local routing changes for those new pads and assembly resistor models; latest DRC is tht-resistors-drc.json. Body envelope 3.6x1.6 mm still needs physical verification.
+
 The user explicitly authorized trial routing after geometry changes and required removal of all old tracks. Width is 1.00 mm, no neckdowns. Prefer at most three straight segments per pad-to-pad branch; permit four only as fallback. Leave connections unrouted if no such path is found. Do not silently relax these limits. ROUTING_RULES.md describes proposed supporting clearances and remaining decisions.
 
 Preserve approved geometry and six factory-aligned edge contacts. Three supports H1-H3; H4 deleted. H2 source position (63.75,114) mm. Only H1 physically passes through the small repair overlay; H2/H3 go directly into main PCB. Factory copper is removed only beneath repair outline X60..91 Y36.5..109.5.

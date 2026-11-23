@@ -20,7 +20,14 @@ assert set(holes)=={'H1','H2','H3'}
 # Position and export lower board for the assembly.
 for item in list(lower.GetFootprints())+list(lower.GetTracks())+list(lower.GetDrawings())+list(lower.Zones()):
  item.Rotate(mm(0,0),p.EDA_ANGLE(90,p.DEGREES_T));item.Move(mm(-13.7,198.5))
-for f in lower.GetFootprints():f.Models().clear()
+for f in lower.GetFootprints():
+ if f.GetReference() in ['R1','R2','R3','R4']:
+  # Keep the current resistor bodies visible in the assembly.
+  visual=p.FOOTPRINT(upper);visual.SetReference('ASSEMBLY_'+f.GetReference());visual.SetPosition(f.GetPosition());visual.SetOrientation(f.GetOrientation());visual.Reference().SetVisible(False);visual.Value().SetVisible(False)
+  for source in f.Models():
+   model=p.FP_3DMODEL();model.m_Filename=source.m_Filename;model.m_Offset.z=-8.2;visual.Add3DModel(model)
+  upper.Add(visual)
+ f.Models().clear()
 with tempfile.TemporaryDirectory(prefix='volume-control-') as tmp:
  path=Path(tmp)/'lower.kicad_pcb';p.SaveBoard(str(path),lower)
  subprocess.run([CLI,'pcb','export','vrml','--force','--units','tenths','--user-origin','85x140mm','-o',str(R/'models/lower-board.wrl'),str(path)],check=True)

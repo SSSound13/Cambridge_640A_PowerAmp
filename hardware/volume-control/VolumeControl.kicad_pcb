@@ -842,6 +842,68 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "44f16d00-5ade-477d-835b-88586a491c0d")
+		(at 47.55 114.25 90)
+		(property "Reference" "ASSEMBLY_R4"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "93c30579-b163-4860-8816-13cb8905222d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd6ab299-ba18-4601-9d1a-aa8c96510932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a339ed78-c502-4017-a021-6d22403126a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c601ef2-e93b-4c7d-81db-ba1123d5482f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 -8.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 		(layer "F.Cu")
 		(uuid "4c0f3317-c4be-4796-838d-cba12b1b6ccb")
@@ -1200,6 +1262,68 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "8e857161-61e7-4ce7-9a44-9f1cb0192369")
+		(at 39.8 114.1625 90)
+		(property "Reference" "ASSEMBLY_R3"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3aa61da0-ce70-40ee-9c27-7da78bf983b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b5fc0bb-4746-4623-ab4f-0cc3229c5c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88df3a6f-530d-4dc5-9608-03eec6f4d4e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "601272f9-5d06-430e-b0ad-84140df9e77d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 -8.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 		(layer "F.Cu")
 		(uuid "9663539e-d761-4e4e-9f52-def2902a69af")
@@ -1412,13 +1536,13 @@
 	)
 	(footprint ""
 		(layer "F.Cu")
-		(uuid "a7f8525b-c8dd-487a-8d36-05a4a454635d")
+		(uuid "a9f9cdcf-e511-47e7-b28d-e9b57494d87a")
 		(at 85 140)
 		(property "Reference" "ASSEMBLY_ONLY"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c1bfd04c-63b0-44b5-a657-0a4f5ed9eb30")
+			(uuid "8771e713-a357-4d48-9fe8-319c80adec38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1553,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a8dd9a6-fc50-4a76-bd39-a7f34c48c56c")
+			(uuid "ddb7c735-e3c7-4ed3-8411-d9e51bd69cbe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1564,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae646535-aa83-4edd-9483-69f7dc40be31")
+			(uuid "2481bff5-45a4-4d51-9653-1394d532a503")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1575,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e5a804b-ae97-442b-92f0-3607af5117c5")
+			(uuid "761a8cd2-cd23-4ff1-bae6-35e6cb8791c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,6 +1820,130 @@
 			(uuid "8b3be944-d82e-4f60-b361-855567a6cc3d")
 		)
 		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "d96c3b9d-6cba-42ad-b979-3f5c69f1ac96")
+		(at 25.3 135 90)
+		(property "Reference" "ASSEMBLY_R2"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8ee49d82-b380-4dee-b767-baa204caebbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4798866-d378-404d-b6e4-9ef1bd60d207")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "406f43cf-7f9f-4891-85c0-1885e018873d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c4aae36-19c4-44a6-858f-576dfe8eb9bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
+			(offset
+				(xyz 0 0 -8.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "f2b85519-2f89-493f-bf60-79b22c3d0bc8")
+		(at 46.6375 135 90)
+		(property "Reference" "ASSEMBLY_R1"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ded8f46f-3707-48d6-8763-948d4425ca0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cbf4f94-f167-4dde-92f7-fb559b863aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdb0470d-eaad-48b5-af49-4d8c99c82a5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70818df1-6f20-4250-8bfd-0e2d63800dc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
+			(offset
+				(xyz 0 0 -8.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(gr_line
 		(start 60 90)
