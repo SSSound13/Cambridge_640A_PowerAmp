@@ -1747,7 +1747,7 @@
 		(layer "Edge.Cuts")
 		(uuid "385bcb7a-b56e-4ff9-81a6-219182bf50da")
 	)
-	(gr_text "MOTOR\n+  -"
+	(gr_text "MOTOR\n-  +"
 		(at 104 118 0)
 		(layer "F.SilkS")
 		(uuid "401e6d2b-5bf1-4c42-8647-80ea7c43c8a8")
