@@ -1,0 +1,22 @@
+{
+  "revision": "drawing-only H5; fit correction pending measurement",
+  "units": "mm",
+  "prototype": "01_reference",
+  "free_height": 5.0,
+  "foot_inner_diameter": 8.3,
+  "foot_outer_diameter": 11.8,
+  "foot_height": 0.5,
+  "cone_upper_outer_diameter": 14.5,
+  "wall_normal_thickness": 0.7,
+  "root_normal_thickness": 0.85,
+  "root_fillet_radius": 0.15,
+  "root_transition_height": 1.5428571428571427,
+  "button_central_diameter_previous_measurement": 8.2,
+  "button_head_diameter_previous_measurement": 12.0,
+  "printed_bore_diameter": null,
+  "step_exported": false,
+  "solid_valid": true,
+  "solid_count": 1,
+  "height_checked": 5.0000001,
+  "outer_diameter_checked": 14.5
+}
