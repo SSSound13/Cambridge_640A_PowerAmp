@@ -1,0 +1,27 @@
+{
+  "final-adapter": {
+    "errors": 0,
+    "warnings": 1,
+    "unconnected": 0
+  },
+  "final-repair": {
+    "errors": 0,
+    "warnings": 8,
+    "unconnected": 0
+  },
+  "order-combined": {
+    "errors": 0,
+    "warnings": 9,
+    "unconnected": 0
+  },
+  "geometry": {
+    "source_tracks_and_drills_preserved_after_translation": true,
+    "total_holes": 50,
+    "PTH": 45,
+    "NPTH": 5,
+    "castellated": 5,
+    "all_board_thickness_mm": 0.5,
+    "ALPS_audio_drill_mm": 1.3,
+    "ALPS_audio_copper_diameter_mm": 2.8
+  }
+}

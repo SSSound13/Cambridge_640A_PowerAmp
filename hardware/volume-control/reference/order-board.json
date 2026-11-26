@@ -1,0 +1,69 @@
+{
+  "thickness_mm": 0.5,
+  "size_mm": [
+    82.7,
+    81.376108
+  ],
+  "routing_slot_width_mm": 1,
+  "routing_slot_overall_length_mm": 53.7,
+  "slot_radius_mm": 0.5,
+  "tab_length_mm": 3,
+  "tab_count": 2,
+  "slot_bounds_mm": [
+    100.7,
+    53,
+    101.7,
+    106.7
+  ],
+  "adapter_translation_mm": [
+    -10,
+    -20.3
+  ],
+  "repair_translation_mm": [
+    41.7,
+    13.5
+  ],
+  "outer_outline_mm": [
+    [
+      50,
+      118.2
+    ],
+    [
+      94.176108,
+      118.2
+    ],
+    [
+      94.176108,
+      109.7
+    ],
+    [
+      101.7,
+      109.7
+    ],
+    [
+      101.7,
+      131.376108
+    ],
+    [
+      132.7,
+      131.376108
+    ],
+    [
+      132.7,
+      50
+    ],
+    [
+      70,
+      50
+    ],
+    [
+      50,
+      69.7
+    ]
+  ],
+  "source_files": [
+    "ALPS_Adapter.kicad_pcb",
+    "Repair_Reference.kicad_pcb"
+  ],
+  "note": "Two electrical designs, one mechanically connected blank. Cut tabs after manufacture; never use V-score across castellated edges."
+}

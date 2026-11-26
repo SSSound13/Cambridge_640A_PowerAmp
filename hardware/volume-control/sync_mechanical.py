@@ -17,6 +17,10 @@ report_path=R/'reference/three-supports.json'
 report=json.loads(report_path.read_text())
 holes=report['supports']
 assert set(holes)=={'H1','H2','H3'}
+top_gap=report['main_to_adapter_top_mm']
+lower_thickness=p.ToMM(lower.GetDesignSettings().GetBoardThickness())
+upper_thickness=p.ToMM(upper.GetDesignSettings().GetBoardThickness())
+lower_model_z=lower_thickness/2-top_gap
 # Position and export lower board for the assembly.
 for item in list(lower.GetFootprints())+list(lower.GetTracks())+list(lower.GetDrawings())+list(lower.Zones()):
  item.Rotate(mm(0,0),p.EDA_ANGLE(90,p.DEGREES_T));item.Move(mm(-13.7,198.5))
@@ -31,7 +35,7 @@ for f in lower.GetFootprints():
     setattr(model.m_Rotation,axis,getattr(source.m_Rotation,axis))
     setattr(model.m_Scale,axis,getattr(source.m_Scale,axis))
    # lower-board.wrl is centred about Z=0: its top is +thickness/2.
-   model.m_Offset.z+=-8.2+p.ToMM(lower.GetDesignSettings().GetBoardThickness())/2
+   model.m_Offset.z+=lower_thickness-top_gap
    visual.Add3DModel(model)
   upper.Add(visual)
  f.Models().clear()
@@ -41,7 +45,7 @@ with tempfile.TemporaryDirectory(prefix='volume-control-') as tmp:
 for f in upper.GetFootprints():
  if f.GetReference()=='J1':f.Models().clear()
 carrier=p.FOOTPRINT(upper);carrier.SetReference('ASSEMBLY_ONLY');carrier.SetPosition(mm(85,140));carrier.Reference().SetVisible(False);carrier.Value().SetVisible(False)
-for name,z in [('lower-board.wrl',-8.2),('assembly-hardware.wrl',0)]:
+for name,z in [('lower-board.wrl',lower_model_z),('assembly-hardware.wrl',0)]:
  m=p.FP_3DMODEL();m.m_Filename='${KIPRJMOD}/models/'+name;m.m_Offset.z=z;carrier.Add3DModel(m)
 upper.Add(carrier);p.SaveBoard(str(R/'VolumeControl.kicad_pcb'),upper)
 vrml='#VRML V2.0 utf8\n# Six pins and three spacer envelopes; not selected screws.\n'
@@ -50,7 +54,7 @@ for i in range(6):
  vrml+=f'Transform {{ translation {x/2.54} {d/2.54} {-3.85/2.54} children [ Shape {{ appearance Appearance {{ material Material {{ diffuseColor .75 .6 .2 }} }} geometry Box {{ size {.64/2.54} {.64/2.54} {14.5/2.54} }} }} ] }}\n'
 for ref,(x0,y0) in holes.items():
  x=y0-98.7;d=x0-58.5
- pts=[((x+3*math.cos(k*math.tau/32))/2.54,(d+3*math.sin(k*math.tau/32))/2.54,z/2.54) for z in ((-7.9 if report['mounting_ownership'][ref]=='repair over main' else -8.5),-1.6) for k in range(32)]
+ pts=[((x+3*math.cos(k*math.tau/32))/2.54,(d+3*math.sin(k*math.tau/32))/2.54,z/2.54) for z in ((lower_thickness-top_gap if report['mounting_ownership'][ref]=='repair over main' else -top_gap),-upper_thickness) for k in range(32)]
  faces=[tuple(range(31,-1,-1)),tuple(range(32,64))]+[(k,(k+1)%32,(k+1)%32+32,k+32) for k in range(32)]
  coords=', '.join(' '.join(str(v) for v in pt) for pt in pts);indices=', '.join(' '.join(str(v) for v in f)+' -1' for f in faces)
  vrml+=f'Shape {{ appearance Appearance {{ material Material {{ diffuseColor .65 .65 .7 transparency .35 }} }} geometry IndexedFaceSet {{ solid TRUE coord Coordinate {{ point [ {coords} ] }} coordIndex [ {indices} ] }} }}\n'

@@ -1,0 +1,172 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-26T20:40:06",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Order_Combined.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint R_J3",
+                    "pos": {
+                        "x": 132.7,
+                        "y": 74.815669
+                    },
+                    "uuid": "1c47e29c-86f9-4b98-ab40-11103dd466a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint R_J1",
+                    "pos": {
+                        "x": 132.7,
+                        "y": 115.20494
+                    },
+                    "uuid": "4656d3a0-1399-45d1-ab34-d4eca90550b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint R_VR4",
+                    "pos": {
+                        "x": 105.2,
+                        "y": 63.5
+                    },
+                    "uuid": "4c26ff9b-8a74-4c7b-a050-1e68e4db17d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint R_J5",
+                    "pos": {
+                        "x": 113.780899,
+                        "y": 131.376108
+                    },
+                    "uuid": "6db9eb9d-fa93-49c2-8b80-5ea4c4bd1c15"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint R_VR1",
+                    "pos": {
+                        "x": 105.2,
+                        "y": 112.2
+                    },
+                    "uuid": "6e5e14cc-e64f-4639-87b0-d2daa08c17f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys'",
+            "items": [
+                {
+                    "description": "Footprint A_RV1",
+                    "pos": {
+                        "x": 75.0,
+                        "y": 74.2
+                    },
+                    "uuid": "ac49e2f0-a102-41f9-bc62-a427000e9259"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint R_J2",
+                    "pos": {
+                        "x": 132.7,
+                        "y": 99.736944
+                    },
+                    "uuid": "e1158350-aaf5-4b15-95b2-a572659929ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CambridgeRepair'",
+            "items": [
+                {
+                    "description": "Footprint R_J4",
+                    "pos": {
+                        "x": 132.7,
+                        "y": 67.106969
+                    },
+                    "uuid": "ec35e13d-c8ba-408f-9421-8a1b4fa5e6d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'AGND' on F.Silkscreen",
+                    "pos": {
+                        "x": 128.45,
+                        "y": 60.5
+                    },
+                    "uuid": "87f7e0b9-2ed3-46a6-9e34-264726504f49"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

@@ -118,8 +118,8 @@
     "H3": "main only"
   },
   "main_to_adapter_top_mm": 8.5,
-  "repair_top_above_main_mm": 0.6,
-  "clear_gap_above_repair_mm": 6.3,
+  "repair_top_above_main_mm": 0.5,
+  "clear_gap_above_repair_mm": 7.5,
   "pending_routing": "See current user-revision DRC; earlier routing-attempt report is historical.",
   "sync_preserves_existing_tracks": true,
   "screw_shank_mm": 2.7,
@@ -139,5 +139,7 @@
     "removed_depth_mm": 8.5,
     "depth_choice": "8.5 mm chosen to extend behind H2; user approved rectangular step; exact depth not specified",
     "tracks_unchanged": true
-  }
+  },
+  "repair_thickness_mm": 0.5,
+  "adapter_thickness_mm": 0.5
 }

@@ -1,0 +1,71 @@
+{
+  "reason": "User requested audio solder pad diameters identical to repair board. Supplier footprint coordinates retained; six embedded pads enlarged by explicit approval. Motor and mechanical pads unchanged.",
+  "changes": [
+    {
+      "pad": "1",
+      "position_mm": [
+        80.0,
+        135.0
+      ],
+      "old_drill_mm": 1.2,
+      "old_copper_mm": 1.8,
+      "new_drill_mm": 1.3,
+      "new_copper_mm": 2.8
+    },
+    {
+      "pad": "2",
+      "position_mm": [
+        85.0,
+        135.0
+      ],
+      "old_drill_mm": 1.2,
+      "old_copper_mm": 1.8,
+      "new_drill_mm": 1.3,
+      "new_copper_mm": 2.8
+    },
+    {
+      "pad": "3",
+      "position_mm": [
+        90.0,
+        135.0
+      ],
+      "old_drill_mm": 1.2,
+      "old_copper_mm": 1.8,
+      "new_drill_mm": 1.3,
+      "new_copper_mm": 2.8
+    },
+    {
+      "pad": "4",
+      "position_mm": [
+        80.0,
+        125.0
+      ],
+      "old_drill_mm": 1.2,
+      "old_copper_mm": 1.8,
+      "new_drill_mm": 1.3,
+      "new_copper_mm": 2.8
+    },
+    {
+      "pad": "5",
+      "position_mm": [
+        85.0,
+        125.0
+      ],
+      "old_drill_mm": 1.2,
+      "old_copper_mm": 1.8,
+      "new_drill_mm": 1.3,
+      "new_copper_mm": 2.8
+    },
+    {
+      "pad": "6",
+      "position_mm": [
+        90.0,
+        125.0
+      ],
+      "old_drill_mm": 1.2,
+      "old_copper_mm": 1.8,
+      "new_drill_mm": 1.3,
+      "new_copper_mm": 2.8
+    }
+  ]
+}

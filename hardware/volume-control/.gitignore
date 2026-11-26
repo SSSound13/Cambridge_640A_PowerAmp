@@ -5,3 +5,6 @@ reference/factory-review.svg
 ALPS_Adapter.kicad_pro
 Repair_Reference.kicad_pro
 __pycache__/
+
+Order_Combined.kicad_pro
+production/gerbers/

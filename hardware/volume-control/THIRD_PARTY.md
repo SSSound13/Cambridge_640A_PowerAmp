@@ -9,3 +9,6 @@ The imported pad geometry is unchanged. Silkscreen graphics are moved to F.Fab a
 J1, J2, MP1/MP2 and H1-H4 use the installed official KiCad 10 libraries. KiCad libraries use CC-BY-SA 4.0 with the KiCad libraries exception. See https://www.kicad.org/libraries/license/ . Standard connector 3D models are copied from the official KiCad 10 installation into models/ for portability; their original filenames are retained. Copyright: KiCad library contributors. License: CC-BY-SA 4.0 with KiCad libraries exception (https://www.kicad.org/libraries/license/).
 
 The ALPS envelope model is project-authored from the linked ALPS dimensional drawings and is not vendor CAD. Source PDFs are linked, not redistributed.
+
+
+Шесть аудиоплощадок RV1 на адаптере по явному согласованию с пользователем увеличены: отверстия Ø1,3 мм, медь Ø2,8 мм, как у регуляторов на ремонтной плате. Это изменение встроенного места SamacSys; исходный размер сверления производителя Ø1,2 мм. Центры, шаги и нумерация сохранены; выводы двигателя, механические лапки и межплатный разъём не изменены.

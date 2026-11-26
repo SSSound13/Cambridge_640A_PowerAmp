@@ -1,0 +1,3 @@
+(version 1)
+(rule "Copper clearance 0.25 mm" (constraint clearance (min 0.25mm)))
+(rule "Track width 1 mm" (constraint track_width (min 1mm)))

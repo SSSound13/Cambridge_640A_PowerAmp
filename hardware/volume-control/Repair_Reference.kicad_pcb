@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 0.6)
+		(thickness 0.5)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -58,7 +58,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(thickness 0.51)
+				(thickness 0.41)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -5494,14 +5494,6 @@
 	)
 	(segment
 		(start 76.04 78.7)
-		(end 76.04 74.2)
-		(width 1)
-		(layer "F.Cu")
-		(net "/VOL_L")
-		(uuid "0b07bc61-4551-4b1e-aafd-e426dce2bbd4")
-	)
-	(segment
-		(start 76.04 78.7)
 		(end 76.04 69.04)
 		(width 1)
 		(layer "F.Cu")
@@ -5725,7 +5717,7 @@
 		(uuid "dfb50cff-48ec-443b-8c2f-5195d5a58f1a")
 	)
 	(segment
-		(start 66.4 52.9)
+		(start 66.3 52.8)
 		(end 63.5 50)
 		(width 1)
 		(layer "F.Cu")
@@ -5734,7 +5726,7 @@
 	)
 	(segment
 		(start 80.75 61.25)
-		(end 72.4 52.9)
+		(end 72.3 52.8)
 		(width 1)
 		(layer "F.Cu")
 		(net "/WIPER_R")
@@ -5749,8 +5741,8 @@
 		(uuid "c7da22e6-0a88-463c-8a22-d17a2948792c")
 	)
 	(segment
-		(start 72.4 52.9)
-		(end 66.4 52.9)
+		(start 72.3 52.8)
+		(end 66.3 52.8)
 		(width 1)
 		(layer "F.Cu")
 		(net "/WIPER_R")
