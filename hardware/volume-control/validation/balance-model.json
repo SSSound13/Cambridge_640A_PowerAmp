@@ -1,0 +1,78 @@
+{
+  "source": "https://tech.alpsalpine.com/e/products/detail/RK16312101A2/",
+  "download": "https://tech.alpsalpine.com/cms.media/product_3dcad_rk16312101a2_en_2318ee3b5b.zip",
+  "original_step_sha256": "9c2ad624918338b0073030005e8dfc754e7df50e7afb156cf2a564863e9c10ea",
+  "purpose": "Mechanical visualization analogue for the photographed MN100K; not an electrical substitution or exact part identification.",
+  "changes": "Only COLOUR_RGB values adjusted to metal/brown appearance; geometry unchanged.",
+  "source_pin_centres_xy_mm": [
+    [
+      -5,
+      -0.246
+    ],
+    [
+      -5,
+      4.754
+    ],
+    [
+      0,
+      -0.246
+    ],
+    [
+      0,
+      4.754
+    ],
+    [
+      5,
+      -0.246
+    ],
+    [
+      5,
+      4.754
+    ]
+  ],
+  "source_board_plane_z_mm": -12.4875,
+  "source_shaft_axis_z_mm": 0.0125,
+  "kicad_model_offset_mm": [
+    0.246,
+    0,
+    12.4875
+  ],
+  "kicad_model_rotation_deg": [
+    0,
+    0,
+    90
+  ],
+  "repair_footprint_origin_mm": [
+    63.5,
+    50
+  ],
+  "mapped_repair_pin_centres_mm": [
+    [
+      63.5,
+      45
+    ],
+    [
+      63.5,
+      50
+    ],
+    [
+      63.5,
+      55
+    ],
+    [
+      68.5,
+      45
+    ],
+    [
+      68.5,
+      50
+    ],
+    [
+      68.5,
+      55
+    ]
+  ],
+  "shaft_height_above_repair_mm": 12.5,
+  "shaft_direction_repair": "negative X / front panel",
+  "not_verified": "Actual MN100K manufacturer, shaft length, height and full mechanical envelope. Confirm on physical part."
+}

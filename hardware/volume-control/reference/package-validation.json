@@ -1,0 +1,19 @@
+{
+  "model_files": [
+    "ALPS_RK27112MC_envelope.wrl",
+    "assembly-hardware.wrl",
+    "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.step",
+    "lower-board.wrl",
+    "PinHeader_1x06_P2.54mm_Vertical.step"
+  ],
+  "nonmounting_pads_and_tracks_unchanged_on_both_boards": false,
+  "mounting_axes_updated_from_user_edit": true,
+  "edge_contacts_repositioned_intentionally": true,
+  "tracks_unchanged": false,
+  "old_tracks_removed_by_user_request": true,
+  "current_routing_report": "user-routing-transfer.json",
+  "reference_refresh_preserved_copper_and_pads": true,
+  "geometry_fingerprint": "ade8dd8994f15a5cd26900500d4107f5bb6ced470dfb7cb0e54911f01c6393b4",
+  "user_manual_routing_preserved": true,
+  "upper_copper_layers_exchanged": true
+}

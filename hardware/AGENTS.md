@@ -1,0 +1,17 @@
+# Volume control project
+
+Latest adapter contour revision: front-right rectangular step; corner (104.176108,138.5) projects to repair corner (60,117.876108). Step returns to old right edge at Y130; removed rectangle width 6.523892, depth 8.5 mm. Preserve latest user repair edits and both boards' routing. three-supports.json records the new seven-vertex outline and projection.
+
+Latest resistor package revision: R1/R2 are through-hole metal-film 24.9k 1/8W, standard KiCad DIN0204 horizontal pitch 7.62 mm (user confirmed), drill 0.7 mm. R3/R4 remain standard SMD 1206 0R. Keep local routing changes for those new pads and assembly resistor models; latest DRC is tht-resistors-drc.json. Body envelope 3.6x1.6 mm still needs physical verification.
+
+The user explicitly authorized trial routing after geometry changes and required removal of all old tracks. Width is 1.00 mm, no neckdowns. Prefer at most three straight segments per pad-to-pad branch; permit four only as fallback. Leave connections unrouted if no such path is found. Do not silently relax these limits. ROUTING_RULES.md describes proposed supporting clearances and remaining decisions.
+
+Preserve approved geometry and six factory-aligned edge contacts. Three supports H1-H3; H4 deleted. H2 source position (63.75,114) mm. Only H1 physically passes through the small repair overlay; H2/H3 go directly into main PCB. Factory copper is removed only beneath repair outline X60..91 Y36.5..109.5.
+
+VolumeControl is an assembly visualization; ALPS_Adapter and Repair_Reference are editable boards. Regenerate assembly explicitly using sync_mechanical.py after changes. It preserves current tracks. verify_project.py checks geometry, widths and route segment counts. Existing routing attempt is incomplete, not manufacturing-ready.
+
+H1 was subsequently moved toward the header: upper (64,131), lower (67.5,77.7) mm. Keep the resulting two-track corridor at the front edge; see H1-routing-corridor.json. Six-pin header remains fixed.
+
+Latest user revision (2026-11-23): preserve user-completed manual routing. Upper F.Cu/B.Cu were exchanged exactly; do not reroute or enforce old segment counts. Lower has an intentional-to-preserve 0.2 mm segment and a dangling-track warning to review, not silently fix. Screws measured 2.7 mm shank / 4.5 mm head; standard MountingHole_3mm clearance holes, 5.5 mm copper keepout diameter. ASSEMBLY_NOTES.md records confirmed resistor variants and future-tuning note. sync_mechanical.py now rebuilds assembly without editing source boards.
+
+Latest outline revision: repair extends to factory notch Y=117.876108 mm, length 81.376108 mm. H1/H2 pass through repair and main; H3 main only. User removed J6. J5 moved to (72.080899,117.876108), centre of factory C005 copper at new edge; two F.Cu 1 mm segments added, other current user traces preserved. These facts supersede older outline/ownership/contact-count instructions above.

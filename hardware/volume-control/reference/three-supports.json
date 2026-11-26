@@ -1,0 +1,143 @@
+{
+  "supports": {
+    "H1": [
+      67.5,
+      77.7
+    ],
+    "H3": [
+      102.0,
+      77.7
+    ],
+    "H2": [
+      63.75,
+      114.0
+    ]
+  },
+  "adapter_rear_D_mm": 69.7,
+  "motor_rear_envelope_D_mm": 66.7,
+  "rear_margin_mm": 3,
+  "adapter_size_mm": [
+    50.7,
+    68.2
+  ],
+  "adapter_outline_mm": [
+    [
+      60,
+      138.5
+    ],
+    [
+      104.176108,
+      138.5
+    ],
+    [
+      104.176108,
+      130
+    ],
+    [
+      110.7,
+      130
+    ],
+    [
+      110.7,
+      70.3
+    ],
+    [
+      80,
+      70.3
+    ],
+    [
+      60,
+      90
+    ]
+  ],
+  "adapter_projection_mm": [
+    [
+      60.0,
+      73.7
+    ],
+    [
+      60.0,
+      117.876108
+    ],
+    [
+      68.5,
+      117.876108
+    ],
+    [
+      68.5,
+      124.4
+    ],
+    [
+      128.2,
+      124.4
+    ],
+    [
+      128.2,
+      93.7
+    ],
+    [
+      108.5,
+      73.7
+    ]
+  ],
+  "motor_connector_xy_mm": [
+    103,
+    113
+  ],
+  "gearbox_right_X_mm": 22.7,
+  "right_margin_mm": 3,
+  "tracks_unchanged": false,
+  "factory_copper_under_repair_removed_by_user": true,
+  "status": "User manual routing; upper copper layers exchanged without rerouting",
+  "repair_outline_mm": [
+    [
+      60,
+      36.5
+    ],
+    [
+      91,
+      36.5
+    ],
+    [
+      91,
+      117.876108
+    ],
+    [
+      60,
+      117.876108
+    ]
+  ],
+  "repair_size_mm": [
+    31,
+    81.376108
+  ],
+  "repair_end_y_mm": 117.876108,
+  "mounting_ownership": {
+    "H1": "repair over main",
+    "H2": "repair over main",
+    "H3": "main only"
+  },
+  "main_to_adapter_top_mm": 8.5,
+  "repair_top_above_main_mm": 0.6,
+  "clear_gap_above_repair_mm": 6.3,
+  "pending_routing": "See current user-revision DRC; earlier routing-attempt report is historical.",
+  "sync_preserves_existing_tracks": true,
+  "screw_shank_mm": 2.7,
+  "screw_head_mm": 4.5,
+  "mounting_drill_mm": 3,
+  "copper_keepout_diameter_mm": 5.5,
+  "front_right_step": {
+    "aligned_repair_corner_mm": [
+      60,
+      117.876108
+    ],
+    "adapter_corner_mm": [
+      104.176108,
+      138.5
+    ],
+    "removed_width_mm": 6.523892000000004,
+    "removed_depth_mm": 8.5,
+    "depth_choice": "8.5 mm chosen to extend behind H2; user approved rectangular step; exact depth not specified",
+    "tracks_unchanged": true
+  }
+}

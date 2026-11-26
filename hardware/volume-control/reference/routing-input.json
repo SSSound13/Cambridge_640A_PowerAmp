@@ -1,0 +1,1084 @@
+{
+  "ALPS_Adapter": {
+    "pads": [
+      {
+        "id": "RV1.1",
+        "net": "/R1_LOW",
+        "xy": [
+          80.0,
+          135.0
+        ],
+        "size": [
+          1.8,
+          1.8
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "RV1.2",
+        "net": "/R1_WIPER",
+        "xy": [
+          85.0,
+          135.0
+        ],
+        "size": [
+          1.8,
+          1.8
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "RV1.3",
+        "net": "/R1_HIGH",
+        "xy": [
+          90.0,
+          135.0
+        ],
+        "size": [
+          1.8,
+          1.8
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "RV1.4",
+        "net": "/R2_LOW",
+        "xy": [
+          80.0,
+          125.0
+        ],
+        "size": [
+          1.8,
+          1.8
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "RV1.5",
+        "net": "/R2_WIPER",
+        "xy": [
+          85.0,
+          125.0
+        ],
+        "size": [
+          1.8,
+          1.8
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "RV1.6",
+        "net": "/R2_HIGH",
+        "xy": [
+          90.0,
+          125.0
+        ],
+        "size": [
+          1.8,
+          1.8
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "RV1.7",
+        "net": "unconnected-(RV1-MECHANICAL_7-Pad7)",
+        "xy": [
+          96.5,
+          94.5
+        ],
+        "size": [
+          4.2,
+          4.2
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "RV1.8",
+        "net": "unconnected-(RV1-MECHANICAL_8-Pad8)",
+        "xy": [
+          78.0,
+          94.5
+        ],
+        "size": [
+          4.2,
+          4.2
+        ],
+        "angle": 270.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J2.1",
+        "net": "/MOTOR_A",
+        "xy": [
+          103.0,
+          113.0
+        ],
+        "size": [
+          1.2,
+          1.75
+        ],
+        "angle": 0.0,
+        "shape": 4,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J2.2",
+        "net": "/MOTOR_B",
+        "xy": [
+          105.0,
+          113.0
+        ],
+        "size": [
+          1.2,
+          1.75
+        ],
+        "angle": 0.0,
+        "shape": 2,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "H2.",
+        "net": "",
+        "xy": [
+          100.3,
+          134.75
+        ],
+        "size": [
+          3.2,
+          3.2
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": true,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "H3.",
+        "net": "",
+        "xy": [
+          64.0,
+          96.5
+        ],
+        "size": [
+          3.2,
+          3.2
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": true,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "H1.",
+        "net": "",
+        "xy": [
+          64.0,
+          131.0
+        ],
+        "size": [
+          3.2,
+          3.2
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": true,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "MP1.1",
+        "net": "/MOTOR_A",
+        "xy": [
+          87.0,
+          73.8
+        ],
+        "size": [
+          2.5,
+          2.5
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J1.1",
+        "net": "/R1_LOW",
+        "xy": [
+          65.0,
+          125.0
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 180.0,
+        "shape": 1,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J1.2",
+        "net": "/R1_WIPER",
+        "xy": [
+          65.0,
+          122.46
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 180.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J1.3",
+        "net": "/R1_HIGH",
+        "xy": [
+          65.0,
+          119.92
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 180.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J1.4",
+        "net": "/R2_LOW",
+        "xy": [
+          65.0,
+          117.38
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 180.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J1.5",
+        "net": "/R2_WIPER",
+        "xy": [
+          65.0,
+          114.84
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 180.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J1.6",
+        "net": "/R2_HIGH",
+        "xy": [
+          65.0,
+          112.3
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 180.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "MP2.1",
+        "net": "/MOTOR_B",
+        "xy": [
+          104.0,
+          73.8
+        ],
+        "size": [
+          2.5,
+          2.5
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      }
+    ],
+    "old_track_count": 20
+  },
+  "Repair_Reference": {
+    "pads": [
+      {
+        "id": "H_ALPS1.",
+        "net": "",
+        "xy": [
+          67.5,
+          77.7
+        ],
+        "size": [
+          3.2,
+          3.2
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": true,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "R4.1",
+        "net": "/WIPER_R",
+        "xy": [
+          68.0875,
+          60.0
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 0.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      {
+        "id": "R4.2",
+        "net": "/TO_BUF_R",
+        "xy": [
+          69.9125,
+          60.0
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 0.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      {
+        "id": "VR4.1",
+        "net": "/VOL_L",
+        "xy": [
+          68.5,
+          55.0
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR4.2",
+        "net": "/WIPER_L",
+        "xy": [
+          68.5,
+          50.0
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR4.3",
+        "net": "/AGND",
+        "xy": [
+          68.5,
+          45.0
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR4.4",
+        "net": "/AGND",
+        "xy": [
+          63.5,
+          55.0
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR4.5",
+        "net": "/WIPER_R",
+        "xy": [
+          63.5,
+          50.0
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR4.6",
+        "net": "/VOL_R",
+        "xy": [
+          63.5,
+          45.0
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J4.1",
+        "net": "/TO_BUF_L",
+        "xy": [
+          91.0,
+          53.606969
+        ],
+        "size": [
+          2.4,
+          2.0
+        ],
+        "angle": 0.0,
+        "shape": 2,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J6.1",
+        "net": "/AGND",
+        "xy": [
+          91.0,
+          48.411463
+        ],
+        "size": [
+          2.4,
+          2.0
+        ],
+        "angle": 0.0,
+        "shape": 2,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J3.1",
+        "net": "/TO_BUF_R",
+        "xy": [
+          91.0,
+          61.315669
+        ],
+        "size": [
+          2.4,
+          2.0
+        ],
+        "angle": 0.0,
+        "shape": 2,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J2.1",
+        "net": "/IN_L",
+        "xy": [
+          91.0,
+          86.236944
+        ],
+        "size": [
+          2.4,
+          2.0
+        ],
+        "angle": 0.0,
+        "shape": 2,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J5.1",
+        "net": "/AGND",
+        "xy": [
+          65.998582,
+          109.5
+        ],
+        "size": [
+          2.4,
+          2.0
+        ],
+        "angle": 90.0,
+        "shape": 2,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J_ALPS.1",
+        "net": "/AGND",
+        "xy": [
+          73.5,
+          78.7
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 90.0,
+        "shape": 1,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J_ALPS.2",
+        "net": "/VOL_L",
+        "xy": [
+          76.04,
+          78.7
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 90.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J_ALPS.3",
+        "net": "/IN_L",
+        "xy": [
+          78.58,
+          78.7
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 90.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J_ALPS.4",
+        "net": "/AGND",
+        "xy": [
+          81.12,
+          78.7
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 90.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J_ALPS.5",
+        "net": "/VOL_R",
+        "xy": [
+          83.66,
+          78.7
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 90.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J_ALPS.6",
+        "net": "/IN_R",
+        "xy": [
+          86.2,
+          78.7
+        ],
+        "size": [
+          1.7,
+          1.7
+        ],
+        "angle": 90.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "J1.1",
+        "net": "/IN_R",
+        "xy": [
+          91.0,
+          101.70494
+        ],
+        "size": [
+          2.4,
+          2.0
+        ],
+        "angle": 0.0,
+        "shape": 2,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR1.1",
+        "net": "/AGND",
+        "xy": [
+          68.5,
+          103.7
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR1.2",
+        "net": "/VOL_R",
+        "xy": [
+          68.5,
+          98.7
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR1.3",
+        "net": "/IN_R",
+        "xy": [
+          68.5,
+          93.7
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR1.4",
+        "net": "/AGND",
+        "xy": [
+          63.5,
+          103.7
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR1.5",
+        "net": "/VOL_L",
+        "xy": [
+          63.5,
+          98.7
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "VR1.6",
+        "net": "/IN_L",
+        "xy": [
+          63.5,
+          93.7
+        ],
+        "size": [
+          2.8,
+          2.8
+        ],
+        "angle": 0.0,
+        "shape": 0,
+        "smd": false,
+        "npth": false,
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "id": "R3.1",
+        "net": "/WIPER_L",
+        "xy": [
+          73.0,
+          50.5875
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 270.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      {
+        "id": "R3.2",
+        "net": "/TO_BUF_L",
+        "xy": [
+          73.0,
+          52.4125
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 270.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      {
+        "id": "R1.1",
+        "net": "/VOL_L",
+        "xy": [
+          62.5875,
+          60.0
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 0.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      {
+        "id": "R1.2",
+        "net": "/AGND",
+        "xy": [
+          64.4125,
+          60.0
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 0.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      {
+        "id": "R2.1",
+        "net": "/VOL_R",
+        "xy": [
+          71.5875,
+          101.0
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 0.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      {
+        "id": "R2.2",
+        "net": "/AGND",
+        "xy": [
+          73.4125,
+          101.0
+        ],
+        "size": [
+          1.025,
+          1.4
+        ],
+        "angle": 0.0,
+        "shape": 4,
+        "smd": true,
+        "npth": false,
+        "layers": [
+          "F.Cu"
+        ]
+      }
+    ],
+    "old_track_count": 51
+  }
+}

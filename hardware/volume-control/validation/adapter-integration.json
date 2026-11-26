@@ -1,0 +1,19 @@
+{
+  "four_mounting_axes_match": true,
+  "six_header_pads_match": true,
+  "front_three_audio_centres_match": true,
+  "front_edges_flush": true,
+  "top_surface_spacing_mm": 8.5,
+  "clear_gap_mm": 6.9,
+  "upper_thickness_mm": 1.6,
+  "lower_thickness_mm": 0.6,
+  "electrical_lower_routing_complete": false,
+  "balance_corner_mm": [
+    60,
+    36.5
+  ],
+  "balance_axis_to_side_edge_mm": 13.5,
+  "lower_rear_edge_x_mm": 106,
+  "adapter_overhang_mm": 30.5,
+  "two_transverse_mounting_rows": true
+}

@@ -24,3 +24,6 @@ desktop.ini
 .DS_Store
 
 /_site/
+
+# Supplier libraries are local-only
+**/vendor-local/
